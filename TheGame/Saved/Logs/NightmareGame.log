@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2015.11.04-02.56.17:203][  0]Log file open, 11/03/15 21:56:17
 [2015.11.04-02.56.17:203][  0]LogInit:Display: Running engine for game: NightmareGame
 [2015.11.04-02.56.17:203][  0]LogInit:Display: RandInit(-456785660) SRandInit(-456785659).
@@ -771,3 +772,153 @@
 [2015.11.04-03.05.57:440][832]SourceControl: Info fatal: C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset: 'C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset' is outside repository
 [2015.11.04-03.05.57:440][832]SourceControl: Info fatal: C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset: 'C:/Program Files/Epic Games/4.9/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset' is outside repository
 [2015.11.04-03.05.57:440][832]SourceControl: Info fatal:
+=======
+﻿[2015.11.06-05.04.37:032][  0]Log file open, 11/06/15 00:04:37
+[2015.11.06-05.04.37:032][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.06-05.04.37:032][  0]LogInit:Display: RandInit(-1032412216) SRandInit(-1032412216).
+[2015.11.06-05.04.37:032][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.06-05.04.37:032][  0]LogStats: Stats thread started at 0.090107
+[2015.11.06-05.04.37:032][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.06-05.04.37:032][  0]LogInit: API Version: 2672455
+[2015.11.06-05.04.37:032][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.06-05.04.37:032][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.06-05.04.37:032][  0]LogInit: Build Configuration: Development
+[2015.11.06-05.04.37:032][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.06-05.04.37:032][  0]LogInit: Command line:  
+[2015.11.06-05.04.37:032][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.06-05.04.37:032][  0]LogInit: Rocket: 1
+[2015.11.06-05.04.37:047][  0]LogInit: Using libcurl 7.41.0
+[2015.11.06-05.04.37:047][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.06-05.04.37:047][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.06-05.04.37:047][  0]LogInit:  - other features:
+[2015.11.06-05.04.37:047][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.06-05.04.37:047][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.06-05.04.37:047][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.06-05.04.37:047][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.06-05.04.37:047][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.06-05.04.37:047][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.06-05.04.37:047][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.06-05.04.37:047][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.06-05.04.37:047][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.06-05.04.37:047][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.06-05.04.37:057][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.06-05.04.37:065][  0]LogInit: Object subsystem initialized
+[2015.11.06-05.04.37:066][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.06-05.04.37:067][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.06-05.04.37:076][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.06-05.04.37:076][  0]LogInit: User: ntanc000
+[2015.11.06-05.04.37:076][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.06-05.04.37:076][  0]LogInit: High frequency timer resolution =2.537594 MHz
+[2015.11.06-05.04.37:076][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.06-05.04.37:076][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.06-05.04.37:076][  0]LogMemory: Process Physical Memory: 52.98 MB used, 52.98 MB peak
+[2015.11.06-05.04.37:076][  0]LogMemory: Process Virtual Memory: 55.07 MB used, 55.07 MB peak
+[2015.11.06-05.04.37:076][  0]LogMemory: Physical Memory: 5410.14 MB used, 16269.45 MB total
+[2015.11.06-05.04.37:076][  0]LogMemory: Virtual Memory: 360.26 MB used, 134217728.00 MB total
+[2015.11.06-05.04.37:133][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.06-05.04.38:043][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.06-05.04.38:043][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.11.06-05.04.38:054][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.06-05.04.38:054][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.06-05.04.38:056][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.06-05.04.38:056][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.06-05.04.38:056][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.06-05.04.38:061][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.06-05.04.38:062][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.06-05.04.38:077][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.06-05.04.38:093][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/11732/).
+[2015.11.06-05.04.38:094][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/76900D674016BF7DB1276B94E5F32ECF/'.
+[2015.11.06-05.04.38:094][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.06-05.04.39:259][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.06-05.04.39:265][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.06-05.04.39:275][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.06-05.04.39:281][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.06-05.04.39:287][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.06-05.04.39:292][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.06-05.04.39:297][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.06-05.04.39:301][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.06-05.04.39:307][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.06-05.04.39:312][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.06-05.04.39:317][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.06-05.04.39:323][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.06-05.04.39:324][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.06-05.04.39:344][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.06-05.04.39:349][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.06-05.04.39:354][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.06-05.04.39:359][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.06-05.04.39:359][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.06-05.04.39:486][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.06-05.04.39:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.06-05.04.39:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.06-05.04.39:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.06-05.04.39:955][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.06-05.04.39:958][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.06-05.04.40:097][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.06-05.04.40:097][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.06-05.04.40:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.06-05.04.41:329][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.06-05.04.41:473][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.11.06-05.04.41:705][  0]SourceControl: Info Source control is disabled
+[2015.11.06-05.04.41:720][  0]SourceControl: Info Source control is disabled
+[2015.11.06-05.04.41:741][  0]SourceControl: Info Source control is disabled
+[2015.11.06-05.04.41:759][  0]SourceControl: Info Source control is disabled
+[2015.11.06-05.04.41:998][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.42:111][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.06-05.04.42:111][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.06-05.04.42:172][  0]LogEngine: Initializing Engine...
+[2015.11.06-05.04.42:175][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.06-05.04.42:176][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.06-05.04.42:299][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.06-05.04.42:308][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.06-05.04.42:329][  0]LogInit: FAudioDevice initialized.
+[2015.11.06-05.04.42:359][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.06-05.04.42:362][  0]LogInit: Texture streaming: Enabled
+[2015.11.06-05.04.42:369][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.06-05.04.42:369][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.06-05.04.42:369][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.06-05.04.42:369][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.06-05.04.42:409][  0]LogInit: Transaction tracking system initialized
+[2015.11.06-05.04.42:448][  0]BlueprintLog: New page: Editor Load
+[2015.11.06-05.04.42:559][  0]LocalizationService: Info Localization service is disabled
+[2015.11.06-05.04.42:663][  0]LogConsoleResponse:Display: 
+[2015.11.06-05.04.42:800][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.06-05.04.42:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.02s
+[2015.11.06-05.04.42:881][  0]SourceControl: Info Source control is disabled
+[2015.11.06-05.04.42:881][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.06-05.04.42:881][  0]LightingResults: New page: Lighting Build
+[2015.11.06-05.04.42:886][  0]MapCheck: New page: Map Check
+[2015.11.06-05.04.42:886][  0]LightingResults: New page: Lighting Build
+[2015.11.06-05.04.42:898][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008C193C0400
+[2015.11.06-05.04.43:143][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:144][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:147][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:149][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:150][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:151][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:152][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.43:153][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.06-05.04.44:195][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.06-05.04.44:218][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.06-05.04.44:219][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.06-05.04.44:359][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.39ms to complete.
+[2015.11.06-05.04.44:359][  0]LogFileHelpers: Loading map 'Hub' took 1.478
+[2015.11.06-05.04.44:513][  0]LogCollectionManager: Loaded 0 collections in 0.002814 seconds
+[2015.11.06-05.04.44:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.06-05.04.44:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.06-05.04.44:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.06-05.04.44:561][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 1867 classes and 333 folders.
+[2015.11.06-05.04.44:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.06-05.04.44:582][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.06-05.04.44:664][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.06-05.04.44:670][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.06-05.04.44:738][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.06-05.04.44:744][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.06-05.04.44:767][  0]LogLoad: Full Startup: 8.37 seconds (BP compile: 0.26 seconds)
+[2015.11.06-05.04.45:195][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.06-05.04.45:355][  0]LogRenderer: Reallocating scene render targets to support 1488x824 (Frame:2
+>>>>>>> refs/remotes/origin/Nick
