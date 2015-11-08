@@ -1,0 +1,646 @@
+﻿[2015.11.08-05.01.04:279][  0]Log file open, 11/08/15 00:01:04
+[2015.11.08-05.01.04:279][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.08-05.01.04:279][  0]LogInit:Display: RandInit(-130666642) SRandInit(-130666642).
+[2015.11.08-05.01.04:279][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.08-05.01.04:279][  0]LogStats: Stats thread started at 0.078969
+[2015.11.08-05.01.04:279][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-05.01.04:279][  0]LogInit: API Version: 2672455
+[2015.11.08-05.01.04:279][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.08-05.01.04:279][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.08-05.01.04:279][  0]LogInit: Build Configuration: Development
+[2015.11.08-05.01.04:279][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.08-05.01.04:279][  0]LogInit: Command line:  
+[2015.11.08-05.01.04:279][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.08-05.01.04:279][  0]LogInit: Rocket: 1
+[2015.11.08-05.01.04:292][  0]LogInit: Using libcurl 7.41.0
+[2015.11.08-05.01.04:292][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.08-05.01.04:292][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.08-05.01.04:292][  0]LogInit:  - other features:
+[2015.11.08-05.01.04:292][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.08-05.01.04:292][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.08-05.01.04:292][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.08-05.01.04:292][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.08-05.01.04:292][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.08-05.01.04:292][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.08-05.01.04:292][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.08-05.01.04:292][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.08-05.01.04:292][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.08-05.01.04:292][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.08-05.01.04:300][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.08-05.01.04:306][  0]LogInit: Object subsystem initialized
+[2015.11.08-05.01.04:307][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-05.01.04:307][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.08-05.01.04:315][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.08-05.01.04:315][  0]LogInit: User: ntanc000
+[2015.11.08-05.01.04:315][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.08-05.01.04:315][  0]LogInit: High frequency timer resolution =2.537598 MHz
+[2015.11.08-05.01.04:315][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.08-05.01.04:315][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.08-05.01.04:315][  0]LogMemory: Process Physical Memory: 52.95 MB used, 52.95 MB peak
+[2015.11.08-05.01.04:315][  0]LogMemory: Process Virtual Memory: 55.07 MB used, 55.07 MB peak
+[2015.11.08-05.01.04:315][  0]LogMemory: Physical Memory: 5289.46 MB used, 16269.45 MB total
+[2015.11.08-05.01.04:315][  0]LogMemory: Virtual Memory: 360.26 MB used, 134217728.00 MB total
+[2015.11.08-05.01.04:362][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.08-05.01.04:968][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.08-05.01.04:968][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.11.08-05.01.04:977][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.08-05.01.04:977][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.08-05.01.04:979][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.08-05.01.04:979][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.08-05.01.04:979][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.08-05.01.04:983][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.08-05.01.04:983][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.08-05.01.04:999][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.08-05.01.05:015][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/9608/).
+[2015.11.08-05.01.05:015][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/76604C0043160656957DE9A255212F01/'.
+[2015.11.08-05.01.05:015][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.08-05.01.06:088][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.08-05.01.06:094][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.08-05.01.06:100][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.08-05.01.06:107][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.08-05.01.06:113][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.08-05.01.06:117][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.08-05.01.06:121][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.08-05.01.06:126][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.08-05.01.06:131][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.08-05.01.06:136][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.08-05.01.06:140][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.08-05.01.06:145][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.08-05.01.06:146][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.08-05.01.06:165][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.08-05.01.06:169][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.08-05.01.06:174][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.08-05.01.06:178][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.08-05.01.06:178][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.08-05.01.06:280][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.08-05.01.06:327][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.08-05.01.06:452][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.08-05.01.06:464][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.08-05.01.06:655][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.08-05.01.06:657][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.08-05.01.06:779][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.08-05.01.06:779][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.08-05.01.07:032][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.08-05.01.07:864][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.08-05.01.08:002][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.11.08-05.01.08:185][  0]SourceControl: Info Source control is disabled
+[2015.11.08-05.01.08:424][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.08:527][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.08-05.01.08:527][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.08-05.01.08:581][  0]LogEngine: Initializing Engine...
+[2015.11.08-05.01.08:583][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.08-05.01.08:584][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.08-05.01.08:699][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.08-05.01.08:706][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-05.01.08:784][  0]LogInit: FAudioDevice initialized.
+[2015.11.08-05.01.08:808][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.08-05.01.08:811][  0]LogInit: Texture streaming: Enabled
+[2015.11.08-05.01.08:818][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.08-05.01.08:818][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.08-05.01.08:818][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.08-05.01.08:818][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.08-05.01.08:856][  0]LogInit: Transaction tracking system initialized
+[2015.11.08-05.01.08:888][  0]BlueprintLog: New page: Editor Load
+[2015.11.08-05.01.08:979][  0]LocalizationService: Info Localization service is disabled
+[2015.11.08-05.01.09:070][  0]LogConsoleResponse:Display: 
+[2015.11.08-05.01.09:187][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.08-05.01.09:256][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.02s
+[2015.11.08-05.01.09:256][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-05.01.09:256][  0]LightingResults: New page: Lighting Build
+[2015.11.08-05.01.09:259][  0]MapCheck: New page: Map Check
+[2015.11.08-05.01.09:259][  0]LightingResults: New page: Lighting Build
+[2015.11.08-05.01.09:270][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCAF1BE160
+[2015.11.08-05.01.09:277][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:278][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:280][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:281][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:283][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:283][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:284][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.09:285][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.01.10:369][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.08-05.01.10:388][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-05.01.10:389][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-05.01.10:505][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.373ms to complete.
+[2015.11.08-05.01.10:505][  0]LogFileHelpers: Loading map 'Hub' took 1.248
+[2015.11.08-05.01.10:639][  0]LogCollectionManager: Loaded 0 collections in 0.002038 seconds
+[2015.11.08-05.01.10:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.08-05.01.10:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.08-05.01.10:687][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.08-05.01.10:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 1867 classes and 333 folders.
+[2015.11.08-05.01.10:701][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.08-05.01.10:707][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.08-05.01.10:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.08-05.01.10:777][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.08-05.01.10:838][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.08-05.01.10:843][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.08-05.01.10:866][  0]LogLoad: Full Startup: 7.11 seconds (BP compile: 0.23 seconds)
+[2015.11.08-05.01.11:206][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/LevelTransfer/TutorialIsland : Failed import for StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:KeyName
+[2015.11.08-05.01.11:268][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.08-05.01.11:436][  0]LogRenderer: Reallocating scene render targets to support 888x456 (Frame:2).
+[2015.11.08-05.01.13:548][  7]LogAssetRegistry: Asset discovery search completed in 5.5571 seconds
+[2015.11.08-05.01.13:549][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.08-05.01.13:549][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2015.11.08-05.08.25:509][961]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.08.25:509][961]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.08.25:512][961]LogBlueprint:Warning: [compiler AntiHub] Warning [0441.75] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2015.11.08-05.08.25:512][961]LogBlueprint:Warning: [compiler AntiHub] Warning [0441.75] Compile of AntiHub failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.08-05.08.25:512][961]LogBlueprint:Warning: [compiler AntiHub] Warning [0441.75] Compile of AntiHub failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.08-05.08.25:625][961]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.08-05.08.26:227][961]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.08-05.08.26:361][961]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.08-05.08.26:386][961]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.08-05.08.26:389][961]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.08-05.08.26:396][961]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.08-05.08.26:418][961]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.08-05.08.26:768][961]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.08-05.08.26:847][961]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.08-05.08.26:864][961]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.08-05.08.26:867][961]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.08-05.08.26:870][961]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.08-05.08.26:881][961]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.11.08-05.08.27:071][961]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.11.08-05.08.27:122][961]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.11.08-05.08.27:133][961]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.11.08-05.08.27:135][961]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.11.08-05.08.27:139][961]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.11.08-05.08.27:160][961]LogAIModule: Creating AISystem for world AntiHub
+[2015.11.08-05.08.27:209][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.08.27:210][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-05.08.27:210][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.08.27:210][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.08-05.08.27:241][961]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-05.08.27:241][961]LightingResults: New page: Lighting Build
+[2015.11.08-05.08.27:262][961]LoadErrors: New page: Loading map: AntiHub.umap
+[2015.11.08-05.08.27:264][961]MapCheck: New page: Map Check
+[2015.11.08-05.08.27:264][961]LightingResults: New page: Lighting Build
+[2015.11.08-05.08.27:276][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCB9132700
+[2015.11.08-05.08.27:326][961]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-05.08.27:369][961]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-05.08.27:483][961]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.048ms to complete.
+[2015.11.08-05.08.27:483][961]LogFileHelpers: Loading map 'AntiHub' took 0.244
+[2015.11.08-05.08.44:007][931]LogAIModule: Creating AISystem for world Cave
+[2015.11.08-05.08.44:011][931]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_1.Flash
+[2015.11.08-05.08.44:022][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.08.44:022][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-05.08.44:022][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.08.44:022][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.08-05.08.44:036][931]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-05.08.44:036][931]LightingResults: New page: Lighting Build
+[2015.11.08-05.08.44:056][931]LoadErrors: New page: Loading map: Cave.umap
+[2015.11.08-05.08.44:057][931]MapCheck: New page: Map Check
+[2015.11.08-05.08.44:057][931]LightingResults: New page: Lighting Build
+[2015.11.08-05.08.44:069][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA8358900
+[2015.11.08-05.08.44:145][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-05.08.44:187][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-05.08.44:301][931]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.606ms to complete.
+[2015.11.08-05.08.44:302][931]LogFileHelpers: Loading map 'Cave' took 0.268
+[2015.11.08-05.08.44:309][931]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Cave : Failed import for ParticleSystemComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Flash_GEN_VARIABLE
+[2015.11.08-05.08.44:309][931]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Cave : Failed import for PointLightComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IlluminateLight_GEN_VARIABLE
+[2015.11.08-05.08.44:309][931]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Cave : Failed import for StaticMeshComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Sphere_GEN_VARIABLE
+[2015.11.08-05.09.06:680][255]LogAIModule: Creating AISystem for world Circus
+[2015.11.08-05.09.06:683][255]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1.Flash
+[2015.11.08-05.09.06:705][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.09.06:705][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-05.09.06:705][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.09.06:705][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.08-05.09.06:719][255]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-05.09.06:719][255]LightingResults: New page: Lighting Build
+[2015.11.08-05.09.06:740][255]LoadErrors: New page: Loading map: Circus.umap
+[2015.11.08-05.09.06:741][255]MapCheck: New page: Map Check
+[2015.11.08-05.09.06:741][255]LightingResults: New page: Lighting Build
+[2015.11.08-05.09.06:752][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA81A2980
+[2015.11.08-05.09.06:833][255]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-05.09.06:876][255]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-05.09.06:990][255]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.738ms to complete.
+[2015.11.08-05.09.06:993][255]LogFileHelpers: Loading map 'Circus' took 0.276
+[2015.11.08-05.09.07:013][255]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for ParticleSystemComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Flash_GEN_VARIABLE
+[2015.11.08-05.09.07:013][255]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for PointLightComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IlluminateLight_GEN_VARIABLE
+[2015.11.08-05.09.07:013][255]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for StaticMeshComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Sphere_GEN_VARIABLE
+[2015.11.08-05.12.57:108][ 32]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.12.57:108][ 32]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.12.57:111][ 32]LogBlueprint:Warning: [compiler AntiHub] Warning [0713.35] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2015.11.08-05.12.57:111][ 32]LogBlueprint:Warning: [compiler AntiHub] Warning [0713.35] Compile of AntiHub failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.08-05.12.57:111][ 32]LogBlueprint:Warning: [compiler AntiHub] Warning [0713.35] Compile of AntiHub failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.08-05.12.57:152][ 32]LogAIModule: Creating AISystem for world AntiHub
+[2015.11.08-05.12.57:164][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.12.57:164][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-05.12.57:164][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.12.57:164][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.08-05.12.57:179][ 32]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.08-05.12.57:179][ 32]LightingResults: New page: Lighting Build
+[2015.11.08-05.12.57:200][ 32]LoadErrors: New page: Loading map: AntiHub.umap
+[2015.11.08-05.12.57:201][ 32]MapCheck: New page: Map Check
+[2015.11.08-05.12.57:201][ 32]LightingResults: New page: Lighting Build
+[2015.11.08-05.12.57:212][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA807DB20
+[2015.11.08-05.12.57:289][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.08-05.12.57:331][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.08-05.12.57:451][ 32]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.527ms to complete.
+[2015.11.08-05.12.57:453][ 32]LogFileHelpers: Loading map 'AntiHub' took 0.275
+[2015.11.08-05.12.58:931][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.12.58:932][ 96]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.08-05.12.58:932][ 96]LogPlayLevel: [PlayLevel] Compiling AntiHub before play...
+[2015.11.08-05.12.59:041][ 96]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.12.59:041][ 96]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.12.59:102][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.34] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 166 ms]
+[2015.11.08-05.12.59:103][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.35] Compile of AntiHub failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.08-05.12.59:103][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.35] Compile of AntiHub failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.08-05.12.59:104][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.35] Compile of AntiHub failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.08-05.12.59:104][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.35] Compile of AntiHub failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.11.08-05.12.59:104][ 96]LogBlueprint:Warning: [compiler AntiHub] Warning [0715.35] Compile of AntiHub failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.11.08-05.12.59:106][ 96]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2015.11.08-05.12.59:106][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.12.59:107][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.08-05.12.59:107][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.08-05.12.59:107][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.08-05.12.59:119][ 96]BlueprintLog: Info Blueprint AntiHub failed to compile
+[2015.11.08-05.13.18:739][810]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.13.18:739][810]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 54 ms]
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.11.08-05.13.18:789][810]LogBlueprint:Warning: [compiler AntiHub] Warning [0735.03] Compile of AntiHub failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.11.08-05.13.19:083][810]LogSavePackage: Save=350.930298ms
+[2015.11.08-05.13.19:083][810]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/AntiHubDD44FFFB4177C40BB51A909C82C63952.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap'
+[2015.11.08-05.13.19:092][810]LogSavePackage: Total save time: 419.711869ms
+[2015.11.08-05.13.19:092][810]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap
+[2015.11.08-05.13.21:159][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.13.21:159][928]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.08-05.13.21:159][928]LogPlayLevel: [PlayLevel] Compiling AntiHub before play...
+[2015.11.08-05.13.21:167][928]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.13.21:167][928]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 57 ms]
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.11.08-05.13.21:219][928]LogBlueprint:Warning: [compiler AntiHub] Warning [0737.46] Compile of AntiHub failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.11.08-05.13.21:221][928]LogPlayLevel: PlayLevel: Blueprint regeneration took 62 ms (1 blueprints)
+[2015.11.08-05.13.21:236][928]BlueprintLog: Info Blueprint AntiHub failed to compile
+[2015.11.08-05.13.23:372][962]MapCheck: New page: Map Check
+[2015.11.08-05.13.23:452][962]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.08-05.13.23:453][962]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.08-05.13.23:586][962]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.08-05.13.23:586][962]LogStats:          STAT_HLOD_BuildClusters - 16.157 ms
+[2015.11.08-05.13.23:622][962]LightingResults: New page: Lighting Build - Nov 7, 2015, 7:13:23 PM
+[2015.11.08-05.13.25:324][962]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.08-05.13.25:324][962]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.08-05.13.25:324][962]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.08-05.13.25:324][962]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.08-05.13.25:324][962]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.08-05.13.25:659][962]LogEditorBuildUtils: Build time 0:00:02
+[2015.11.08-05.14.27:470][591]Job is a success!
+[2015.11.08-05.14.28:030][592]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.08-05.14.28:084][592]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.08-05.14.28:089][592]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.08-05.14.28:092][592]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2015.11.08-05.14.28:097][592]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.08-05.14.28:113][592]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.08-05.14.28:132][592]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2015.11.08-05.14.28:146][592]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.08-05.14.28:173][592]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.08-05.14.28:202][592]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.11.08-05.14.28:224][592]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.08-05.14.28:231][592]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.08-05.14.28:261][592]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.11.08-05.14.28:275][592]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.08-05.14.28:339][592]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.08-05.14.28:450][592]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.11.08-05.14.28:499][592]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.08-05.14.28:825][592]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.08-05.14.29:404][592]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.11.08-05.14.29:592][592]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.08-05.14.29:663][592]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.08-05.14.29:891][592]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.08-05.14.30:357][592]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.11.08-05.14.30:506][592]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.11.08-05.14.30:520][592]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.11.08-05.14.30:530][592]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.11.08-05.14.30:534][592]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.11.08-05.14.30:567][592]Lightmass on NICKSCOMPUTER: 1:04 min total, 229 ms importing, 62 ms setup, 1.27 sec photons, 1:02 min processing, 0 ms extra exporting [90/90 mappings]. Threads: 7:18 min total, 5:55 min processing.
+[2015.11.08-05.14.30:600][592]LogStaticLightingSystem: Illumination: 1:06 min (2.71 sec encoding lightmaps)
+[2015.11.08-05.14.30:600][592]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (1.9 MB streaming, 1.3 MB non-streaming), 14 textures
+[2015.11.08-05.14.30:600][592]LogStaticLightingSystem: Shadowmap texture memory: 12.1 MB (11.5 MB streaming, 0.7 MB non-streaming), 6 textures
+[2015.11.08-05.14.31:376][593]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.08-05.14.31:376][593]MapCheck: New page: AntiHub - Nov 7, 2015, 7:14:31 PM
+[2015.11.08-05.14.31:391][593]MapCheck:Warning: Performance Warning Spider_4 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2015.11.08-05.14.31:392][593]MapCheck:Warning: Warning Spider_4 Skeletal mesh actor has NULL SkeletalMesh property 
+[2015.11.08-05.14.31:537][593]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 160.432ms to complete.
+[2015.11.08-05.14.47:369][513]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/AntiHub.HQ_Lightmap1_2. Streaming mips will be recached.
+[2015.11.08-05.14.47:373][513]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.08-05.14.48:264][528]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/ThirdPersonBP/Maps/AntiHub.HQ_Lightmap1_3. Streaming mips will be recached.
+[2015.11.08-05.14.48:265][528]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.08-05.14.55:794][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.08-05.15.04:612][484]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.11.08-05.15.04:634][484]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2015.11.08-05.15.07:195][627]MapCheck: New page: Map Check
+[2015.11.08-05.15.07:257][627]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.08-05.15.07:258][627]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.08-05.15.07:388][627]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.08-05.15.07:388][627]LogStats:          STAT_HLOD_BuildClusters - 15.145 ms
+[2015.11.08-05.15.07:412][627]LightingResults: New page: Lighting Build - Nov 7, 2015, 7:15:07 PM
+[2015.11.08-05.15.09:179][627]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.08-05.15.09:179][627]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.08-05.15.09:179][627]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.08-05.15.09:179][627]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.08-05.15.09:179][627]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.08-05.15.09:342][627]LogEditorBuildUtils: Build time 0:00:02
+[2015.11.08-05.15.17:987][ 79]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.08-05.15.18:733][ 79]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 107 classes and 0 folders.
+[2015.11.08-05.15.24:818][309]BlueprintLog: New page: Compile AntiHub
+[2015.11.08-05.15.24:830][309]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.15.24:830][309]LogBlueprint:Error: [compiler AntiHub] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.15.24:992][309]LogBlueprint:Warning: [compiler AntiHub] Warning [0861.23] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 173 ms]
+[2015.11.08-05.15.24:993][309]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2015.11.08-05.15.24:993][309]BlueprintEditorCompileResults:Error: Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2015.11.08-05.15.24:993][309]BlueprintEditorCompileResults:Warning: Warning [0861.23] Compile of AntiHub failed. 2 Fatal Issue(s) 0 Warning(s) [in 173 ms]
+[2015.11.08-05.15.42:634][223]BlueprintLog: New page: Compile AntiHub
+[2015.11.08-05.15.42:753][223]BlueprintEditorCompileResults: Info [0878.99] Compile of AntiHub successful! [in 118 ms]
+[2015.11.08-05.15.52:106][726]LogSavePackage: Save=569.012512ms
+[2015.11.08-05.15.52:106][726]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/AntiHub81E67713411FC56FBDD0EDB07C655540.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap'
+[2015.11.08-05.15.52:116][726]LogSavePackage: Total save time: 590.843387ms
+[2015.11.08-05.15.52:116][726]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap
+[2015.11.08-05.15.56:767][996]Job is a success!
+[2015.11.08-05.15.57:268][997]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.08-05.15.57:320][997]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.08-05.15.57:325][997]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.08-05.15.57:329][997]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2015.11.08-05.15.57:334][997]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.08-05.15.57:349][997]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.08-05.15.57:368][997]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2015.11.08-05.15.57:383][997]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.08-05.15.57:410][997]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.08-05.15.57:439][997]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.11.08-05.15.57:461][997]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.08-05.15.57:469][997]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.08-05.15.57:493][997]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.11.08-05.15.57:507][997]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.08-05.15.57:571][997]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.08-05.15.57:682][997]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.11.08-05.15.57:725][997]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.08-05.15.58:054][997]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.08-05.15.58:642][997]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.11.08-05.15.58:828][997]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.08-05.15.58:900][997]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.08-05.15.59:116][997]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.11.08-05.15.59:572][997]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.11.08-05.15.59:721][997]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.11.08-05.15.59:734][997]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.11.08-05.15.59:744][997]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2015.11.08-05.15.59:747][997]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.11.08-05.15.59:777][997]Lightmass on NICKSCOMPUTER: 49.6 sec total, 182 ms importing, 62 ms setup, 1.21 sec photons, 48.1 sec processing, 0 ms extra exporting [90/90 mappings]. Threads: 5:36 min total, 4:28 min processing.
+[2015.11.08-05.15.59:796][997]LogStaticLightingSystem: Illumination: 52.3 sec (2.66 sec encoding lightmaps)
+[2015.11.08-05.15.59:797][997]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (1.9 MB streaming, 1.3 MB non-streaming), 14 textures
+[2015.11.08-05.15.59:797][997]LogStaticLightingSystem: Shadowmap texture memory: 24.3 MB (22.9 MB streaming, 1.3 MB non-streaming), 12 textures
+[2015.11.08-05.16.00:233][998]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.08-05.16.00:233][998]MapCheck: New page: AntiHub - Nov 7, 2015, 7:16:00 PM
+[2015.11.08-05.16.00:376][998]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.946ms to complete.
+[2015.11.08-05.16.37:997][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.16.37:997][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.08-05.16.38:001][247]PIE: New page: PIE session: AntiHub (Nov 7, 2015, 7:16:38 PM)
+[2015.11.08-05.16.38:001][247]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub
+[2015.11.08-05.16.38:035][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033442s)
+[2015.11.08-05.16.38:036][247]LogAIModule: Creating AISystem for world AntiHub
+[2015.11.08-05.16.38:036][247]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2015.11.08-05.16.38:038][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/AntiHub.AntiHub to /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub.AntiHub (0.036130s)
+[2015.11.08-05.16.38:067][247]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.08-05.16.38:074][247]LogInit: FAudioDevice initialized.
+[2015.11.08-05.16.38:156][247]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.08-05.16.38:184][247]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.08-05.16.38:184][247]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub.AntiHub up for play (max tick rate 60) at 2015.11.08-00.16.38
+[2015.11.08-05.16.38:184][247]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub.AntiHub:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-05.16.38:185][247]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub.AntiHub:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.08-05.16.38:186][247]LogWorld: Bringing up level for play took: 0.021230
+[2015.11.08-05.16.38:244][247]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_AntiHub -0.259
+[2015.11.08-05.16.38:244][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.16.38:481][248]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:27089).
+[2015.11.08-05.21.26:801][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.21.26:872][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub' with GeneratedClass '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/AntiHub.AntiHub:PersistentLevel.AntiHub'
+[2015.11.08-05.21.26:904][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCE874B6A0
+[2015.11.08-05.21.34:032][688]LogSavePackage: Save=544.937378ms
+[2015.11.08-05.21.34:032][688]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/AntiHub540B43E14BBF0488CE31469844FD6AD3.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap'
+[2015.11.08-05.21.34:039][688]LogSavePackage: Total save time: 573.674396ms
+[2015.11.08-05.21.34:039][688]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/AntiHub.umap
+[2015.11.08-05.21.34:082][688]LogFileHelpers: Saving map 'AntiHub' took 0.796
+[2015.11.08-05.21.34:234][688]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.08-05.21.34:234][688]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.08-05.21.34:514][689]Cmd: QUIT_EDITOR
+[2015.11.08-05.21.35:335][689]LogExit: Preparing to exit.
+[2015.11.08-05.21.36:529][689]LogExit: Editor shut down
+[2015.11.08-05.21.36:530][689]LogExit: Transaction tracking system shut down
+[2015.11.08-05.21.36:533][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCB21BB100
+[2015.11.08-05.21.36:533][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA807F880
+[2015.11.08-05.21.36:533][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA8358F40
+[2015.11.08-05.21.36:533][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC82E65C0
+[2015.11.08-05.21.36:534][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCC82E6700
+[2015.11.08-05.21.36:534][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FCA13B2200
+[2015.11.08-05.21.36:698][689]LogExit: Object subsystem successfully closed.
+[2015.11.08-05.21.36:711][689]LogD3D11RHI: Shutdown
+[2015.11.08-05.21.36:711][689]LogD3D11RHI: CleanupD3DDevice
+[2015.11.08-05.21.36:776][689]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.08-05.21.36:804][689]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.08-05.21.36:805][689]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.08-05.21.36:806][689]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.08-05.21.37:647][689]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.08-05.21.37:648][689]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.08-05.21.37:649][689]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.08-05.21.37:650][689]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.08-05.21.37:651][689]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.08-05.21.37:851][689]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.08-05.21.37:895][689]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.08-05.21.37:896][689]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.08-05.21.37:897][689]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.08-05.21.37:898][689]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.08-05.21.37:952][689]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.08-05.21.37:952][689]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.08-05.21.37:952][689]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.08-05.21.38:054][689]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.08-05.21.38:054][689]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.08-05.21.38:054][689]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.08-05.21.38:063][689]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.08-05.21.38:063][689]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.08-05.21.38:064][689]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.08-05.21.38:065][689]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.08-05.21.38:065][689]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.08-05.21.38:065][689]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.08-05.21.38:065][689]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.08-05.21.38:073][689]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.08-05.21.38:081][689]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.08-05.21.38:096][689]LogDerivedDataCache: Shutdown
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.08-05.21.38:096][689]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.08-05.21.38:097][689]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.08-05.21.40:101][689]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.08-05.21.40:102][689]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.08-05.21.40:102][689]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.08-05.21.40:102][689]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.08-05.21.40:102][689]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.08-05.21.40:102][689]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.08-05.21.40:106][689]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.08-05.21.40:108][689]LogExit: Exiting.
+[2015.11.08-05.21.40:165][689]Log file closed, 11/08/15 00:21:40
