@@ -1,0 +1,1417 @@
+﻿[2015.11.09-22.14.08:397][  0]Log file open, 11/09/15 17:14:08
+[2015.11.09-22.14.08:397][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.09-22.14.08:397][  0]LogInit:Display: RandInit(1263148739) SRandInit(1263148739).
+[2015.11.09-22.14.08:397][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.09-22.14.08:397][  0]LogStats: Stats thread started at 0.802226
+[2015.11.09-22.14.08:397][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.09-22.14.08:397][  0]LogInit: API Version: 2672455
+[2015.11.09-22.14.08:397][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.09-22.14.08:397][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.09-22.14.08:397][  0]LogInit: Build Configuration: Development
+[2015.11.09-22.14.08:397][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.09-22.14.08:397][  0]LogInit: Command line:  
+[2015.11.09-22.14.08:397][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.09-22.14.08:397][  0]LogInit: Rocket: 1
+[2015.11.09-22.14.08:424][  0]LogInit: Using libcurl 7.41.0
+[2015.11.09-22.14.08:424][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.09-22.14.08:424][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.09-22.14.08:424][  0]LogInit:  - other features:
+[2015.11.09-22.14.08:424][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.09-22.14.08:424][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.09-22.14.08:424][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.09-22.14.08:424][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.09-22.14.08:424][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.09-22.14.08:425][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.09-22.14.08:425][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.09-22.14.08:425][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.09-22.14.08:426][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.09-22.14.08:426][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.09-22.14.08:448][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.09-22.14.08:465][  0]LogInit: Object subsystem initialized
+[2015.11.09-22.14.08:486][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.09-22.14.08:486][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.09-22.14.08:508][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.09-22.14.08:508][  0]LogInit: User: ntanc000
+[2015.11.09-22.14.08:508][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.09-22.14.08:509][  0]LogInit: High frequency timer resolution =2.537594 MHz
+[2015.11.09-22.14.08:509][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.09-22.14.08:509][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-22.14.08:509][  0]LogMemory: Process Physical Memory: 52.97 MB used, 52.97 MB peak
+[2015.11.09-22.14.08:509][  0]LogMemory: Process Virtual Memory: 55.06 MB used, 55.06 MB peak
+[2015.11.09-22.14.08:509][  0]LogMemory: Physical Memory: 4692.52 MB used, 16269.45 MB total
+[2015.11.09-22.14.08:509][  0]LogMemory: Virtual Memory: 360.26 MB used, 134217728.00 MB total
+[2015.11.09-22.14.09:087][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.09-22.14.10:331][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.09-22.14.10:331][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 1 output[s]
+[2015.11.09-22.14.10:339][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.09-22.14.10:339][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.09-22.14.10:342][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.09-22.14.10:342][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.09-22.14.10:342][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.09-22.14.10:348][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.09-22.14.10:348][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.09-22.14.10:361][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.09-22.14.10:398][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/11668/).
+[2015.11.09-22.14.10:398][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/7C1F6D9240D22A092B31DF80FF45ED0D/'.
+[2015.11.09-22.14.10:398][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.09-22.14.12:735][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.09-22.14.12:742][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.09-22.14.12:749][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.09-22.14.12:756][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.09-22.14.12:763][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.09-22.14.12:774][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.09-22.14.12:780][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.09-22.14.12:786][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.09-22.14.12:792][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.09-22.14.12:800][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.09-22.14.12:806][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.09-22.14.12:812][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.09-22.14.12:814][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.09-22.14.12:849][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.09-22.14.12:855][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.09-22.14.12:862][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.09-22.14.12:874][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.09-22.14.12:874][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.09-22.14.13:080][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.09-22.14.13:255][  0]LogDerivedDataCache: Loaded boot cache 0.17s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.09-22.14.13:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.09-22.14.13:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.09-22.14.13:256][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.09-22.14.13:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.09-22.14.13:256][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.09-22.14.13:389][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.09-22.14.13:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.09-22.14.15:596][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.09-22.14.15:607][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.09-22.14.15:873][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.09-22.14.15:873][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.09-22.14.16:959][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.09-22.14.20:299][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.09-22.14.20:679][  0]LogAssetRegistry: FAssetRegistry took 0.0153 seconds to start up
+[2015.11.09-22.14.21:224][  0]SourceControl: Info Source control is disabled
+[2015.11.09-22.14.21:532][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.21:673][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.09-22.14.21:673][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.09-22.14.21:798][  0]LogEngine: Initializing Engine...
+[2015.11.09-22.14.21:801][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.09-22.14.21:815][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.09-22.14.22:083][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.09-22.14.22:101][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-22.14.22:411][  0]LogInit: FAudioDevice initialized.
+[2015.11.09-22.14.22:443][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.09-22.14.22:447][  0]LogInit: Texture streaming: Enabled
+[2015.11.09-22.14.22:464][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.09-22.14.22:465][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.09-22.14.22:466][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.09-22.14.22:466][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.09-22.14.22:619][  0]LogInit: Transaction tracking system initialized
+[2015.11.09-22.14.22:722][  0]BlueprintLog: New page: Editor Load
+[2015.11.09-22.14.23:142][  0]LocalizationService: Info Localization service is disabled
+[2015.11.09-22.14.23:332][  0]LogConsoleResponse:Display: 
+[2015.11.09-22.14.23:689][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.09-22.14.23:827][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.02s
+[2015.11.09-22.14.23:827][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.09-22.14.23:829][  0]LightingResults: New page: Lighting Build
+[2015.11.09-22.14.23:838][  0]MapCheck: New page: Map Check
+[2015.11.09-22.14.23:838][  0]LightingResults: New page: Lighting Build
+[2015.11.09-22.14.23:855][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000098D7CBCE0
+[2015.11.09-22.14.24:291][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:297][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:303][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:307][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:313][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:316][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:321][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.24:326][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.14.25:649][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-22.14.25:679][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.09-22.14.25:684][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.09-22.14.25:807][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.934ms to complete.
+[2015.11.09-22.14.25:807][  0]LogFileHelpers: Loading map 'Hub' took 1.982
+[2015.11.09-22.14.26:011][  0]LogCollectionManager: Loaded 0 collections in 0.003064 seconds
+[2015.11.09-22.14.26:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.09-22.14.26:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.09-22.14.26:067][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.09-22.14.26:067][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 1867 classes and 333 folders.
+[2015.11.09-22.14.26:084][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.09-22.14.26:100][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.09-22.14.26:395][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.09-22.14.26:421][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.09-22.14.26:594][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.09-22.14.26:603][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.09-22.14.26:627][  0]LogLoad: Full Startup: 20.59 seconds (BP compile: 0.45 seconds)
+[2015.11.09-22.14.27:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.09-22.14.27:472][  0]LogRenderer: Reallocating scene render targets to support 888x456 (Frame:2).
+[2015.11.09-22.14.30:130][  8]LogAssetRegistry: Asset discovery search completed in 9.4636 seconds
+[2015.11.09-22.14.30:130][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.09-22.14.30:130][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2015.11.09-22.14.43:093][385]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.11.09-22.14.43:093][385]LogSynthBenchmark:Display: ===============
+[2015.11.09-22.14.43:093][385]LogSynthBenchmark:Display: Main Processor:
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:          ... 0.031406 s/Run 'RayIntersect'
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:          ... 0.026614 s/Run 'Fractal'
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display: 
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   CPU Perf Index 0: 81.5
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   CPU Perf Index 1: 107.5
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:  
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display: Graphics:
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 980M'
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   GPU Memory: 3982/0/8135 MB
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   CPUIndex: 81.5
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:   GPUIndex: -1.$
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display: 
+[2015.11.09-22.14.43:151][385]LogSynthBenchmark:Display:          ... Total Time: 0.058302 sec
+[2015.11.09-22.23.18:959][165]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.23.19:618][165]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.09-22.23.23:653][329]LogRenderer: Reallocating scene render targets to support 912x528 (Frame:5545).
+[2015.11.09-22.26.31:199][495]LogActorFactory: Actor Factory created Mushroom
+[2015.11.09-22.26.32:927][588]LogRenderer: Reallocating scene render targets to support 1144x712 (Frame:19568).
+[2015.11.09-22.44.20:160][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.44.20:160][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-22.44.20:161][801]PIE: New page: PIE session: Hub (Nov 9, 2015, 12:44:20 PM)
+[2015.11.09-22.44.20:161][801]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-22.44.20:203][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042045s)
+[2015.11.09-22.44.20:209][801]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-22.44.20:209][801]LogPlayLevel: PIE: World Init took: (0.005568s)
+[2015.11.09-22.44.20:209][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.048001s)
+[2015.11.09-22.44.20:209][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.44.20:210][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.09-22.44.20:210][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.09-22.44.20:210][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.09-22.44.20:259][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A10C2200
+[2015.11.09-22.44.20:275][801]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-22.44.20:286][801]LogInit: FAudioDevice initialized.
+[2015.11.09-22.44.20:377][801]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.44.20:431][801]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-22.44.20:431][801]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.09-17.44.20
+[2015.11.09-22.44.20:431][801]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.44.20:432][801]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.44.20:434][801]LogWorld: Bringing up level for play took: 0.051807
+[2015.11.09-22.44.20:446][801]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub -0.007
+[2015.11.09-22.44.20:446][801]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.44.48:032][421]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve Cave.umap.
+[2015.11.09-22.44.48:130][422]LogPackageName: SearchForPackageOnDisk took   0.090s to resolve Cave.umap.
+[2015.11.09-22.44.48:130][422]LogNet: Browse: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-22.44.48:130][422]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-22.44.48:157][422]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009995CA8E0
+[2015.11.09-22.44.48:162][422]Cmd: MEM
+[2015.11.09-22.44.48:186][422]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-22.44.48:187][422]LogMemory: Process Physical Memory: 841.10 MB used, 854.63 MB peak
+[2015.11.09-22.44.48:187][422]LogMemory: Process Virtual Memory: 1853.18 MB used, 1915.18 MB peak
+[2015.11.09-22.44.48:187][422]LogMemory: Physical Memory: 5618.04 MB used, 16269.45 MB total
+[2015.11.09-22.44.48:187][422]LogMemory: Virtual Memory: 2508.98 MB used, 134217728.00 MB total
+[2015.11.09-22.44.48:187][422]LogMemory: 
+[2015.11.09-22.44.48:187][422]Allocator Stats for TBB: (not implemented)
+[2015.11.09-22.44.49:098][422]LogAIModule: Creating AISystem for world Cave
+[2015.11.09-22.44.49:099][422]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.44.49:111][422]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/ParticleSystems/TutIslandMat.TutIslandMat missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2015.11.09-22.44.49:111][422]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
+[2015.11.09-22.44.49:113][422]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.09-17.44.49
+[2015.11.09-22.44.49:113][422]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.44.49:114][422]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.44.49:114][422]LogWorld: Bringing up level for play took: 0.013463
+[2015.11.09-22.44.49:130][423]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub : Failed import for StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:KeyName
+[2015.11.09-22.45.19:390][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.45.19:448][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.45.19:510][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009FB231DA0
+[2015.11.09-22.45.31:328][833]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-22.45.31:489][833]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-22.45.31:497][833]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-22.45.31:526][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.11.09-22.45.31:538][833]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.11.09-22.45.33:484][914]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.11.09-22.45.33:484][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.09-22.45.33:484][914]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-22.45.33:484][914]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-22.46.52:079][577]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ntanc_000\Desktop\NightmareGame\TheGame\Import\KidInBed.fbx)
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: NodeAttribute, ItemCount : 21
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: Model, ItemCount : 22
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.09-22.46.52:106][577]LogFbx: ItemName: Material, ItemCount : 6
+[2015.11.09-22.46.52:115][577]LogFbx: Loading FBX Scene from C:\Users\ntanc_000\Desktop\NightmareGame\TheGame\Import\KidInBed.fbx
+[2015.11.09-22.46.52:147][577]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.09-22.46.54:709][577]LogFbx: Loading FBX Scene from C:\Users\ntanc_000\Desktop\NightmareGame\TheGame\Import\KidInBed.fbx
+[2015.11.09-22.46.54:738][577]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.09-22.46.54:756][577]LogMaterial: Missing cached shader map for material lambert6, compiling. 
+[2015.11.09-22.46.54:819][577]LogMaterial: Missing cached shader map for material lambert4, compiling. 
+[2015.11.09-22.46.54:881][577]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2015.11.09-22.46.54:919][577]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/lambert5'
+[2015.11.09-22.46.54:920][577]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/lambert5'
+[2015.11.09-22.46.54:931][577]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2015.11.09-22.46.54:945][577]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/lambert2'
+[2015.11.09-22.46.54:945][577]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/lambert2'
+[2015.11.09-22.46.54:958][577]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.11.09-22.46.54:982][577]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2015.11.09-22.46.54:995][577]LogFbx:Warning: Triangulating static mesh pCube5
+[2015.11.09-22.46.58:373][577]LogStaticMesh: Building static mesh KidInBed...
+[2015.11.09-22.46.59:478][577]LogStaticMesh: Built static mesh [1.106762.2s] /Game/StarterContent/Props/KidInBed.KidInBed
+[2015.11.09-22.46.59:564][577]LogStaticMesh:Warning: KidInBed has degenerate tangent bases which will result in incorrect shading. 
+[2015.11.09-22.46.59:587][577]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.09-22.46.59:587][577]FBXImport:Warning: Warning KidInBed has degenerate tangent bases which will result in incorrect shading.  
+[2015.11.09-22.47.44:045][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.47.44:046][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.09-22.47.44:078][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.032
+[2015.11.09-22.47.44:085][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/KidInBed] ([1] browsable assets)...
+[2015.11.09-22.47.44:113][745]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/KidInBed.KidInBed]
+[2015.11.09-22.47.44:113][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/KidInBed]
+[2015.11.09-22.47.44:132][745]LogSavePackage: Save=16.524315ms
+[2015.11.09-22.47.44:132][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/KidInBed_Auto1F3DB75434712C0CB1A465394D32060EF.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/KidInBed_Auto1.uasset'
+[2015.11.09-22.47.44:141][745]LogSavePackage: Total save time: 26.058540ms
+[2015.11.09-22.47.44:141][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/KidInBed_Auto1.uasset
+[2015.11.09-22.47.44:150][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert6] ([1] browsable assets)...
+[2015.11.09-22.47.44:192][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert6.lambert6]
+[2015.11.09-22.47.44:192][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert6]
+[2015.11.09-22.47.44:275][745]LogSavePackage: Save=39.018063ms
+[2015.11.09-22.47.44:275][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert6_Auto10B4C9F4E44456806C377E8A6F6C54870.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert6_Auto1.uasset'
+[2015.11.09-22.47.44:288][745]LogSavePackage: Total save time: 90.313111ms
+[2015.11.09-22.47.44:288][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert6_Auto1.uasset
+[2015.11.09-22.47.44:298][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert4] ([1] browsable assets)...
+[2015.11.09-22.47.44:351][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert4.lambert4]
+[2015.11.09-22.47.44:351][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert4]
+[2015.11.09-22.47.44:437][745]LogSavePackage: Save=51.823498ms
+[2015.11.09-22.47.44:437][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert4_Auto1E3C14CF74D566755B591B6BAEB216A72.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert4_Auto1.uasset'
+[2015.11.09-22.47.44:460][745]LogSavePackage: Total save time: 103.257257ms
+[2015.11.09-22.47.44:460][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert4_Auto1.uasset
+[2015.11.09-22.47.44:481][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert3] ([1] browsable assets)...
+[2015.11.09-22.47.44:516][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert3.lambert3]
+[2015.11.09-22.47.44:516][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert3]
+[2015.11.09-22.47.44:561][745]LogSavePackage: Save=19.901922ms
+[2015.11.09-22.47.44:561][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert3_Auto1F828B6EA44F969A35B8E19A9689A67B7.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert3_Auto1.uasset'
+[2015.11.09-22.47.44:568][745]LogSavePackage: Total save time: 45.508463ms
+[2015.11.09-22.47.44:568][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert3_Auto1.uasset
+[2015.11.09-22.47.44:575][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert5] ([1] browsable assets)...
+[2015.11.09-22.47.44:603][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert5.lambert5]
+[2015.11.09-22.47.44:603][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert5]
+[2015.11.09-22.47.44:636][745]LogSavePackage: Save=30.310207ms
+[2015.11.09-22.47.44:636][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert5_Auto1F5FDD6F241E0B51A24A32C9BE756BA22.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert5_Auto1.uasset'
+[2015.11.09-22.47.44:644][745]LogSavePackage: Total save time: 39.434206ms
+[2015.11.09-22.47.44:644][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert5_Auto1.uasset
+[2015.11.09-22.47.44:651][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert2] ([1] browsable assets)...
+[2015.11.09-22.47.44:683][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert2.lambert2]
+[2015.11.09-22.47.44:683][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert2]
+[2015.11.09-22.47.44:719][745]LogSavePackage: Save=32.930405ms
+[2015.11.09-22.47.44:719][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert2_Auto1A471E05943ADEDE2175391A0D66F23B8.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert2_Auto1.uasset'
+[2015.11.09-22.47.44:733][745]LogSavePackage: Total save time: 47.517452ms
+[2015.11.09-22.47.44:733][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert2_Auto1.uasset
+[2015.11.09-22.47.44:746][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/lambert1] ([1] browsable assets)...
+[2015.11.09-22.47.44:803][745]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/lambert1.lambert1]
+[2015.11.09-22.47.44:803][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/lambert1]
+[2015.11.09-22.47.44:883][745]LogSavePackage: Save=44.976067ms
+[2015.11.09-22.47.44:884][745]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert1_Auto1C07F12444E5499CFF0AC5F8BF42586C9.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert1_Auto1.uasset'
+[2015.11.09-22.47.44:896][745]LogSavePackage: Total save time: 87.203469ms
+[2015.11.09-22.47.44:896][745]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert1_Auto1.uasset
+[2015.11.09-22.47.44:896][745]LogFileHelpers: Auto-saving content packages took 0.818
+[2015.11.09-22.53.23:261][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.53.23:261][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-22.53.23:261][646]PIE: New page: PIE session: Hub (Nov 9, 2015, 12:53:23 PM)
+[2015.11.09-22.53.23:261][646]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-22.53.23:300][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038823s)
+[2015.11.09-22.53.23:301][646]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-22.53.23:302][646]LogPlayLevel: PIE: World Init took: (0.002029s)
+[2015.11.09-22.53.23:302][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.041216s)
+[2015.11.09-22.53.23:338][646]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-22.53.23:346][646]LogInit: FAudioDevice initialized.
+[2015.11.09-22.53.23:384][646]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.53.23:425][646]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-22.53.23:425][646]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2015.11.09-17.53.23
+[2015.11.09-22.53.23:425][646]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.53.23:426][646]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.53.23:427][646]LogWorld: Bringing up level for play took: 0.040692
+[2015.11.09-22.53.23:433][646]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub 0.98
+[2015.11.09-22.53.23:440][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.53.51:499][646]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.53.51:543][646]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.53.51:567][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009AB0DFF60
+[2015.11.09-22.54.08:051][501]BlueprintLog: New page: Compile DummyOrbRotate
+[2015.11.09-22.54.08:130][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.54.08:130][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.09-22.54.08:168][501]BlueprintEditorCompileResults: Info [2402.13] Compile of DummyOrbRotate successful! [in 115 ms]
+[2015.11.09-22.54.10:149][589]LogSavePackage: Save=36.639431ms
+[2015.11.09-22.54.10:149][589]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/DummyOrbRotate9C69C92C4B5FE6DA18CA5AA6CB1475B9.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/DummyOrbRotate.uasset'
+[2015.11.09-22.54.10:157][589]LogSavePackage: Total save time: 53.085323ms
+[2015.11.09-22.54.10:157][589]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/DummyOrbRotate.uasset
+[2015.11.09-22.54.11:186][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.54.11:186][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-22.54.11:187][637]PIE: New page: PIE session: Hub (Nov 9, 2015, 12:54:11 PM)
+[2015.11.09-22.54.11:187][637]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-22.54.11:224][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037745s)
+[2015.11.09-22.54.11:227][637]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-22.54.11:227][637]LogPlayLevel: PIE: World Init took: (0.002344s)
+[2015.11.09-22.54.11:227][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.040375s)
+[2015.11.09-22.54.11:262][637]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-22.54.11:269][637]LogInit: FAudioDevice initialized.
+[2015.11.09-22.54.11:317][637]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.54.11:370][637]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-22.54.11:370][637]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2015.11.09-17.54.11
+[2015.11.09-22.54.11:370][637]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.54.11:371][637]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.54.11:372][637]LogWorld: Bringing up level for play took: 0.051883
+[2015.11.09-22.54.11:381][637]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub 0.929
+[2015.11.09-22.54.11:381][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.54.36:881][570]LogPackageName: SearchForPackageOnDisk took   0.093s to resolve Cave.umap.
+[2015.11.09-22.54.36:981][571]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve Cave.umap.
+[2015.11.09-22.54.36:981][571]LogNet: Browse: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-22.54.36:981][571]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-22.54.37:014][571]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A035D8FE0
+[2015.11.09-22.54.37:014][571]Cmd: MEM
+[2015.11.09-22.54.37:042][571]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-22.54.37:042][571]LogMemory: Process Physical Memory: 1084.07 MB used, 1093.73 MB peak
+[2015.11.09-22.54.37:042][571]LogMemory: Process Virtual Memory: 2192.91 MB used, 2201.05 MB peak
+[2015.11.09-22.54.37:042][571]LogMemory: Physical Memory: 6398.37 MB used, 16269.45 MB total
+[2015.11.09-22.54.37:042][571]LogMemory: Virtual Memory: 2834.83 MB used, 134217728.00 MB total
+[2015.11.09-22.54.37:042][571]LogMemory: 
+[2015.11.09-22.54.37:042][571]Allocator Stats for TBB: (not implemented)
+[2015.11.09-22.54.37:067][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:068][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:070][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:071][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:072][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:072][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:073][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:074][571]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.54.37:207][571]LogAIModule: Creating AISystem for world Cave
+[2015.11.09-22.54.37:208][571]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.54.37:222][571]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 0) at 2015.11.09-17.54.37
+[2015.11.09-22.54.37:222][571]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.54.37:222][571]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.54.37:223][571]LogWorld: Bringing up level for play took: 0.013518
+[2015.11.09-22.55.30:380][694]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:380][694]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:393][695]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:393][695]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:406][696]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:407][696]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:419][697]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:419][697]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:431][698]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:431][698]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:444][699]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:444][699]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:458][700]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:458][700]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:471][701]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:471][701]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:484][702]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:484][702]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:496][703]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:496][703]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:508][704]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:508][704]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:522][705]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:522][705]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:534][706]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:534][706]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:546][707]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:546][707]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:559][708]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:559][708]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:574][709]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:574][709]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:587][710]LogScript:Warning: Accessed None 'Matinee'
+	BackToHub_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.BackToHub_926
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub.BackToHub_C:ExecuteUbergraph_BackToHub:01E3
+[2015.11.09-22.55.30:587][710]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:599][711]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:612][712]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:625][713]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:637][714]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:649][715]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:662][716]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:675][717]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:687][718]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:699][719]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:712][720]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:725][721]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:738][722]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:750][723]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:764][724]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:777][725]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:790][726]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:802][727]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:814][728]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:827][729]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:840][730]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:852][731]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:863][732]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:876][733]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:890][734]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:902][735]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:913][736]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:926][737]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:940][738]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:952][739]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:964][740]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:979][741]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.30:992][742]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:006][743]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:018][744]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:029][745]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:043][746]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:056][747]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:069][748]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:080][749]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:093][750]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:106][751]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:118][752]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:130][753]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:143][754]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:156][755]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:168][756]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:182][757]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:195][758]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:208][759]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:221][760]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:232][761]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:245][762]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:258][763]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:270][764]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:282][765]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:295][766]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:308][767]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:320][768]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:332][769]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:345][770]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:358][771]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:371][772]PIE:Error: Error Accessed None 'Matinee' from node Play in graph 'EventGraph' in blueprint BackToHub
+[2015.11.09-22.55.31:460][772]LogPackageName: SearchForPackageOnDisk took   0.090s to resolve Hub.umap.
+[2015.11.09-22.55.31:558][773]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Hub.umap.
+[2015.11.09-22.55.31:558][773]LogNet: Browse: /Game/ThirdPersonBP/Maps/Hub
+[2015.11.09-22.55.31:559][773]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Hub
+[2015.11.09-22.55.31:590][773]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A686DD00
+[2015.11.09-22.55.31:590][773]Cmd: MEM
+[2015.11.09-22.55.31:617][773]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-22.55.31:617][773]LogMemory: Process Physical Memory: 1092.57 MB used, 1100.26 MB peak
+[2015.11.09-22.55.31:617][773]LogMemory: Process Virtual Memory: 2118.57 MB used, 2296.73 MB peak
+[2015.11.09-22.55.31:617][773]LogMemory: Physical Memory: 6406.34 MB used, 16269.45 MB total
+[2015.11.09-22.55.31:617][773]LogMemory: Virtual Memory: 2778.40 MB used, 134217728.00 MB total
+[2015.11.09-22.55.31:617][773]LogMemory: 
+[2015.11.09-22.55.31:617][773]Allocator Stats for TBB: (not implemented)
+[2015.11.09-22.55.31:617][773]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-22.55.31:649][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032357s)
+[2015.11.09-22.55.31:650][773]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-22.55.31:650][773]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2015.11.09-22.55.31:650][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.033709s)
+[2015.11.09-22.55.31:650][773]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-22.55.31:677][773]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-22.55.31:677][773]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2015.11.09-17.55.31
+[2015.11.09-22.55.31:677][773]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.55.31:677][773]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-22.55.31:678][773]LogWorld: Bringing up level for play took: 0.025567
+[2015.11.09-22.55.44:230][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.55.44:275][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-22.55.44:311][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A0483DE40
+[2015.11.09-22.55.54:753][250]LogActorFactory: Actor Factory created KidInBed
+[2015.11.09-22.55.55:285][270]LogActorFactory: Actor Factory created KidInBed
+[2015.11.09-22.56.04:131][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.09-22.56.28:331][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KidInBed)
+[2015.11.09-22.56.29:172][ 20]Cmd: DELETE
+[2015.11.09-22.56.29:172][ 20]Cmd: ACTOR DELETE
+[2015.11.09-22.56.29:177][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.09-22.56.29:177][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.56.29:206][ 20]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.11.09-22.56.35:547][364]LogSavePackage: Save=26.826199ms
+[2015.11.09-22.56.35:547][364]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert6FE4E036C41C99766C7BEB58BA78278D4.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert6.uasset'
+[2015.11.09-22.56.35:564][364]LogSavePackage: Total save time: 44.143390ms
+[2015.11.09-22.56.35:564][364]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert6.uasset
+[2015.11.09-22.56.35:674][364]LogSavePackage: Save=44.307323ms
+[2015.11.09-22.56.35:674][364]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert4BCF4653D473586B4CCD410B66B4322EF.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert4.uasset'
+[2015.11.09-22.56.35:687][364]LogSavePackage: Total save time: 58.611423ms
+[2015.11.09-22.56.35:687][364]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert4.uasset
+[2015.11.09-22.56.35:772][364]LogSavePackage: Save=26.751719ms
+[2015.11.09-22.56.35:772][364]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert5A233CEF848AE1A33D73F49B05152B623.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert5.uasset'
+[2015.11.09-22.56.35:786][364]LogSavePackage: Total save time: 41.235119ms
+[2015.11.09-22.56.35:786][364]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/lambert5.uasset
+[2015.11.09-22.56.43:944][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/blambert1" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert1.uasset" SILENT=true
+[2015.11.09-22.56.43:961][768]LogSavePackage: Save=14.168145ms
+[2015.11.09-22.56.43:961][768]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert1E926E0324C9095C557FA938B0D8938A9.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert1.uasset'
+[2015.11.09-22.56.43:968][768]LogSavePackage: Total save time: 22.018101ms
+[2015.11.09-22.56.43:968][768]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert1.uasset
+[2015.11.09-22.56.44:042][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.56.48:495][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/blambert2" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert2.uasset" SILENT=true
+[2015.11.09-22.56.48:512][991]LogSavePackage: Save=15.130080ms
+[2015.11.09-22.56.48:512][991]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert2878CC36C4DB1008D42CF338C166B168D.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert2.uasset'
+[2015.11.09-22.56.48:520][991]LogSavePackage: Total save time: 23.252737ms
+[2015.11.09-22.56.48:520][991]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert2.uasset
+[2015.11.09-22.56.48:555][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.56.52:787][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/blambert3" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert3.uasset" SILENT=true
+[2015.11.09-22.56.52:814][197]LogSavePackage: Save=23.621588ms
+[2015.11.09-22.56.52:814][197]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert365F04DAA4FC65B6045A394B8D0464B79.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert3.uasset'
+[2015.11.09-22.56.52:825][197]LogSavePackage: Total save time: 35.013087ms
+[2015.11.09-22.56.52:825][197]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/blambert3.uasset
+[2015.11.09-22.56.52:875][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.56.58:000][404]LogSavePackage: Save=17.589497ms
+[2015.11.09-22.56.58:000][404]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert37F8337D34D85DCB794A0B5B551C3368B.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert3.uasset'
+[2015.11.09-22.56.58:009][404]LogSavePackage: Total save time: 26.645318ms
+[2015.11.09-22.56.58:009][404]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert3.uasset
+[2015.11.09-22.56.58:057][404]LogSavePackage: Save=15.790548ms
+[2015.11.09-22.56.58:057][404]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert1896B386E45CB6987B6DAFC95C3310D65.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert1.uasset'
+[2015.11.09-22.56.58:066][404]LogSavePackage: Total save time: 25.289308ms
+[2015.11.09-22.56.58:066][404]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert1.uasset
+[2015.11.09-22.56.58:112][404]LogSavePackage: Save=16.571209ms
+[2015.11.09-22.56.58:112][404]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/blambert250FFB20045821A7443D769966BE533DF.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert2.uasset'
+[2015.11.09-22.56.58:121][404]LogSavePackage: Total save time: 25.567133ms
+[2015.11.09-22.56.58:121][404]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/blambert2.uasset
+[2015.11.09-22.56.58:159][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.57.15:470][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch2)
+[2015.11.09-22.57.34:502][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:503][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:505][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:506][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:507][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:508][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:509][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:510][462]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-22.57.34:582][462]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/LevelTransfer/LEVELTRANSFERBASE : Failed import for StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:KeyName
+[2015.11.09-22.57.57:033][777]Cmd: DELETE
+[2015.11.09-22.57.57:033][777]Cmd: ACTOR DELETE
+[2015.11.09-22.57.57:034][777]LogEditorActor: Deleted Actor: Circus_C
+[2015.11.09-22.57.57:035][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.57.57:084][777]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.11.09-22.58.13:937][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelPedestal)
+[2015.11.09-22.58.19:081][ 56]Cmd: DUPLICATE
+[2015.11.09-22.58.19:081][ 56]Cmd: ACTOR DUPLICATE
+[2015.11.09-22.58.28:646][619]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.09-22.59.06:588][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelPedestal2)
+[2015.11.09-22.59.41:763][534]BlueprintLog: New page: Compile Cave
+[2015.11.09-22.59.41:846][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-22.59.41:906][534]BlueprintEditorCompileResults: Info [2735.87] Compile of Cave successful! [in 143 ms]
+[2015.11.09-22.59.42:537][554]LogSavePackage: Save=36.319443ms
+[2015.11.09-22.59.42:537][554]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/CaveC2F2ED1744B620B38B81DAA594220DDC.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Cave.uasset'
+[2015.11.09-22.59.42:545][554]LogSavePackage: Total save time: 55.381596ms
+[2015.11.09-22.59.42:545][554]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Cave.uasset
+[2015.11.09-23.00.05:192][548]LogSavePackage: Save=50.015095ms
+[2015.11.09-23.00.05:192][548]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/CircusF33FBCE146B25CB2BAEA58B3014EFD4E.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Circus.uasset'
+[2015.11.09-23.00.05:200][548]LogSavePackage: Total save time: 57.695989ms
+[2015.11.09-23.00.05:200][548]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Circus.uasset
+[2015.11.09-23.00.05:795][571]BlueprintLog: New page: Compile Circus
+[2015.11.09-23.00.05:883][571]BlueprintEditorCompileResults: Info [2759.84] Compile of Circus successful! [in 88 ms]
+[2015.11.09-23.00.07:568][636]LogSavePackage: Save=36.771839ms
+[2015.11.09-23.00.07:568][636]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Cave4428C4E146A6F469B9B022BCBD6865E0.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Cave.uasset'
+[2015.11.09-23.00.07:577][636]LogSavePackage: Total save time: 53.995244ms
+[2015.11.09-23.00.07:577][636]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Cave.uasset
+[2015.11.09-23.00.08:109][656]BlueprintLog: New page: Compile Cave
+[2015.11.09-23.00.08:246][656]BlueprintEditorCompileResults: Info [2762.21] Compile of Cave successful! [in 136 ms]
+[2015.11.09-23.00.38:733][217]LogEditorViewport: Clicking on Actor (LMB): Cave_C (Level2)
+[2015.11.09-23.00.52:301][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelPedestal2)
+[2015.11.09-23.01.16:768][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.01.17:309][280]LogSavePackage: Save=461.773224ms
+[2015.11.09-23.01.17:309][280]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Hub_Auto2844D77F243EF9FC4E6C0C7BBEE7FBF62.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Hub_Auto2.umap'
+[2015.11.09-23.01.17:314][280]LogSavePackage: Total save time: 502.183959ms
+[2015.11.09-23.01.17:314][280]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Hub_Auto2.umap
+[2015.11.09-23.01.17:316][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.549
+[2015.11.09-23.01.17:316][280]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.549
+[2015.11.09-23.01.17:327][280]LogSavePackage: Save=1.821410ms
+[2015.11.09-23.01.17:327][280]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert5_Auto245E711424CA4808D270F0BA7EE58F920.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert5_Auto2.uasset'
+[2015.11.09-23.01.17:332][280]LogSavePackage: Total save time: 6.454147ms
+[2015.11.09-23.01.17:332][280]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert5_Auto2.uasset
+[2015.11.09-23.01.17:341][280]LogSavePackage: Save=1.758753ms
+[2015.11.09-23.01.17:341][280]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert2_Auto2989D9BFA451989A74D5750BF431F0726.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert2_Auto2.uasset'
+[2015.11.09-23.01.17:345][280]LogSavePackage: Total save time: 6.588917ms
+[2015.11.09-23.01.17:345][280]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/lambert2_Auto2.uasset
+[2015.11.09-23.01.17:345][280]LogFileHelpers: Auto-saving content packages took 0.027
+[2015.11.09-23.01.28:513][894]LogEditorViewport: Clicking on Actor (LMB): CaveText_C (Level2Text)
+[2015.11.09-23.01.29:586][951]LogEditorViewport: Clicking on Actor (LMB): Cave_C (Level2)
+[2015.11.09-23.01.30:478][999]Cmd: DELETE
+[2015.11.09-23.01.30:478][999]Cmd: ACTOR DELETE
+[2015.11.09-23.01.30:479][999]LogEditorActor: Deleted Actor: Cave_C
+[2015.11.09-23.01.30:512][999]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.11.09-23.01.33:166][157]LogEditorViewport: Clicking on Actor (LMB): Circus_C (Circus)
+[2015.11.09-23.02.06:268][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_QuadPyramid)
+[2015.11.09-23.02.07:767][976]LogEditorViewport: Clicking on Actor (LMB): CaveText_C (Level2Text)
+[2015.11.09-23.02.09:997][ 84]LogEditorViewport: Clicking on Actor (LMB): Circus_C (Circus)
+[2015.11.09-23.03.29:394][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelPedestal2)
+[2015.11.09-23.04.42:962][ 43]MapCheck: New page: Map Check
+[2015.11.09-23.04.42:997][ 43]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.09-23.04.42:997][ 43]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.09-23.04.43:220][ 43]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.09-23.04.43:220][ 43]LogStats:          STAT_HLOD_BuildClusters - 73.991 ms
+[2015.11.09-23.04.43:280][ 43]LightingResults: New page: Lighting Build - Nov 9, 2015, 1:04:43 PM
+[2015.11.09-23.04.47:326][ 43]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.09-23.04.47:326][ 43]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.09-23.04.47:326][ 43]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.09-23.04.47:326][ 43]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.09-23.04.47:326][ 43]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.09-23.04.47:894][ 43]LogEditorBuildUtils: Build time 0:00:04
+[2015.11.09-23.05.07:379][720]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (P_Portal)
+[2015.11.09-23.05.09:969][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LevelPedestal2)
+[2015.11.09-23.05.25:073][373]Cmd: DUPLICATE
+[2015.11.09-23.05.25:073][373]Cmd: ACTOR DUPLICATE
+[2015.11.09-23.05.28:335][488]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.09-23.05.36:269][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
+[2015.11.09-23.05.43:088][ 24]LogEditorViewport: Clicking on Actor (LMB): Circus_C (Circus2)
+[2015.11.09-23.05.44:848][ 91]Job is a success!
+[2015.11.09-23.05.45:648][ 92]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.09-23.05.45:758][ 92]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.09-23.05.45:766][ 92]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.09-23.05.45:769][ 92]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.11.09-23.05.45:775][ 92]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.09-23.05.45:801][ 92]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.09-23.05.45:862][ 92]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.11.09-23.05.45:883][ 92]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.09-23.05.45:978][ 92]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.09-23.05.46:167][ 92]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.11.09-23.05.46:229][ 92]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.09-23.05.46:618][ 92]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.09-23.05.47:318][ 92]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.11.09-23.05.47:526][ 92]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.09-23.05.47:606][ 92]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.09-23.05.47:885][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.11.09-23.05.48:015][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.11.09-23.05.48:147][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.11.09-23.05.48:179][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.11.09-23.05.48:185][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.11.09-23.05.48:189][ 92]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.11.09-23.05.48:329][ 92]Lightmass on NICKSCOMPUTER: 58.5 sec total, 245 ms importing, 70 ms setup, 1.27 sec photons, 56.9 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 6:38 min total, 5:17 min processing.
+[2015.11.09-23.05.48:425][ 92]LogStaticLightingSystem: Illumination: 1:05 min (2.87 sec encoding lightmaps)
+[2015.11.09-23.05.48:426][ 92]LogStaticLightingSystem: Lightmap texture memory:  3.1 MB (1.8 MB streaming, 1.3 MB non-streaming), 10 textures
+[2015.11.09-23.05.48:426][ 92]LogStaticLightingSystem: Shadowmap texture memory: 6.1 MB (3.4 MB streaming, 2.7 MB non-streaming), 6 textures
+[2015.11.09-23.05.49:376][ 93]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.09-23.05.49:376][ 93]MapCheck: New page: Hub - Nov 9, 2015, 1:05:49 PM
+[2015.11.09-23.05.49:383][ 93]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.11.09-23.05.51:743][ 93]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 2,367.038ms to complete.
+[2015.11.09-23.05.51:750][ 93]LogEditorViewport: Clicking Background
+[2015.11.09-23.05.51:813][ 93]LogEditorViewport: Clicking on Actor (LMB): CaveText_C (Level2Text2)
+[2015.11.09-23.06.42:379][439]LogEditorViewport: Clicking on Actor (LMB): Circus_C (Circus2)
+[2015.11.09-23.07.16:573][180]LogEditorViewport: Clicking on Actor (LMB): Circus_C (FinalLevel)
+[2015.11.09-23.09.57:530][665]BlueprintLog: New page: Compile Final
+[2015.11.09-23.09.57:652][665]BlueprintEditorCompileResults: Info [3351.61] Compile of Final successful! [in 122 ms]
+[2015.11.09-23.09.58:354][683]LogSavePackage: Save=62.465076ms
+[2015.11.09-23.09.58:355][683]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/FinalD52925E249270C54E787BF8A434F21AB.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Final.uasset'
+[2015.11.09-23.09.58:364][683]LogSavePackage: Total save time: 72.820161ms
+[2015.11.09-23.09.58:364][683]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/LevelTransfer/Final.uasset
+[2015.11.09-23.10.11:903][197]LogEditorViewport: Clicking on Actor (LMB): Circus_C (FinalLevel)
+[2015.11.09-23.10.14:680][340]Cmd: DELETE
+[2015.11.09-23.10.14:680][340]Cmd: ACTOR DELETE
+[2015.11.09-23.10.14:681][340]LogEditorActor: Deleted Actor: Circus_C
+[2015.11.09-23.10.14:714][340]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.11.09-23.12.50:071][386]BlueprintLog: New page: Compile myHUD
+[2015.11.09-23.12.50:130][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.12.50:167][386]BlueprintEditorCompileResults: Info [3524.13] Compile of myHUD successful! [in 95 ms]
+[2015.11.09-23.12.52:114][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/HUD/myHUD" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset" SILENT=true
+[2015.11.09-23.12.52:145][463]LogSavePackage: Save=20.288509ms
+[2015.11.09-23.12.52:145][463]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/myHUDF88BF678427CE7F7B1BBBCB89BC12BEB.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset'
+[2015.11.09-23.12.52:153][463]LogSavePackage: Total save time: 36.974397ms
+[2015.11.09-23.12.52:153][463]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset
+[2015.11.09-23.12.52:765][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.12.52:765][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-23.12.52:765][486]PIE: New page: PIE session: Hub (Nov 9, 2015, 1:12:52 PM)
+[2015.11.09-23.12.52:765][486]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-23.12.52:804][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039095s)
+[2015.11.09-23.12.52:806][486]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-23.12.52:807][486]LogPlayLevel: PIE: World Init took: (0.002102s)
+[2015.11.09-23.12.52:807][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.041495s)
+[2015.11.09-23.12.52:845][486]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-23.12.52:853][486]LogInit: FAudioDevice initialized.
+[2015.11.09-23.12.52:897][486]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.12.52:940][486]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-23.12.52:940][486]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.09-18.12.52
+[2015.11.09-23.12.52:940][486]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.12.52:941][486]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.12.52:942][486]LogWorld: Bringing up level for play took: 0.041499
+[2015.11.09-23.12.52:946][486]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub 0.494
+[2015.11.09-23.12.52:947][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.13.08:317][368]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Cave.umap.
+[2015.11.09-23.13.08:450][369]LogPackageName: SearchForPackageOnDisk took   0.118s to resolve Cave.umap.
+[2015.11.09-23.13.08:450][369]LogNet: Browse: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-23.13.08:450][369]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Cave
+[2015.11.09-23.13.08:492][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A1479B560
+[2015.11.09-23.13.08:498][369]Cmd: MEM
+[2015.11.09-23.13.08:530][369]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-23.13.08:530][369]LogMemory: Process Physical Memory: 1228.59 MB used, 1237.18 MB peak
+[2015.11.09-23.13.08:530][369]LogMemory: Process Virtual Memory: 2593.92 MB used, 2605.18 MB peak
+[2015.11.09-23.13.08:530][369]LogMemory: Physical Memory: 6224.99 MB used, 16269.45 MB total
+[2015.11.09-23.13.08:530][369]LogMemory: Virtual Memory: 3695.84 MB used, 134217728.00 MB total
+[2015.11.09-23.13.08:531][369]LogMemory: 
+[2015.11.09-23.13.08:531][369]Allocator Stats for TBB: (not implemented)
+[2015.11.09-23.13.08:705][369]LogAIModule: Creating AISystem for world Cave
+[2015.11.09-23.13.08:706][369]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.13.08:722][369]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.09-18.13.08
+[2015.11.09-23.13.08:722][369]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.13.08:722][369]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.13.08:723][369]LogWorld: Bringing up level for play took: 0.015411
+[2015.11.09-23.13.36:012][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.13.36:052][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.13.36:122][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009C25D8C20
+[2015.11.09-23.14.26:220][ 93]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.26:225][ 93]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.28:057][167]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.28:071][167]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.29:505][216]MaterialEditorStats: Info Base pass shader with static lighting: 68 instructions
+[2015.11.09-23.14.29:505][216]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 36 instructions
+[2015.11.09-23.14.29:505][216]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.14.29:505][216]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.14.37:505][476]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.37:512][476]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.38:741][519]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.11.09-23.14.38:741][519]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.09-23.14.38:741][519]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.14.38:741][519]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.14.39:030][528]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.39:037][528]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.39:063][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.11.09-23.14.40:205][570]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.11.09-23.14.40:205][570]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.09-23.14.40:205][570]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.14.40:205][570]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.14.40:989][596]LogMaterialEditor: Applying material phongE1
+[2015.11.09-23.14.42:672][596]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.42:704][596]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.42:772][596]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.42:850][596]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.14.42:869][596]LogMaterial: 0.002601 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.14.46:666][723]MaterialEditorStats: Info Base pass shader with static lighting: 98 instructions
+[2015.11.09-23.14.46:666][723]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.11.09-23.14.46:666][723]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.14.46:666][723]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.09-23.15.04:361][401]LogActorFactory: Actor Factory created Mushroom
+[2015.11.09-23.15.04:706][414]LogActorFactory: Actor Factory created Mushroom
+[2015.11.09-23.15.06:097][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.06:097][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-23.15.06:097][468]PIE: New page: PIE session: Hub (Nov 9, 2015, 1:15:06 PM)
+[2015.11.09-23.15.06:097][468]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-23.15.06:148][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050952s)
+[2015.11.09-23.15.06:150][468]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-23.15.06:150][468]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2015.11.09-23.15.06:150][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.052985s)
+[2015.11.09-23.15.06:189][468]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-23.15.06:196][468]LogInit: FAudioDevice initialized.
+[2015.11.09-23.15.06:234][468]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.15.06:255][468]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-23.15.06:255][468]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.09-18.15.06
+[2015.11.09-23.15.06:255][468]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.15.06:255][468]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.15.06:256][468]LogWorld: Bringing up level for play took: 0.020028
+[2015.11.09-23.15.06:259][468]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub -0.194
+[2015.11.09-23.15.06:259][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.17:684][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.17:737][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.17:831][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A3DBF32E0
+[2015.11.09-23.15.20:247][251]Cmd: TRANSACTION UNDO
+[2015.11.09-23.15.20:247][251]LogEditorTransaction: Undo Create Pin Link
+[2015.11.09-23.15.20:252][251]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.15.20:274][251]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.15.20:281][251]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.15.20:306][251]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.11.09-23.15.22:098][333]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.11.09-23.15.22:098][333]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.09-23.15.22:098][333]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.15.22:098][333]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.15.23:550][398]Cmd: TRANSACTION REDO
+[2015.11.09-23.15.23:550][398]LogEditorTransaction: Redo Create Pin Link
+[2015.11.09-23.15.23:556][398]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.15.23:567][398]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.15.23:575][398]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.15.23:607][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2015.11.09-23.15.24:699][444]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.11.09-23.15.24:699][444]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.09-23.15.24:699][444]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.15.24:699][444]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.15.27:954][595]LogActorFactory: Actor Factory created Mushroom
+[2015.11.09-23.15.28:642][621]LogActorFactory: Actor Factory created Mushroom
+[2015.11.09-23.15.29:772][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.29:772][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-23.15.29:772][670]PIE: New page: PIE session: Hub (Nov 9, 2015, 1:15:29 PM)
+[2015.11.09-23.15.29:772][670]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-23.15.29:812][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039078s)
+[2015.11.09-23.15.29:813][670]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-23.15.29:813][670]LogPlayLevel: PIE: World Init took: (0.001358s)
+[2015.11.09-23.15.29:814][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.040809s)
+[2015.11.09-23.15.29:814][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.15.29:855][670]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-23.15.29:863][670]LogInit: FAudioDevice initialized.
+[2015.11.09-23.15.29:901][670]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.15.29:928][670]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-23.15.29:928][670]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.09-18.15.29
+[2015.11.09-23.15.29:928][670]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.15.29:929][670]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.15.29:929][670]LogWorld: Bringing up level for play took: 0.026381
+[2015.11.09-23.15.29:934][670]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub -0.518
+[2015.11.09-23.15.29:934][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.49:712][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.49:775][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.15.49:802][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009ADF34EA0
+[2015.11.09-23.16.39:079][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.16.39:607][102]LogSavePackage: Save=398.898712ms
+[2015.11.09-23.16.39:607][102]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Hub_Auto35485B1EC4E368A3E2A5376B34228EA23.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Hub_Auto3.umap'
+[2015.11.09-23.16.39:613][102]LogSavePackage: Total save time: 436.163940ms
+[2015.11.09-23.16.39:613][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Hub_Auto3.umap
+[2015.11.09-23.16.39:616][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.537
+[2015.11.09-23.16.39:616][102]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.537
+[2015.11.09-23.16.39:625][102]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Materials/phongE1] ([1] browsable assets)...
+[2015.11.09-23.16.39:655][102]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/Materials/phongE1.phongE1]
+[2015.11.09-23.16.39:655][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Materials/phongE1]
+[2015.11.09-23.16.39:683][102]LogSavePackage: Save=14.655615ms
+[2015.11.09-23.16.39:683][102]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/phongE1_Auto3C9E6332C4286C4544CA231B1F72E5B1D.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/Materials/phongE1_Auto3.uasset'
+[2015.11.09-23.16.39:701][102]LogSavePackage: Total save time: 43.294162ms
+[2015.11.09-23.16.39:701][102]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/Materials/phongE1_Auto3.uasset
+[2015.11.09-23.16.39:701][102]LogFileHelpers: Auto-saving content packages took 0.084
+[2015.11.09-23.17.05:108][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mushroom)
+[2015.11.09-23.17.11:736][676]Cmd: DELETE
+[2015.11.09-23.17.11:736][676]Cmd: ACTOR DELETE
+[2015.11.09-23.17.11:737][676]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.09-23.17.11:774][676]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.11.09-23.17.13:586][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.17.13:586][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.09-23.17.13:586][775]PIE: New page: PIE session: Hub (Nov 9, 2015, 1:17:13 PM)
+[2015.11.09-23.17.13:586][775]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
+[2015.11.09-23.17.13:618][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032470s)
+[2015.11.09-23.17.13:620][775]LogAIModule: Creating AISystem for world Hub
+[2015.11.09-23.17.13:620][775]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2015.11.09-23.17.13:620][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.034384s)
+[2015.11.09-23.17.13:658][775]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.09-23.17.13:667][775]LogInit: FAudioDevice initialized.
+[2015.11.09-23.17.13:717][775]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.17.13:785][775]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.09-23.17.13:785][775]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.09-18.17.13
+[2015.11.09-23.17.13:785][775]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.17.13:785][775]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.17.13:787][775]LogWorld: Bringing up level for play took: 0.066381
+[2015.11.09-23.17.13:797][775]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub -0.656
+[2015.11.09-23.17.13:797][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.17.23:474][347]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:474][347]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:490][348]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:490][348]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:507][349]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:507][349]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:524][350]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:524][350]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:540][351]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:541][351]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:557][352]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:557][352]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:574][353]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:574][353]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:590][354]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:590][354]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:607][355]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:607][355]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:624][356]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:624][356]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:641][357]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:641][357]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:658][358]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:658][358]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:674][359]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:674][359]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:691][360]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:691][360]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:708][361]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:708][361]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:724][362]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:724][362]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:740][363]LogScript:Warning: Accessed None 'MatineeFade'
+	Circus_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.Circus_344
+	Function /Game/ThirdPersonBP/Blueprints/LevelTransfer/Circus.Circus_C:ExecuteUbergraph_Circus:015E
+[2015.11.09-23.17.23:741][363]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:757][364]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:774][365]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:790][366]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:807][367]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:824][368]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:841][369]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:857][370]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:874][371]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:891][372]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:907][373]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:924][374]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:941][375]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:957][376]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:974][377]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.23:991][378]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:008][379]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:024][380]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:041][381]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:058][382]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:074][383]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:091][384]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:108][385]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:124][386]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:141][387]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:158][388]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:174][389]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:191][390]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:208][391]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:224][392]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:241][393]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:258][394]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:274][395]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:291][396]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:308][397]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:324][398]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:341][399]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:358][400]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:374][401]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:391][402]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:408][403]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:424][404]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:441][405]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:458][406]PIE:Error: Error Accessed None 'MatineeFade' from node Play in graph 'EventGraph' in blueprint Circus
+[2015.11.09-23.17.24:546][406]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve Circus.umap.
+[2015.11.09-23.17.24:644][407]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Circus.umap.
+[2015.11.09-23.17.24:644][407]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.09-23.17.24:644][407]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.09-23.17.24:677][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009B977D3A0
+[2015.11.09-23.17.24:681][407]Cmd: MEM
+[2015.11.09-23.17.24:710][407]LogMemory: Platform Memory Stats for Windows
+[2015.11.09-23.17.24:710][407]LogMemory: Process Physical Memory: 1255.24 MB used, 1269.22 MB peak
+[2015.11.09-23.17.24:710][407]LogMemory: Process Virtual Memory: 2631.00 MB used, 2743.49 MB peak
+[2015.11.09-23.17.24:710][407]LogMemory: Physical Memory: 6298.45 MB used, 16269.45 MB total
+[2015.11.09-23.17.24:710][407]LogMemory: Virtual Memory: 3739.96 MB used, 134217728.00 MB total
+[2015.11.09-23.17.24:710][407]LogMemory: 
+[2015.11.09-23.17.24:710][407]Allocator Stats for TBB: (not implemented)
+[2015.11.09-23.17.24:718][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:720][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:721][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:722][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:723][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:723][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:724][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:725][407]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.17.24:907][407]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.09-23.17.24:910][407]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.09-23.17.24:925][407]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2015.11.09-23.17.24:994][407]LogAIModule: Creating AISystem for world Circus
+[2015.11.09-23.17.24:996][407]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.09-23.17.25:027][407]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.09-18.17.25
+[2015.11.09-23.17.25:028][407]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.17.25:028][407]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.09-23.17.25:029][407]LogWorld: Bringing up level for play took: 0.030751
+[2015.11.09-23.17.25:030][407]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.09-23.17.25:049][408]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for ParticleSystemComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Flash_GEN_VARIABLE
+[2015.11.09-23.17.25:049][408]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for PointLightComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IlluminateLight_GEN_VARIABLE
+[2015.11.09-23.17.25:049][408]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for StaticMeshComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Sphere_GEN_VARIABLE
+[2015.11.09-23.18.00:493][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.18.00:528][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2015.11.09-23.18.00:598][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009C1DC7EC0
+[2015.11.09-23.18.06:767][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:769][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:771][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:772][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:774][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:775][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:776][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:778][814]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.09-23.18.06:943][814]LogAIModule: Creating AISystem for world Circus
+[2015.11.09-23.18.06:946][814]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=NULL Component=/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1.Flash
+[2015.11.09-23.18.07:008][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.18.08:303][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/KidInBed" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/KidInBed.uasset" SILENT=true
+[2015.11.09-23.18.08:322][814]LogSavePackage: Save=15.766904ms
+[2015.11.09-23.18.08:322][814]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/KidInBedB33CDDDD45619B0CAF1C4F9406676A39.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/KidInBed.uasset'
+[2015.11.09-23.18.08:330][814]LogSavePackage: Total save time: 24.642635ms
+[2015.11.09-23.18.08:330][814]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/KidInBed.uasset
+[2015.11.09-23.18.08:335][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/lambert2" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert2.uasset" SILENT=true
+[2015.11.09-23.18.08:349][814]LogSavePackage: Save=6.914423ms
+[2015.11.09-23.18.08:349][814]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert2EBB7EC58424CC337E945C5885A246C7A.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert2.uasset'
+[2015.11.09-23.18.08:376][814]LogSavePackage: Total save time: 33.961304ms
+[2015.11.09-23.18.08:376][814]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert2.uasset
+[2015.11.09-23.18.08:385][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/lambert5" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert5.uasset" SILENT=true
+[2015.11.09-23.18.08:399][814]LogSavePackage: Save=6.177505ms
+[2015.11.09-23.18.08:399][814]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/lambert56E33D870439BD71F2C19E5879F53EFF2.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert5.uasset'
+[2015.11.09-23.18.08:421][814]LogSavePackage: Total save time: 30.243605ms
+[2015.11.09-23.18.08:421][814]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/lambert5.uasset
+[2015.11.09-23.18.08:472][814]LogSavePackage: Save=10.714086ms
+[2015.11.09-23.18.08:472][814]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/phongE196DB8C594D884E8E1174C3B3AB620937.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/phongE1.uasset'
+[2015.11.09-23.18.08:488][814]LogSavePackage: Total save time: 50.164841ms
+[2015.11.09-23.18.08:488][814]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/phongE1.uasset
+[2015.11.09-23.18.09:355][814]LogSavePackage: Save=623.116638ms
+[2015.11.09-23.18.09:355][814]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Hub2D053BA14CAB28B7ABCF0BB65EA06210.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap'
+[2015.11.09-23.18.09:364][814]LogSavePackage: Total save time: 645.595785ms
+[2015.11.09-23.18.09:364][814]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap
+[2015.11.09-23.18.09:459][814]LogFileHelpers: Saving map 'Hub' took 0.971
+[2015.11.09-23.18.09:461][814]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.09-23.18.09:461][814]LightingResults: New page: Lighting Build
+[2015.11.09-23.18.09:679][814]LoadErrors: New page: Loading map: Circus.umap
+[2015.11.09-23.18.09:682][814]MapCheck: New page: Map Check
+[2015.11.09-23.18.09:682][814]LightingResults: New page: Lighting Build
+[2015.11.09-23.18.09:758][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009FBE16160
+[2015.11.09-23.18.09:918][814]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.09-23.18.09:977][814]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.09-23.18.10:160][814]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 183.007ms to complete.
+[2015.11.09-23.18.10:161][814]LogFileHelpers: Loading map 'Circus' took 0.702
+[2015.11.09-23.18.10:170][814]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for ParticleSystemComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Flash_GEN_VARIABLE
+[2015.11.09-23.18.10:170][814]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for PointLightComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:IlluminateLight_GEN_VARIABLE
+[2015.11.09-23.18.10:170][814]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/Circus : Failed import for StaticMeshComponent /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:Sphere_GEN_VARIABLE
+[2015.11.09-23.18.14:151][ 17]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2015.11.09-23.18.15:154][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.11.09-23.18.20:234][317]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.20:387][317]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.20:394][317]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.18.20:418][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.11.09-23.18.22:057][357]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.11.09-23.18.22:057][357]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.09-23.18.22:057][357]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.18.22:057][357]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.18.24:753][464]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.24:761][464]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.18.24:790][464]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.11.09-23.18.25:854][494]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.11.09-23.18.25:854][494]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.11.09-23.18.25:854][494]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.18.25:854][494]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.11.09-23.18.25:891][495]LogMaterialEditor: Applying material BasicShapeMaterial
+[2015.11.09-23.18.26:549][495]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.26:571][495]LogMaterial: 0.000214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.18.26:646][495]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.26:728][495]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2015.11.09-23.18.26:746][495]LogMaterial: 0.002173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.18.29:910][600]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.11.09-23.18.29:910][600]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.11.09-23.18.29:910][600]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.09-23.18.29:910][600]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.11.09-23.19.06:788][929]LogAIModule: Creating AISystem for world Cave
+[2015.11.09-23.19.06:790][929]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.BackToHub_926.P_Portal
+[2015.11.09-23.19.06:793][929]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.BackToHub_926.P_Portal
+[2015.11.09-23.19.06:793][929]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.BackToHub_926.P_Portal
+[2015.11.09-23.19.06:804][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.19.08:236][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/BasicShapes/BasicShapeMaterial" FILE="../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" SILENT=true
+[2015.11.09-23.19.08:260][929]LogSavePackage: Save=13.531715ms
+[2015.11.09-23.19.08:260][929]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/BasicShapeMaterial9D25020F41DDC0FAA77105AA15F5EA94.tmp' to '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'
+[2015.11.09-23.19.08:267][929]LogSavePackage: Total save time: 30.137207ms
+[2015.11.09-23.19.08:267][929]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2015.11.09-23.19.08:269][929]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.09-23.19.08:269][929]LightingResults: New page: Lighting Build
+[2015.11.09-23.19.08:296][929]LoadErrors: New page: Loading map: Cave.umap
+[2015.11.09-23.19.08:297][929]MapCheck: New page: Map Check
+[2015.11.09-23.19.08:298][929]LightingResults: New page: Lighting Build
+[2015.11.09-23.19.08:325][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009ADFB0CC0
+[2015.11.09-23.19.08:440][929]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.09-23.19.08:498][929]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.09-23.19.08:652][929]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 153.735ms to complete.
+[2015.11.09-23.19.08:655][929]LogFileHelpers: Loading map 'Cave' took 0.387
+[2015.11.09-23.19.08:707][929]LoadErrors:Error: Error /Game/ThirdPersonBP/Blueprints/LevelTransfer/BackToHub : Failed import for StructProperty /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:KeyName
+[2015.11.09-23.19.29:978][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2015.11.09-23.20.19:334][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube33)
+[2015.11.09-23.21.06:720][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2015.11.09-23.21.07:455][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2015.11.09-23.21.21:197][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.09-23.23.22:701][ 62]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.23.22:728][ 62]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.23.22:776][ 62]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.23.22:839][ 62]LogMaterial: Missing cached shader map for material phongE1, compiling. 
+[2015.11.09-23.23.22:858][ 62]LogMaterial: 0.002055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.09-23.23.22:872][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.23.26:347][ 62]LogSavePackage: Save=17.111879ms
+[2015.11.09-23.23.26:347][ 62]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/phongE11FAAFE6C4C4C7359B1EC7A9CFBF4610A.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/phongE1.uasset'
+[2015.11.09-23.23.26:357][ 62]LogSavePackage: Total save time: 47.276277ms
+[2015.11.09-23.23.26:357][ 62]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/Materials/phongE1.uasset
+[2015.11.09-23.23.26:588][ 62]LogSavePackage: Save=133.470520ms
+[2015.11.09-23.23.26:588][ 62]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/ThirdPersonCharacterEDFB6CBA4D40A1217DB34F86CB45BAEC.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.11.09-23.23.26:595][ 62]LogSavePackage: Total save time: 176.706754ms
+[2015.11.09-23.23.26:595][ 62]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2015.11.09-23.23.26:831][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.09-23.23.27:123][ 62]LogSavePackage: Save=242.046600ms
+[2015.11.09-23.23.27:123][ 62]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/CaveFB8476A2457D08607A2D2EAACCFB836A.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap'
+[2015.11.09-23.23.27:131][ 62]LogSavePackage: Total save time: 266.988728ms
+[2015.11.09-23.23.27:131][ 62]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap
+[2015.11.09-23.23.27:192][ 62]LogFileHelpers: Saving map 'Cave' took 0.593
+[2015.11.09-23.23.27:769][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.09-23.23.27:844][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.09-23.23.27:946][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.09-23.23.28:035][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.09-23.23.28:268][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.09-23.23.28:333][ 62]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.09-23.23.28:334][ 62]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.09-23.23.28:747][ 63]Cmd: QUIT_EDITOR
+[2015.11.09-23.23.30:440][ 63]LogExit: Preparing to exit.
+[2015.11.09-23.23.31:533][ 63]LogExit: Editor shut down
+[2015.11.09-23.23.31:534][ 63]LogExit: Transaction tracking system shut down
+[2015.11.09-23.23.31:550][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009818A9F80
+[2015.11.09-23.23.31:552][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A184FD760
+[2015.11.09-23.23.31:554][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009F9B07060
+[2015.11.09-23.23.31:554][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000099CB65E40
+[2015.11.09-23.23.31:555][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000999E57100
+[2015.11.09-23.23.31:555][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A0DE68E0
+[2015.11.09-23.23.31:555][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A0DE6AC0
+[2015.11.09-23.23.31:558][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000A0046C7C0
+[2015.11.09-23.23.31:559][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000985F2BCE0
+[2015.11.09-23.23.31:586][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A65F87C0
+[2015.11.09-23.23.31:587][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000098D58CB80
+[2015.11.09-23.23.31:594][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009C28B22A0
+[2015.11.09-23.23.31:603][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000999081260
+[2015.11.09-23.23.31:605][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009BA8B51C0
+[2015.11.09-23.23.31:606][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000099917D6C0
+[2015.11.09-23.23.31:607][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009BAA7FF60
+[2015.11.09-23.23.31:609][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009FC942A20
+[2015.11.09-23.23.31:986][ 63]LogExit: Object subsystem successfully closed.
+[2015.11.09-23.23.32:005][ 63]LogD3D11RHI: Shutdown
+[2015.11.09-23.23.32:005][ 63]LogD3D11RHI: CleanupD3DDevice
+[2015.11.09-23.23.32:260][ 63]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (200)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module SynthBenchmark (198)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.09-23.23.32:327][ 63]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.09-23.23.32:331][ 63]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.09-23.23.32:331][ 63]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.09-23.23.32:331][ 63]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.09-23.23.32:331][ 63]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.09-23.23.32:331][ 63]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.09-23.23.32:332][ 63]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.09-23.23.32:333][ 63]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.09-23.23.32:333][ 63]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.09-23.23.32:333][ 63]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.09-23.23.32:333][ 63]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.09-23.23.32:333][ 63]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.09-23.23.32:412][ 63]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.09-23.23.32:412][ 63]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.09-23.23.32:412][ 63]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.09-23.23.32:412][ 63]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.09-23.23.32:413][ 63]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.09-23.23.32:413][ 63]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.09-23.23.32:414][ 63]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.09-23.23.32:415][ 63]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.09-23.23.32:416][ 63]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.09-23.23.32:416][ 63]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.09-23.23.32:416][ 63]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.09-23.23.32:416][ 63]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.09-23.23.32:416][ 63]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.09-23.23.32:417][ 63]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.09-23.23.32:417][ 63]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.09-23.23.32:417][ 63]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.09-23.23.32:417][ 63]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.09-23.23.32:418][ 63]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.09-23.23.32:419][ 63]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.09-23.23.32:420][ 63]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.09-23.23.32:420][ 63]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.09-23.23.32:420][ 63]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.09-23.23.32:421][ 63]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.09-23.23.32:421][ 63]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.09-23.23.32:421][ 63]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.09-23.23.32:421][ 63]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.09-23.23.32:421][ 63]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.09-23.23.32:422][ 63]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.09-23.23.32:423][ 63]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.09-23.23.32:423][ 63]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.09-23.23.32:423][ 63]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.09-23.23.32:424][ 63]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.09-23.23.32:661][ 63]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.09-23.23.32:661][ 63]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.09-23.23.32:662][ 63]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.09-23.23.32:706][ 63]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.09-23.23.32:707][ 63]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.09-23.23.32:707][ 63]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.09-23.23.32:707][ 63]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.09-23.23.32:707][ 63]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.09-23.23.32:707][ 63]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.09-23.23.32:710][ 63]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.09-23.23.32:711][ 63]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.09-23.23.32:713][ 63]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.09-23.23.32:717][ 63]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.09-23.23.32:884][ 63]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.09-23.23.32:885][ 63]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.09-23.23.32:885][ 63]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.09-23.23.32:987][ 63]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.09-23.23.32:988][ 63]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.09-23.23.32:989][ 63]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.09-23.23.32:989][ 63]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.09-23.23.32:989][ 63]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.09-23.23.32:989][ 63]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.09-23.23.32:989][ 63]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.09-23.23.32:990][ 63]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.09-23.23.32:990][ 63]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.09-23.23.32:990][ 63]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.09-23.23.32:990][ 63]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.09-23.23.32:990][ 63]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.09-23.23.32:998][ 63]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.09-23.23.32:999][ 63]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.09-23.23.33:009][ 63]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.09-23.23.33:055][ 63]LogDerivedDataCache: Shutdown
+[2015.11.09-23.23.33:055][ 63]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.09-23.23.33:056][ 63]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.09-23.23.33:056][ 63]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.09-23.23.33:058][ 63]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.09-23.23.33:059][ 63]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.09-23.23.35:065][ 63]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.09-23.23.35:070][ 63]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.09-23.23.35:070][ 63]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.09-23.23.35:070][ 63]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.09-23.23.35:070][ 63]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.09-23.23.35:070][ 63]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.09-23.23.35:082][ 63]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.09-23.23.35:083][ 63]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.09-23.23.35:084][ 63]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.09-23.23.35:084][ 63]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.09-23.23.35:085][ 63]LogExit: Exiting.
+[2015.11.09-23.23.35:171][ 63]Log file closed, 11/09/15 18:23:35
