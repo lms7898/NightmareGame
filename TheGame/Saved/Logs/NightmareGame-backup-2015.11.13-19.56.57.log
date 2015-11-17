@@ -1,0 +1,608 @@
+﻿[2015.11.13-17.05.14:987][  0]Log file open, 11/13/15 12:05:14
+[2015.11.13-17.05.14:987][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.13-17.05.14:987][  0]LogInit:Display: RandInit(407215967) SRandInit(407215967).
+[2015.11.13-17.05.14:987][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.13-17.05.14:987][  0]LogStats: Stats thread started at 0.100281
+[2015.11.13-17.05.14:987][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.13-17.05.14:987][  0]LogInit: API Version: 2672455
+[2015.11.13-17.05.14:987][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.13-17.05.14:987][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.13-17.05.14:987][  0]LogInit: Build Configuration: Development
+[2015.11.13-17.05.14:987][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.13-17.05.14:987][  0]LogInit: Command line:  
+[2015.11.13-17.05.14:987][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.13-17.05.14:987][  0]LogInit: Rocket: 1
+[2015.11.13-17.05.15:002][  0]LogInit: Using libcurl 7.41.0
+[2015.11.13-17.05.15:002][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.13-17.05.15:002][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.13-17.05.15:002][  0]LogInit:  - other features:
+[2015.11.13-17.05.15:002][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.13-17.05.15:002][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.13-17.05.15:002][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.13-17.05.15:002][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.13-17.05.15:002][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.13-17.05.15:002][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.13-17.05.15:002][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.13-17.05.15:002][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.13-17.05.15:002][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.13-17.05.15:002][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.13-17.05.15:011][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.13-17.05.15:023][  0]LogInit: Object subsystem initialized
+[2015.11.13-17.05.15:026][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.13-17.05.15:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.13-17.05.15:049][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.13-17.05.15:049][  0]LogInit: User: ntanc000
+[2015.11.13-17.05.15:049][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.13-17.05.15:049][  0]LogInit: High frequency timer resolution =2.537590 MHz
+[2015.11.13-17.05.15:049][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.13-17.05.15:049][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.13-17.05.15:049][  0]LogMemory: Process Physical Memory: 52.96 MB used, 52.96 MB peak
+[2015.11.13-17.05.15:049][  0]LogMemory: Process Virtual Memory: 54.98 MB used, 54.98 MB peak
+[2015.11.13-17.05.15:050][  0]LogMemory: Physical Memory: 2577.54 MB used, 16269.45 MB total
+[2015.11.13-17.05.15:050][  0]LogMemory: Virtual Memory: 360.18 MB used, 134217728.00 MB total
+[2015.11.13-17.05.15:445][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.13-17.05.16:488][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.13-17.05.16:488][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.11.13-17.05.16:498][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.13-17.05.16:498][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.13-17.05.16:499][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.13-17.05.16:499][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.13-17.05.16:499][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.13-17.05.16:503][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.13-17.05.16:503][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.13-17.05.16:522][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.13-17.05.16:539][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/6840/).
+[2015.11.13-17.05.16:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/C39E4BE14D9C3FAD93A54D85EFBACF1B/'.
+[2015.11.13-17.05.16:539][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.13-17.05.20:720][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.13-17.05.20:729][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.13-17.05.20:738][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.13-17.05.20:746][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.13-17.05.20:755][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.13-17.05.20:767][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.13-17.05.20:774][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.13-17.05.20:780][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.13-17.05.20:784][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.13-17.05.20:789][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.13-17.05.20:794][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.13-17.05.20:799][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.13-17.05.20:800][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.13-17.05.20:829][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.13-17.05.20:860][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.13-17.05.20:881][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.13-17.05.20:901][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.13-17.05.20:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.13-17.05.21:139][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.13-17.05.21:301][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.13-17.05.21:476][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.13-17.05.21:489][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.13-17.05.25:230][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.13-17.05.25:233][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.13-17.05.25:432][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.13-17.05.25:432][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.13-17.05.26:015][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.13-17.05.29:802][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.13-17.05.29:950][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.11.13-17.05.30:288][  0]SourceControl: Info Source control is disabled
+[2015.11.13-17.05.30:720][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.30:866][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.13-17.05.30:866][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.13-17.05.30:940][  0]LogEngine: Initializing Engine...
+[2015.11.13-17.05.30:942][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.13-17.05.30:953][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.13-17.05.31:168][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.13-17.05.31:176][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.13-17.05.31:194][  0]LogInit: FAudioDevice initialized.
+[2015.11.13-17.05.31:217][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.13-17.05.31:220][  0]LogInit: Texture streaming: Enabled
+[2015.11.13-17.05.31:227][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.13-17.05.31:227][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.13-17.05.31:227][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.13-17.05.31:227][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.13-17.05.31:269][  0]LogInit: Transaction tracking system initialized
+[2015.11.13-17.05.31:303][  0]BlueprintLog: New page: Editor Load
+[2015.11.13-17.05.31:415][  0]LocalizationService: Info Localization service is disabled
+[2015.11.13-17.05.31:528][  0]LogConsoleResponse:Display: 
+[2015.11.13-17.05.31:819][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.13-17.05.31:910][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.02s
+[2015.11.13-17.05.31:910][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.13-17.05.31:915][  0]LightingResults: New page: Lighting Build
+[2015.11.13-17.05.31:918][  0]MapCheck: New page: Map Check
+[2015.11.13-17.05.31:918][  0]LightingResults: New page: Lighting Build
+[2015.11.13-17.05.31:930][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000734AB07CE0
+[2015.11.13-17.05.32:155][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:160][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:168][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:172][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:176][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:179][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:183][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.32:188][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.13-17.05.33:693][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.13-17.05.33:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.13-17.05.33:714][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.13-17.05.33:929][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 214.05ms to complete.
+[2015.11.13-17.05.33:929][  0]LogFileHelpers: Loading map 'Hub' took 2.018
+[2015.11.13-17.05.34:085][  0]LogCollectionManager: Loaded 0 collections in 0.002212 seconds
+[2015.11.13-17.05.34:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.13-17.05.34:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.13-17.05.34:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.13-17.05.34:129][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1867 classes and 333 folders.
+[2015.11.13-17.05.34:142][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.11.13-17.05.34:149][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.13-17.05.34:455][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.13-17.05.34:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.13-17.05.34:551][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.13-17.05.34:558][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.13-17.05.34:581][  0]LogLoad: Full Startup: 20.65 seconds (BP compile: 0.36 seconds)
+[2015.11.13-17.05.35:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.13-17.05.35:257][  0]LogRenderer: Reallocating scene render targets to support 944x468 (Frame:2).
+[2015.11.13-17.05.37:555][  7]LogAssetRegistry: Asset discovery search completed in 7.6164 seconds
+[2015.11.13-17.05.37:555][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.11.13-17.05.37:555][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2015.11.13-17.07.31:608][896]LogAIModule: Creating AISystem for world Cave
+[2015.11.13-17.07.31:660][896]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.13-17.07.31:660][896]LightingResults: New page: Lighting Build
+[2015.11.13-17.07.31:679][896]LoadErrors: New page: Loading map: Cave.umap
+[2015.11.13-17.07.31:680][896]MapCheck: New page: Map Check
+[2015.11.13-17.07.31:680][896]LightingResults: New page: Lighting Build
+[2015.11.13-17.07.31:692][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000073505B11C0
+[2015.11.13-17.07.31:744][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.13-17.07.31:796][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.13-17.07.31:919][896]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.224ms to complete.
+[2015.11.13-17.07.31:920][896]LogFileHelpers: Loading map 'Cave' took 0.261
+[2015.11.13-17.10.09:404][223]MapCheck: New page: Map Check
+[2015.11.13-17.10.09:486][223]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.13-17.10.09:486][223]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.13-17.10.09:604][223]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.13-17.10.09:604][223]LogStats:          STAT_HLOD_BuildClusters - 14.232 ms
+[2015.11.13-17.10.09:605][223]LightingResults: New page: Lighting Build - Nov 13, 2015, 7:10:09 AM
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.13-17.10.11:129][223]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.13-17.10.11:326][223]LogEditorBuildUtils: Build time 0:00:01
+[2015.11.13-17.10.11:524][224]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Marble_Polished, compiling. 
+[2015.11.13-17.10.11:547][224]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock_Marble_Polished, compiling. 
+[2015.11.13-17.11.12:159][665]Job is a success!
+[2015.11.13-17.11.13:295][666]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.13-17.11.13:499][666]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.11.13-17.11.13:500][666]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.11.13-17.11.13:501][666]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.11.13-17.11.13:503][666]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.11.13-17.11.13:519][666]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.11.13-17.11.13:580][666]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.11.13-17.11.13:672][666]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.11.13-17.11.13:750][666]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.11.13-17.11.13:858][666]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.11.13-17.11.13:955][666]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.11.13-17.11.14:120][666]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.11.13-17.11.14:147][666]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.11.13-17.11.14:189][666]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.11.13-17.11.14:214][666]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.11.13-17.11.14:267][666]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.11.13-17.11.14:333][666]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.11.13-17.11.14:460][666]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.11.13-17.11.14:484][666]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.11.13-17.11.14:539][666]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.11.13-17.11.14:664][666]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.11.13-17.11.14:931][666]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.13-17.11.15:178][666]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.11.13-17.11.15:240][666]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.11.13-17.11.15:248][666]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.11.13-17.11.15:250][666]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.11.13-17.11.15:286][666]Lightmass on NICKSCOMPUTER: 1:02 min total, 268 ms importing, 37 ms setup, 2.51 sec photons, 59.4 sec processing, 0 ms extra exporting [206/206 mappings]. Threads: 6:55 min total, 5:35 min processing.
+[2015.11.13-17.11.15:335][666]LogStaticLightingSystem: Illumination: 1:05 min (2.28 sec encoding lightmaps)
+[2015.11.13-17.11.15:335][666]LogStaticLightingSystem: Lightmap texture memory:  4.5 MB (3.2 MB streaming, 1.3 MB non-streaming), 22 textures
+[2015.11.13-17.11.15:335][666]LogStaticLightingSystem: Shadowmap texture memory: 3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 4 textures
+[2015.11.13-17.11.16:174][667]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.13-17.11.16:174][667]MapCheck: New page: Cave - Nov 13, 2015, 7:11:16 AM
+[2015.11.13-17.11.16:345][667]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 170.65ms to complete.
+[2015.11.13-17.17.35:562][803]LogSavePackage: Save=268.974091ms
+[2015.11.13-17.17.35:562][803]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Cave_Auto18C9F26FA4B2AF237FC9648988F94CF13.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto1.umap'
+[2015.11.13-17.17.35:566][803]LogSavePackage: Total save time: 310.666811ms
+[2015.11.13-17.17.35:566][803]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto1.umap
+[2015.11.13-17.17.35:568][803]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Cave' took 0.335
+[2015.11.13-17.17.35:568][803]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.335
+[2015.11.13-17.25.35:303][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.13-17.25.35:303][139]PIE: New page: PIE session: Cave (Nov 13, 2015, 7:25:35 AM)
+[2015.11.13-17.25.35:303][139]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave
+[2015.11.13-17.25.35:326][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022701s)
+[2015.11.13-17.25.35:326][139]LogAIModule: Creating AISystem for world Cave
+[2015.11.13-17.25.35:327][139]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2015.11.13-17.25.35:327][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Cave.Cave to /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave (0.023785s)
+[2015.11.13-17.25.35:351][139]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.13-17.25.35:360][139]LogInit: FAudioDevice initialized.
+[2015.11.13-17.25.35:422][139]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.13-17.25.35:460][139]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.13-12.25.35
+[2015.11.13-17.25.35:460][139]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.13-17.25.35:461][139]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.13-17.25.35:462][139]LogWorld: Bringing up level for play took: 0.038451
+[2015.11.13-17.25.35:467][139]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave -0.048
+[2015.11.13-17.27.17:439][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000734AF45E40
+[2015.11.13-17.27.21:365][471]MapCheck: New page: Map Check
+[2015.11.13-17.27.21:431][471]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.13-17.27.21:431][471]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.13-17.27.21:543][471]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.13-17.27.21:543][471]LogStats:          STAT_HLOD_BuildClusters - 15.135 ms
+[2015.11.13-17.27.21:543][471]LightingResults: New page: Lighting Build - Nov 13, 2015, 7:27:21 AM
+[2015.11.13-17.27.23:290][471]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.13-17.27.23:291][471]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.13-17.27.23:291][471]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.13-17.27.23:291][471]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.13-17.27.23:291][471]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.13-17.27.23:291][471]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.13-17.27.23:520][471]LogEditorBuildUtils: Build time 0:00:02
+[2015.11.13-17.28.15:242][497]Job is a success!
+[2015.11.13-17.28.15:791][498]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.13-17.28.15:919][498]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2015.11.13-17.28.15:919][498]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2015.11.13-17.28.15:920][498]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2015.11.13-17.28.15:923][498]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2015.11.13-17.28.15:931][498]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.11.13-17.28.15:979][498]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.11.13-17.28.16:055][498]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.11.13-17.28.16:110][498]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.11.13-17.28.16:221][498]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.11.13-17.28.16:288][498]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.11.13-17.28.16:442][498]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.11.13-17.28.16:454][498]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.11.13-17.28.16:477][498]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.11.13-17.28.16:491][498]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.11.13-17.28.16:530][498]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.11.13-17.28.16:590][498]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.11.13-17.28.16:707][498]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.11.13-17.28.16:728][498]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.11.13-17.28.16:784][498]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.11.13-17.28.16:902][498]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.11.13-17.28.17:107][498]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.13-17.28.17:288][498]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.11.13-17.28.17:344][498]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.11.13-17.28.17:351][498]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.11.13-17.28.17:352][498]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.11.13-17.28.17:378][498]Lightmass on NICKSCOMPUTER: 52.9 sec total, 193 ms importing, 37 ms setup, 2.41 sec photons, 50.2 sec processing, 0 ms extra exporting [206/206 mappings]. Threads: 5:51 min total, 4:47 min processing.
+[2015.11.13-17.28.17:396][498]LogStaticLightingSystem: Illumination: 55.8 sec (1.81 sec encoding lightmaps)
+[2015.11.13-17.28.17:396][498]LogStaticLightingSystem: Lightmap texture memory:  4.5 MB (3.2 MB streaming, 1.3 MB non-streaming), 22 textures
+[2015.11.13-17.28.17:396][498]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (1.4 MB streaming, 5.3 MB non-streaming), 8 textures
+[2015.11.13-17.28.18:344][499]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.13-17.28.18:344][499]MapCheck: New page: Cave - Nov 13, 2015, 7:28:18 AM
+[2015.11.13-17.28.18:483][499]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 138.998ms to complete.
+[2015.11.13-17.29.21:248][225]LogSavePackage: Save=137.827225ms
+[2015.11.13-17.29.21:248][225]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Cave_Auto207917C9B409478CD88DDC0A5CC88F222.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto2.umap'
+[2015.11.13-17.29.21:253][225]LogSavePackage: Total save time: 156.650998ms
+[2015.11.13-17.29.21:253][225]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto2.umap
+[2015.11.13-17.29.21:255][225]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Cave' took 0.179
+[2015.11.13-17.29.21:255][225]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
+[2015.11.13-17.44.39:789][605]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ntanc_000\Desktop\teddy bear\bear.obj)
+[2015.11.13-17.44.39:824][605]LogFbx: Loading FBX Scene from C:\Users\ntanc_000\Desktop\teddy bear\bear.obj
+[2015.11.13-17.44.39:919][605]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.13-17.44.41:502][605]LogFbx: Loading FBX Scene from C:\Users\ntanc_000\Desktop\teddy bear\bear.obj
+[2015.11.13-17.44.41:586][605]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.13-17.44.41:589][605]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat'
+[2015.11.13-17.44.41:590][605]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat'
+[2015.11.13-17.44.41:601][605]LogMaterial: Missing cached shader map for material 3duToonBabyTeddy_5048Mat, compiling. 
+[2015.11.13-17.44.41:639][605]LogFbx:Warning: Triangulating static mesh 3duToonBabyTeddy_5048
+[2015.11.13-17.44.42:862][605]LogStaticMesh: Building static mesh bear...
+[2015.11.13-17.44.45:852][605]LogStaticMesh: Built static mesh [2.993542.2s] /Game/StarterContent/Props/bear.bear
+[2015.11.13-17.44.45:867][605]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.13-17.44.45:867][605]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.11.13-17.44.45:901][605]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Desktop\teddy bear\ToonTeddy.jpg)
+[2015.11.13-17.44.45:944][605]LogTexture:Display: Building textures: ToonTeddy (AutoDXT)
+[2015.11.13-17.45.06:020][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Cave' took 0.016
+[2015.11.13-17.45.06:024][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/bear] ([1] browsable assets)...
+[2015.11.13-17.45.06:050][663]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/bear.bear]
+[2015.11.13-17.45.06:050][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/bear]
+[2015.11.13-17.45.06:062][663]LogSavePackage: Save=9.475132ms
+[2015.11.13-17.45.06:062][663]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/bear_Auto38BA9B2D44710300CBA7191A85B3CA81E.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/bear_Auto3.uasset'
+[2015.11.13-17.45.06:070][663]LogSavePackage: Total save time: 17.931581ms
+[2015.11.13-17.45.06:070][663]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/bear_Auto3.uasset
+[2015.11.13-17.45.06:074][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat] ([1] browsable assets)...
+[2015.11.13-17.45.06:099][663]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/3duToonBabyTeddy_5048Mat.3duToonBabyTeddy_5048Mat]
+[2015.11.13-17.45.06:099][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat]
+[2015.11.13-17.45.06:112][663]LogSavePackage: Save=10.281408ms
+[2015.11.13-17.45.06:112][663]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/3duToonBabyTeddy_5048Mat_Auto3F392CA5A4766082FF712B5A5C55FDA2A.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat_Auto3.uasset'
+[2015.11.13-17.45.06:117][663]LogSavePackage: Total save time: 15.830375ms
+[2015.11.13-17.45.06:117][663]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/3duToonBabyTeddy_5048Mat_Auto3.uasset
+[2015.11.13-17.45.06:120][663]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/ToonTeddy] ([1] browsable assets)...
+[2015.11.13-17.45.06:128][663]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Props/ToonTeddy.ToonTeddy]
+[2015.11.13-17.45.06:128][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/ToonTeddy]
+[2015.11.13-17.45.06:142][663]LogSavePackage: Save=11.762341ms
+[2015.11.13-17.45.06:142][663]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/ToonTeddy_Auto36560209C4385979C206E69AB794EEE8B.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/ToonTeddy_Auto3.uasset'
+[2015.11.13-17.45.06:146][663]LogSavePackage: Total save time: 16.810831ms
+[2015.11.13-17.45.06:146][663]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/ToonTeddy_Auto3.uasset
+[2015.11.13-17.45.06:146][663]LogFileHelpers: Auto-saving content packages took 0.126
+[2015.11.13-17.47.36:178][206]LogMaterial: Missing cached shader map for material ToonTeddy_Mat, compiling. 
+[2015.11.13-17.47.40:459][401]LogMaterial: Missing cached shader map for material 3duToonBabyTeddy_5048Mat, compiling. 
+[2015.11.13-17.47.40:609][401]LogMaterial: Missing cached shader map for material 3duToonBabyTeddy_5048Mat, compiling. 
+[2015.11.13-17.47.40:614][401]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.13-17.47.40:644][401]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.11.13-17.47.41:693][421]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.11.13-17.47.41:693][421]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.11.13-17.47.41:693][421]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.11.13-17.47.48:817][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000733BEF60C0
+[2015.11.13-17.47.55:561][861]LogRenderer: Reallocating scene render targets to support 1144x712 (Frame:115403).
+[2015.11.13-17.49.08:139][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/bear" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset" SILENT=true
+[2015.11.13-17.49.08:151][574]LogSavePackage: Save=9.167359ms
+[2015.11.13-17.49.08:151][574]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/bear04EC171343F3813A06FF47AA13230A8B.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset'
+[2015.11.13-17.49.08:160][574]LogSavePackage: Total save time: 18.524271ms
+[2015.11.13-17.49.08:160][574]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset
+[2015.11.13-17.49.11:626][724]LogEditorFactories: Performing atomic reimport of [C:/Users/ntanc_000/Desktop/teddy bear/bear.obj]
+[2015.11.13-17.49.11:698][724]LogFbx: Loading FBX Scene from C:/Users/ntanc_000/Desktop/teddy bear/bear.obj
+[2015.11.13-17.49.11:780][724]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.13-17.49.11:784][724]LogFbx:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing.
+[2015.11.13-17.49.11:786][724]LogFbx:Warning: Triangulating static mesh 3duToonBabyTeddy_5048
+[2015.11.13-17.49.12:903][724]LogStaticMesh: Building static mesh bear...
+[2015.11.13-17.49.13:146][724]LogStaticMesh: Built static mesh [0.242294.2s] /Game/StarterContent/Props/bear.bear
+[2015.11.13-17.49.13:197][724]LogEditorFactories: -- imported successfully
+[2015.11.13-17.49.16:216][847]LogActorFactory: Actor Factory created bear
+[2015.11.13-17.49.17:158][881]LogActorFactory: Actor Factory created bear
+[2015.11.13-17.49.27:306][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bear)
+[2015.11.13-17.49.32:698][675]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.13-17.55.06:680][ 29]LogSavePackage: Save=129.980804ms
+[2015.11.13-17.55.06:680][ 29]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Cave_Auto49426DF1E48FFB1221B2FF8917A1FA8BC.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto4.umap'
+[2015.11.13-17.55.06:685][ 29]LogSavePackage: Total save time: 149.058361ms
+[2015.11.13-17.55.06:685][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Cave_Auto4.umap
+[2015.11.13-17.55.06:687][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Cave' took 0.173
+[2015.11.13-17.55.06:687][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.173
+[2015.11.13-17.55.06:691][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/bear] ([1] browsable assets)...
+[2015.11.13-17.55.06:718][ 29]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/bear.bear]
+[2015.11.13-17.55.06:718][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/bear]
+[2015.11.13-17.55.06:740][ 29]LogSavePackage: Save=10.588787ms
+[2015.11.13-17.55.06:740][ 29]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/bear_Auto470F966F745B3A316A78830A7549E921D.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/bear_Auto4.uasset'
+[2015.11.13-17.55.06:746][ 29]LogSavePackage: Total save time: 26.518863ms
+[2015.11.13-17.55.06:746][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/bear_Auto4.uasset
+[2015.11.13-17.55.06:750][ 29]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/ToonTeddy_Mat] ([1] browsable assets)...
+[2015.11.13-17.55.06:775][ 29]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/ToonTeddy_Mat.ToonTeddy_Mat]
+[2015.11.13-17.55.06:775][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/ToonTeddy_Mat]
+[2015.11.13-17.55.06:789][ 29]LogSavePackage: Save=12.033859ms
+[2015.11.13-17.55.06:789][ 29]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/ToonTeddy_Mat_Auto44E1BD95E4FB0A2EF153A7AA2C85AC38E.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/ToonTeddy_Mat_Auto4.uasset'
+[2015.11.13-17.55.06:793][ 29]LogSavePackage: Total save time: 16.678818ms
+[2015.11.13-17.55.06:793][ 29]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/StarterContent/Props/ToonTeddy_Mat_Auto4.uasset
+[2015.11.13-17.55.06:793][ 29]LogFileHelpers: Auto-saving content packages took 0.106
+[2015.11.13-18.13.38:113][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bear)
+[2015.11.13-18.13.39:342][460]Cmd: DELETE
+[2015.11.13-18.13.39:343][460]Cmd: ACTOR DELETE
+[2015.11.13-18.13.39:347][460]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.13-18.13.39:366][460]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.11.13-18.13.42:325][601]LogSavePackage: Save=353.429047ms
+[2015.11.13-18.13.42:325][601]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Cave75B5D6054C58F5B723DCF79F3D7E68C4.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap'
+[2015.11.13-18.13.42:332][601]LogSavePackage: Total save time: 375.493679ms
+[2015.11.13-18.13.42:332][601]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Cave.umap
+[2015.11.13-18.13.44:772][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/bear" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset" SILENT=true
+[2015.11.13-18.13.44:787][733]LogSavePackage: Save=3.705878ms
+[2015.11.13-18.13.44:787][733]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/bear61D211A14D207C7551FFC5BEA61E9276.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset'
+[2015.11.13-18.13.44:795][733]LogSavePackage: Total save time: 20.898569ms
+[2015.11.13-18.13.44:795][733]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/bear.uasset
+[2015.11.13-18.13.52:016][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000734A5CB9C0
+[2015.11.13-18.13.54:833][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/ToonTeddy" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy.uasset" SILENT=true
+[2015.11.13-18.13.54:987][104]LogSavePackage: Save=151.857468ms
+[2015.11.13-18.13.54:987][104]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/ToonTeddy4F993351452674C1D216619F849BD709.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy.uasset'
+[2015.11.13-18.13.54:993][104]LogSavePackage: Total save time: 158.131141ms
+[2015.11.13-18.13.54:993][104]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy.uasset
+[2015.11.13-18.13.55:024][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/ToonTeddy_Mat" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy_Mat.uasset" SILENT=true
+[2015.11.13-18.13.55:038][104]LogSavePackage: Save=12.358182ms
+[2015.11.13-18.13.55:038][104]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/ToonTeddy_Mat23140A8947209035CB89B2B04422C631.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy_Mat.uasset'
+[2015.11.13-18.13.55:045][104]LogSavePackage: Total save time: 19.773092ms
+[2015.11.13-18.13.55:045][104]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/StarterContent/Props/ToonTeddy_Mat.uasset
+[2015.11.13-18.13.55:184][104]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.13-18.13.55:184][104]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.13-18.13.55:462][105]Cmd: QUIT_EDITOR
+[2015.11.13-18.13.55:772][105]LogExit: Preparing to exit.
+[2015.11.13-18.13.56:642][105]LogExit: Editor shut down
+[2015.11.13-18.13.56:642][105]LogExit: Transaction tracking system shut down
+[2015.11.13-18.13.56:645][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000735C6E5E40
+[2015.11.13-18.13.56:645][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000736F3467A0
+[2015.11.13-18.13.56:645][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000736FFCAB60
+[2015.11.13-18.13.56:645][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000735DE0F9C0
+[2015.11.13-18.13.56:649][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000735DD98360
+[2015.11.13-18.13.56:830][105]LogExit: Object subsystem successfully closed.
+[2015.11.13-18.13.56:844][105]LogD3D11RHI: Shutdown
+[2015.11.13-18.13.56:844][105]LogD3D11RHI: CleanupD3DDevice
+[2015.11.13-18.13.56:926][105]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (199)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.13-18.13.56:955][105]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.13-18.13.56:958][105]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.13-18.13.56:959][105]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.13-18.13.56:959][105]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.13-18.13.56:959][105]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.13-18.13.56:959][105]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.13-18.13.56:959][105]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.13-18.13.57:246][105]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.13-18.13.57:247][105]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.13-18.13.57:248][105]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.13-18.13.57:459][105]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.13-18.13.57:468][105]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.13-18.13.57:469][105]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.13-18.13.57:470][105]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.13-18.13.57:473][105]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.13-18.13.57:596][105]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.13-18.13.57:597][105]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.13-18.13.57:597][105]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.13-18.13.57:698][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.13-18.13.57:698][105]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.13-18.13.57:698][105]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.13-18.13.57:701][105]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.13-18.13.57:701][105]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.13-18.13.57:702][105]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.13-18.13.57:704][105]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.13-18.13.57:707][105]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.13-18.13.57:716][105]LogDerivedDataCache: Shutdown
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.13-18.13.57:716][105]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.13-18.13.59:722][105]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.13-18.13.59:733][105]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.13-18.13.59:734][105]LogExit: Exiting.
+[2015.11.13-18.13.59:735][105]Log file closed, 11/13/15 13:13:59
