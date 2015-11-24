@@ -1,1157 +1,377 @@
-﻿[2015.11.24-18.59.45:513][  0]Log file open, 11/24/15 13:59:45
-[2015.11.24-18.59.45:513][  0]LogInit:Display: Running engine for game: NightmareGame
-[2015.11.24-18.59.45:513][  0]LogInit:Display: RandInit(-1625037413) SRandInit(-1625037413).
-[2015.11.24-18.59.45:513][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.11.24-18.59.45:513][  0]LogStats: Stats thread started at 0.078785
-[2015.11.24-18.59.45:513][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.24-18.59.45:513][  0]LogInit: API Version: 2672455
-[2015.11.24-18.59.45:513][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.11.24-18.59.45:513][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.11.24-18.59.45:513][  0]LogInit: Build Configuration: Development
-[2015.11.24-18.59.45:513][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.11.24-18.59.45:513][  0]LogInit: Command line:  
-[2015.11.24-18.59.45:513][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.11.24-18.59.45:513][  0]LogInit: Rocket: 1
-[2015.11.24-18.59.45:529][  0]LogInit: Using libcurl 7.41.0
-[2015.11.24-18.59.45:529][  0]LogInit:  - built for x86_64-pc-win32
-[2015.11.24-18.59.45:529][  0]LogInit:  - supports SSL with WinSSL
-[2015.11.24-18.59.45:529][  0]LogInit:  - other features:
-[2015.11.24-18.59.45:529][  0]LogInit:      CURL_VERSION_SSL
-[2015.11.24-18.59.45:529][  0]LogInit:      CURL_VERSION_IPV6
-[2015.11.24-18.59.45:529][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.11.24-18.59.45:529][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.11.24-18.59.45:529][  0]LogInit:      CURL_VERSION_IDN
-[2015.11.24-18.59.45:529][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.11.24-18.59.45:529][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.11.24-18.59.45:529][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.11.24-18.59.45:529][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.11.24-18.59.45:529][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.11.24-18.59.45:539][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.24-18.59.45:545][  0]LogInit: Object subsystem initialized
-[2015.11.24-18.59.45:546][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.24-18.59.45:546][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.24-18.59.45:557][  0]LogInit: Computer: NICKSCOMPUTER
-[2015.11.24-18.59.45:557][  0]LogInit: User: ntanc000
-[2015.11.24-18.59.45:557][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.11.24-18.59.45:557][  0]LogInit: High frequency timer resolution =2.537590 MHz
-[2015.11.24-18.59.45:557][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.11.24-18.59.45:557][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-18.59.45:557][  0]LogMemory: Process Physical Memory: 52.98 MB used, 52.98 MB peak
-[2015.11.24-18.59.45:557][  0]LogMemory: Process Virtual Memory: 55.06 MB used, 55.06 MB peak
-[2015.11.24-18.59.45:557][  0]LogMemory: Physical Memory: 4328.86 MB used, 16269.45 MB total
-[2015.11.24-18.59.45:557][  0]LogMemory: Virtual Memory: 360.18 MB used, 134217728.00 MB total
-[2015.11.24-18.59.45:608][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.11.24-18.59.46:477][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
-[2015.11.24-18.59.46:477][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
-[2015.11.24-18.59.46:488][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2015.11.24-18.59.46:488][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
-[2015.11.24-18.59.46:490][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.11.24-18.59.46:490][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.11.24-18.59.46:490][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.24-18.59.46:494][  0]LogD3D11RHI: !Direct3DDevice
-[2015.11.24-18.59.46:494][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.11.24-18.59.46:510][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.24-18.59.46:527][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Intermediate/Shaders/WorkingDirectory/8744/).
-[2015.11.24-18.59.46:527][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Intermediate/Shaders/tmp/00ED043B411B3EA9C4328D83065F7B48/'.
-[2015.11.24-18.59.46:527][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.11.24-18.59.47:798][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.11.24-18.59.47:805][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.11.24-18.59.47:811][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.11.24-18.59.47:818][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.11.24-18.59.47:824][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.11.24-18.59.47:831][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.11.24-18.59.47:836][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.11.24-18.59.47:839][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.11.24-18.59.47:844][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.11.24-18.59.47:848][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.11.24-18.59.47:854][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.11.24-18.59.47:859][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.11.24-18.59.47:860][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.11.24-18.59.47:880][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.11.24-18.59.47:884][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.11.24-18.59.47:888][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.11.24-18.59.47:892][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.11.24-18.59.47:892][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.24-18.59.48:042][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache: Loaded boot cache 0.06s 45MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.11.24-18.59.48:103][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.11.24-18.59.48:235][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.24-18.59.48:247][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.24-18.59.48:614][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.24-18.59.48:617][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.24-18.59.48:743][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.24-18.59.48:743][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.24-18.59.48:997][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.24-18.59.50:003][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.24-18.59.50:124][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
-[2015.11.24-18.59.50:360][  0]SourceControl: Info Source control is disabled
-[2015.11.24-18.59.50:643][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-18.59.50:787][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.11.24-18.59.50:787][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.11.24-18.59.50:852][  0]LogEngine: Initializing Engine...
-[2015.11.24-18.59.50:854][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.11.24-18.59.50:855][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.11.24-18.59.50:980][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.24-18.59.50:998][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.24-18.59.51:008][  0]LogInit: FAudioDevice initialized.
-[2015.11.24-18.59.51:029][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.24-18.59.51:032][  0]LogInit: Texture streaming: Enabled
-[2015.11.24-18.59.51:039][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.24-18.59.51:039][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.24-18.59.51:040][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
-[2015.11.24-18.59.51:040][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.11.24-18.59.51:077][  0]LogInit: Transaction tracking system initialized
-[2015.11.24-18.59.51:116][  0]BlueprintLog: New page: Editor Load
-[2015.11.24-18.59.51:258][  0]LocalizationService: Info Localization service is disabled
-[2015.11.24-18.59.51:384][  0]LogConsoleResponse:Display: 
-[2015.11.24-18.59.51:557][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.24-18.59.51:658][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/' took 0.03s
-[2015.11.24-18.59.51:658][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.24-18.59.51:658][  0]LightingResults: New page: Lighting Build
-[2015.11.24-18.59.51:662][  0]MapCheck: New page: Map Check
-[2015.11.24-18.59.51:662][  0]LightingResults: New page: Lighting Build
-[2015.11.24-18.59.51:674][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F97EB7BCE0
-[2015.11.24-18.59.52:791][  0]LogAIModule: Creating AISystem for world Hub
-[2015.11.24-18.59.52:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.24-18.59.52:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.24-18.59.52:948][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.818ms to complete.
-[2015.11.24-18.59.52:948][  0]LogFileHelpers: Loading map 'Hub' took 1.290
-[2015.11.24-18.59.53:164][  0]LogCollectionManager: Loaded 0 collections in 0.003774 seconds
-[2015.11.24-18.59.53:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Collections/' took 0.01s
-[2015.11.24-18.59.53:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
-[2015.11.24-18.59.53:221][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Collections/' took 0.01s
-[2015.11.24-18.59.53:221][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 1867 classes and 333 folders.
-[2015.11.24-18.59.53:240][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2015.11.24-18.59.53:248][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.11.24-18.59.53:345][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2015.11.24-18.59.53:350][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2015.11.24-18.59.53:428][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.11.24-18.59.53:432][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.11.24-18.59.53:455][  0]LogLoad: Full Startup: 8.62 seconds (BP compile: 0.37 seconds)
-[2015.11.24-18.59.53:849][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.11.24-18.59.53:977][  0]LogRenderer: Reallocating scene render targets to support 912x484 (Frame:2).
-[2015.11.24-18.59.56:133][  7]LogAssetRegistry: Asset discovery search completed in 6.0194 seconds
-[2015.11.24-18.59.56:133][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.11.24-18.59.56:133][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2015.11.24-18.59.59:765][ 87]LogRenderer: Reallocating scene render targets to support 1528x872 (Frame:28).
-[2015.11.24-19.00.05:655][385]LogSavePackage: Save=424.494904ms
-[2015.11.24-19.00.05:655][385]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/UEDPCHub6AE094ED478B83675FAD3FA71DBD6308.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCHub.umap'
-[2015.11.24-19.00.05:661][385]LogSavePackage: Total save time: 448.081844ms
-[2015.11.24-19.00.05:661][385]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCHub.umap
-[2015.11.24-19.01.50:007][544]LogSavePackage: Save=14.565001ms
-[2015.11.24-19.01.50:007][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane320220FD94035763030B930A5CF99A110.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3.uasset'
-[2015.11.24-19.01.50:015][544]LogSavePackage: Total save time: 23.106962ms
-[2015.11.24-19.01.50:015][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3.uasset
-[2015.11.24-19.01.50:035][544]LogSavePackage: Save=5.604136ms
-[2015.11.24-19.01.50:035][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane3_AnimF6FC722A451EE0EF6333D9BD3B27FA62.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3_Anim.uasset'
-[2015.11.24-19.01.50:042][544]LogSavePackage: Total save time: 12.714822ms
-[2015.11.24-19.01.50:042][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3_Anim.uasset
-[2015.11.24-19.01.50:053][544]LogSavePackage: Save=2.019633ms
-[2015.11.24-19.01.50:053][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane3_SkeletonB482028B45C31659A8E00EA4A063F2EC.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3_Skeleton.uasset'
-[2015.11.24-19.01.50:060][544]LogSavePackage: Total save time: 9.728130ms
-[2015.11.24-19.01.50:060][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane3_Skeleton.uasset
-[2015.11.24-19.01.50:091][544]LogSavePackage: Save=9.101155ms
-[2015.11.24-19.01.50:091][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane436105B6741AF35B3601ABD82087D78FA.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4.uasset'
-[2015.11.24-19.01.50:099][544]LogSavePackage: Total save time: 17.106388ms
-[2015.11.24-19.01.50:099][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4.uasset
-[2015.11.24-19.01.50:117][544]LogSavePackage: Save=5.985600ms
-[2015.11.24-19.01.50:118][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane4_AnimB8017A9345A1AB4D13BDE79BE46EA647.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4_Anim.uasset'
-[2015.11.24-19.01.50:127][544]LogSavePackage: Total save time: 15.508022ms
-[2015.11.24-19.01.50:127][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4_Anim.uasset
-[2015.11.24-19.01.50:137][544]LogSavePackage: Save=2.262777ms
-[2015.11.24-19.01.50:137][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pPlane4_Skeleton9A9418BB459F1A3AF63D41AF4E198BC8.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4_Skeleton.uasset'
-[2015.11.24-19.01.50:145][544]LogSavePackage: Total save time: 11.080198ms
-[2015.11.24-19.01.50:145][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pPlane4_Skeleton.uasset
-[2015.11.24-19.01.50:194][544]LogSavePackage: Save=26.164984ms
-[2015.11.24-19.01.50:194][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pSphere14EBE0022430DA20C8CC1DB8D6B560D00.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1.uasset'
-[2015.11.24-19.01.50:202][544]LogSavePackage: Total save time: 34.269128ms
-[2015.11.24-19.01.50:202][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1.uasset
-[2015.11.24-19.01.50:221][544]LogSavePackage: Save=5.916244ms
-[2015.11.24-19.01.50:221][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pSphere1_Anim768713E6435CEA690501EFB2EB1AEEA5.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_Anim.uasset'
-[2015.11.24-19.01.50:229][544]LogSavePackage: Total save time: 13.809558ms
-[2015.11.24-19.01.50:229][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_Anim.uasset
-[2015.11.24-19.01.50:242][544]LogSavePackage: Save=2.991027ms
-[2015.11.24-19.01.50:242][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pSphere1_PhysicsAssetD65BA61C46363D591603EA95C34238B2.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_PhysicsAsset.uasset'
-[2015.11.24-19.01.50:250][544]LogSavePackage: Total save time: 11.322159ms
-[2015.11.24-19.01.50:250][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_PhysicsAsset.uasset
-[2015.11.24-19.01.50:260][544]LogSavePackage: Save=2.135491ms
-[2015.11.24-19.01.50:260][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Duskv1_pSphere1_Skeleton93DF27AD4A6AAB9E5A4AD496AED4D605.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_Skeleton.uasset'
-[2015.11.24-19.01.50:268][544]LogSavePackage: Total save time: 11.229552ms
-[2015.11.24-19.01.50:268][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/Duskv1_pSphere1_Skeleton.uasset
-[2015.11.24-19.01.50:303][544]LogSavePackage: Save=11.650818ms
-[2015.11.24-19.01.50:303][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/lambert1539D1AAD4FC3701E448F919C2B39FA5D.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/lambert1.uasset'
-[2015.11.24-19.01.50:310][544]LogSavePackage: Total save time: 19.764028ms
-[2015.11.24-19.01.50:310][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/lambert1.uasset
-[2015.11.24-19.01.50:347][544]LogSavePackage: Save=11.806871ms
-[2015.11.24-19.01.50:347][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/lambert920A645AD47595DC2F0692E8034122B47.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/lambert9.uasset'
-[2015.11.24-19.01.50:355][544]LogSavePackage: Total save time: 20.022146ms
-[2015.11.24-19.01.50:355][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/lambert9.uasset
-[2015.11.24-19.01.50:391][544]LogSavePackage: Save=10.781096ms
-[2015.11.24-19.01.50:391][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/layeredTexture2MaterialBB0E89F346890E5151F0C8808E3F95ED.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/layeredTexture2Material.uasset'
-[2015.11.24-19.01.50:398][544]LogSavePackage: Total save time: 18.679138ms
-[2015.11.24-19.01.50:398][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/layeredTexture2Material.uasset
-[2015.11.24-19.01.50:433][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.01.51:212][544]LogSavePackage: Save=228.033691ms
-[2015.11.24-19.01.51:212][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/ThirdPersonCharacter7EB075F2401529CB3918138D02787745.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2015.11.24-19.01.51:219][544]LogSavePackage: Total save time: 246.791244ms
-[2015.11.24-19.01.51:219][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2015.11.24-19.01.51:446][544]LogSavePackage: Save=214.890106ms
-[2015.11.24-19.01.51:446][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/ThirdPersonCharacter057EA51C4EA683276516C4848BAF89F6.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2015.11.24-19.01.51:453][544]LogSavePackage: Total save time: 226.281237ms
-[2015.11.24-19.01.51:453][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2015.11.24-19.01.51:672][544]LogSavePackage: Save=206.062439ms
-[2015.11.24-19.01.51:672][544]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/ThirdPersonCharacter5563FF3E49E7EA0F0722CEBAEDD5838E.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2015.11.24-19.01.51:678][544]LogSavePackage: Total save time: 217.753854ms
-[2015.11.24-19.01.51:678][544]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2015.11.24-19.01.54:630][710]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.01.55:117][710]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
-[2015.11.24-19.04.15:888][119]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Desktop\DuskTexture.TGA)
-[2015.11.24-19.04.15:898][119]LogTexture:Display: Building textures: DuskTexture (AutoDXT)
-[2015.11.24-19.04.26:101][542]LogSavePackage: Save=38.686314ms
-[2015.11.24-19.04.26:101][542]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DuskTextureBB3809234EB5B246C7532386F4445799.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/DuskTexture.uasset'
-[2015.11.24-19.04.26:109][542]LogSavePackage: Total save time: 46.552833ms
-[2015.11.24-19.04.26:109][542]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/DuskTexture.uasset
-[2015.11.24-19.04.26:150][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.04.40:848][105]LogMaterial: Missing cached shader map for material DuskTexture_Mat, compiling. 
-[2015.11.24-19.04.49:996][518]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat.DuskTexture_Mat needed to have new flag set bUsedWithSkeletalMesh !
-[2015.11.24-19.04.49:999][518]LogMaterial: Missing cached shader map for material DuskTexture_Mat, compiling. 
-[2015.11.24-19.04.50:018][518]LogMaterial: 0.000180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.11.24-19.09.15:487][558]Cmd: TRANSACTION UNDO
-[2015.11.24-19.09.15:487][558]LogEditorTransaction: Undo Replace component used material
-[2015.11.24-19.09.15:542][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.09.23:904][ 28]LogEditorTransaction: Redo Replace component used material
-[2015.11.24-19.09.23:963][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.11.24-19.09.30:539][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_346.EdGraphPin_7133''
-[2015.11.24-19.09.30:539][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_580.EdGraphPin_5457''
-[2015.11.24-19.09.30:539][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_7450''
-[2015.11.24-19.09.30:540][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_143.EdGraphPin_7424''
-[2015.11.24-19.09.30:540][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3520.EdGraphPin_7436''
-[2015.11.24-19.09.30:540][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_510.EdGraphPin_5385''
-[2015.11.24-19.09.30:541][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_320.EdGraphPin_5393''
-[2015.11.24-19.09.30:541][362]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3789.EdGraphPin_7451''
-[2015.11.24-19.09.30:557][362]LogBlueprint:Warning: [ThirdPersonCharacter] CreatePinForVariable: 'CurrentHealth' variable not found. Base class was probably changed.
-[2015.11.24-19.09.30:557][362]LogBlueprint:Warning: [ThirdPersonCharacter] CreatePinForVariable: 'CurrentHealth' variable not found. Base class was probably changed.
-[2015.11.24-19.09.30:557][362]LogBlueprint:Warning: [ThirdPersonCharacter] CreatePinForVariable: 'CurrentHealth' variable not found. Base class was probably changed.
-[2015.11.24-19.09.30:557][362]LogBlueprint:Warning: [ThirdPersonCharacter] CreatePinForVariable: 'MaxHealth' variable not found. Base class was probably changed.
-[2015.11.24-19.10.03:613][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.11.24-19.10.04:297][955]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.08:804][217]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2015.11.24-19.10.08:971][217]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.13:895][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2015.11.24-19.10.13:918][403]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.14:020][403]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.15:599][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.18:675][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2015.11.24-19.10.18:695][571]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.19:273][571]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.20:480][642]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.26:360][988]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2015.11.24-19.10.26:519][988]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.40:615][179]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.41:937][256]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.46:493][356]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2015.11.24-19.10.46:772][356]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2015.11.24-19.10.46:823][356]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.46:824][356]BlueprintEditorCompileResults: Info [0661.99] Compile of ThirdPersonCharacter successful! [in 330 ms]
-[2015.11.24-19.10.46:857][356]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.10.50:425][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.11.25:287][781]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'ThirdPersonCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C'
-[2015.11.24-19.11.28:127][939]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2015.11.24-19.12.27:439][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
-[2015.11.24-19.12.27:478][614]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.039
-[2015.11.24-19.12.27:486][614]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2015.11.24-19.12.27:504][614]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2015.11.24-19.12.27:504][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2015.11.24-19.12.27:793][614]LogSavePackage: Save=276.735016ms
-[2015.11.24-19.12.27:793][614]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/ThirdPersonCharacter_Auto10E8C940044CA0B2707555BA3A92E720C.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
-[2015.11.24-19.12.27:803][614]LogSavePackage: Total save time: 295.524888ms
-[2015.11.24-19.12.27:803][614]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
-[2015.11.24-19.12.27:815][614]LogSavePackage: Save=2.231251ms
-[2015.11.24-19.12.27:815][614]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DuskTexture_Auto11D36F2F944EF68F524F8E7837993889F.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/StarterContent/Materials/DuskTexture_Auto1.uasset'
-[2015.11.24-19.12.27:821][614]LogSavePackage: Total save time: 8.313004ms
-[2015.11.24-19.12.27:821][614]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/StarterContent/Materials/DuskTexture_Auto1.uasset
-[2015.11.24-19.12.27:827][614]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat] ([1] browsable assets)...
-[2015.11.24-19.12.27:843][614]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat.DuskTexture_Mat]
-[2015.11.24-19.12.27:843][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat]
-[2015.11.24-19.12.27:860][614]LogSavePackage: Save=14.554360ms
-[2015.11.24-19.12.27:860][614]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DuskTexture_Mat_Auto11E2B80F4449049199F3BE09BA3C9AB5B.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat_Auto1.uasset'
-[2015.11.24-19.12.27:865][614]LogSavePackage: Total save time: 19.771121ms
-[2015.11.24-19.12.27:865][614]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat_Auto1.uasset
-[2015.11.24-19.12.27:865][614]LogFileHelpers: Auto-saving content packages took 0.387
-[2015.11.24-19.14.38:712][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2015.11.24-19.14.44:079][306]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.14.44:111][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9364287C0
-[2015.11.24-19.14.44:452][306]LogSavePackage: Save=228.126694ms
-[2015.11.24-19.14.44:452][306]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/ThirdPersonCharacter5F0292B94E8F1572EA6C0FAED2516269.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2015.11.24-19.14.44:460][306]LogSavePackage: Total save time: 248.195335ms
-[2015.11.24-19.14.44:460][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2015.11.24-19.14.44:472][306]LogSavePackage: Save=1.810773ms
-[2015.11.24-19.14.44:472][306]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DuskTexture5E92B8534B78E913EAAFA5BFBEC344C5.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/StarterContent/Materials/DuskTexture.uasset'
-[2015.11.24-19.14.44:479][306]LogSavePackage: Total save time: 9.651281ms
-[2015.11.24-19.14.44:479][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/StarterContent/Materials/DuskTexture.uasset
-[2015.11.24-19.14.44:518][306]LogSavePackage: Save=13.375289ms
-[2015.11.24-19.14.44:518][306]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DuskTexture_MatE3755D60468723B6366E6B88D1E4DFEA.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat.uasset'
-[2015.11.24-19.14.44:527][306]LogSavePackage: Total save time: 22.348765ms
-[2015.11.24-19.14.44:527][306]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Blueprints/Dusk/DuskTexture_Mat.uasset
-[2015.11.24-19.15.07:038][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_4.EdGraphPin_8304''
-[2015.11.24-19.15.07:042][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2695.EdGraphPin_8331''
-[2015.11.24-19.15.07:043][140]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/HUD/CharacterHUD'
-[2015.11.24-19.15.07:044][140]LogLinker: Can't find file '/Game/ThirdPersonBP/HUD/CharacterHUD'
-[2015.11.24-19.15.07:044][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/ThirdPersonBP/HUD/CharacterHUD.CharacterHUD_C''
-[2015.11.24-19.15.07:044][140]LogLinker: Can't find file '/Game/ThirdPersonBP/HUD/CharacterHUD'
-[2015.11.24-19.15.07:044][140]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/ThirdPersonBP/HUD/CharacterHUD.CharacterHUD_C')'
-[2015.11.24-19.15.07:045][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2695.EdGraphPin_8333''
-[2015.11.24-19.15.07:045][140]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2694.EdGraphPin_8322''
-[2015.11.24-19.15.19:179][466]BlueprintLog: New page: Compile myHUD
-[2015.11.24-19.15.19:232][466]LogBlueprint:Error: [compiler myHUD] Error Spawn node  Create Widget  must have a class specified.
-[2015.11.24-19.15.19:330][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.15.19:365][466]LogBlueprint:Warning: [compiler myHUD] Warning [0934.53] Compile of myHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms]
-[2015.11.24-19.15.19:365][466]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
-[2015.11.24-19.15.19:365][466]BlueprintEditorCompileResults:Warning: Warning [0934.53] Compile of myHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 185 ms]
-[2015.11.24-19.16.28:273][571]LogAssetTools:Warning: Failed to import 'C:\Users\ntanc_000\Desktop\CharacterHUD.COPY'. Unknown extension 'COPY'.
-[2015.11.24-19.22.28:180][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.046
-[2015.11.24-19.22.28:188][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/HUD/myHUD] ([1] browsable assets)...
-[2015.11.24-19.22.28:188][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/HUD/myHUD]
-[2015.11.24-19.22.28:228][840]LogSavePackage: Save=29.982779ms
-[2015.11.24-19.22.28:228][840]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/myHUD_Auto2F068C70D4BFE3411F53CB2A59AF4CC10.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/myHUD_Auto2.uasset'
-[2015.11.24-19.22.28:236][840]LogSavePackage: Total save time: 45.923889ms
-[2015.11.24-19.22.28:236][840]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/myHUD_Auto2.uasset
-[2015.11.24-19.22.28:237][840]LogFileHelpers: Auto-saving content packages took 0.056
-[2015.11.24-19.32.02:457][988]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2015.11.24-19.32.05:003][132]BlueprintLog: New page: Compile myHUD
-[2015.11.24-19.32.05:025][132]LogBlueprint:Error: [compiler myHUD] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
-[2015.11.24-19.32.05:149][132]LogBlueprint:Warning: [compiler myHUD] Warning [1940.31] Compile of myHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 146 ms]
-[2015.11.24-19.32.05:149][132]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
-[2015.11.24-19.32.05:149][132]BlueprintEditorCompileResults:Warning: Warning [1940.31] Compile of myHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 146 ms]
-[2015.11.24-19.32.13:361][452]BlueprintLog: New page: Compile myHUD
-[2015.11.24-19.32.13:459][452]BlueprintEditorCompileResults: Info [1948.62] Compile of myHUD successful! [in 98 ms]
-[2015.11.24-19.32.32:756][914]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ntanc_000\Desktop\HealthDeco.TGA)
-[2015.11.24-19.32.32:773][914]LogTexture:Display: Building textures: HealthDeco (BC5)
-[2015.11.24-19.33.05:143][467]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Hub' took 0.043
-[2015.11.24-19.33.05:152][467]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/HUD/myHUD] ([1] browsable assets)...
-[2015.11.24-19.33.05:152][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/HUD/myHUD]
-[2015.11.24-19.33.05:190][467]LogSavePackage: Save=27.738523ms
-[2015.11.24-19.33.05:190][467]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/myHUD_Auto36F59938545BBBA77660A50AC2EEF2D7D.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/myHUD_Auto3.uasset'
-[2015.11.24-19.33.05:196][467]LogSavePackage: Total save time: 42.298798ms
-[2015.11.24-19.33.05:196][467]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/myHUD_Auto3.uasset
-[2015.11.24-19.33.05:203][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/HUD/HealthDeco] ([1] browsable assets)...
-[2015.11.24-19.33.05:206][467]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/HUD/HealthDeco.HealthDeco]
-[2015.11.24-19.33.05:206][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/HUD/HealthDeco]
-[2015.11.24-19.33.05:212][467]LogSavePackage: Save=3.835135ms
-[2015.11.24-19.33.05:212][467]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/HealthDeco_Auto37D133E664518E5E0B2E8298AB11F2DDC.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/HealthDeco_Auto3.uasset'
-[2015.11.24-19.33.05:219][467]LogSavePackage: Total save time: 11.054978ms
-[2015.11.24-19.33.05:219][467]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/HUD/HealthDeco_Auto3.uasset
-[2015.11.24-19.33.05:219][467]LogFileHelpers: Auto-saving content packages took 0.074
-[2015.11.24-19.33.54:760][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4490.EdGraphPin_9933''
-[2015.11.24-19.33.54:760][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:ExecuteUbergraph_DialogueUMG.K2Node_CallArrayFunction_15 or K2Node_CallArrayFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallArrayFunction_15
-[2015.11.24-19.33.54:760][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallArrayFunction_15.EdGraphPin_9942''
-[2015.11.24-19.33.54:760][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:ExecuteUbergraph_ThirdPersonCharacter.K2Node_VariableGet_363 or K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_363
-[2015.11.24-19.33.54:760][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_363.EdGraphPin_9755''
-[2015.11.24-19.33.54:760][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_91 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:ExecuteUbergraph_ThirdPersonCharacter.K2Node_CommutativeAssociativeBinaryOperator_91
-[2015.11.24-19.33.54:760][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_91 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_91
-[2015.11.24-19.33.54:761][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_91.EdGraphPin_9985''
-[2015.11.24-19.33.54:761][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_71 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:ExecuteUbergraph_ThirdPersonCharacter.K2Node_CommutativeAssociativeBinaryOperator_71
-[2015.11.24-19.33.54:761][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_71 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_71
-[2015.11.24-19.33.54:761][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_71.EdGraphPin_9954''
-[2015.11.24-19.33.54:761][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_360.EdGraphPin_9775''
-[2015.11.24-19.33.54:761][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_394.EdGraphPin_9816''
-[2015.11.24-19.33.54:761][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4497.EdGraphPin_9965''
-[2015.11.24-19.33.54:762][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_436.EdGraphPin_9839''
-[2015.11.24-19.33.54:762][537]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_413 or K2Node_VariableGet /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter:ExecuteUbergraph_ThirdPersonCharacter.K2Node_VariableGet_413
-[2015.11.24-19.33.54:762][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_413.EdGraphPin_9809''
-[2015.11.24-19.33.54:762][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_394.EdGraphPin_9817''
-[2015.11.24-19.33.54:763][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_436.EdGraphPin_9840''
-[2015.11.24-19.33.54:763][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4565.EdGraphPin_9996''
-[2015.11.24-19.33.54:763][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_436.EdGraphPin_9841''
-[2015.11.24-19.33.54:763][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_144.EdGraphPin_9867''
-[2015.11.24-19.33.54:764][537]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_16.EdGraphPin_9728''
-[2015.11.24-19.33.54:768][537]LogBlueprint:Warning: [DialogueUMG] CreatePinForVariable: 'MultiText' variable not found. Base class was probably changed.
-[2015.11.24-19.33.54:768][537]LogBlueprint:Warning: [DialogueUMG] CreatePinForVariable: 'MultiText' variable not found. Base class was probably changed.
-[2015.11.24-19.33.57:216][678]LogEditorTransaction: Undo Paste clipboard contents
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_355 or K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_355
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4490 or K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4490
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallArrayFunction_15 or K2Node_CallArrayFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallArrayFunction_15
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_363 or K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_363
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_71 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_71
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_360 or K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_360
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4497 or K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4497
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_91 or K2Node_CommutativeAssociativeBinaryOperator /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_91
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_413 or K2Node_VariableGet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableGet_413
-[2015.11.24-19.34.00:717][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_394 or K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_394
-[2015.11.24-19.34.00:718][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4565 or K2Node_CallFunction /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CallFunction_4565
-[2015.11.24-19.34.00:718][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_436 or K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_436
-[2015.11.24-19.34.00:721][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Engine/Transient.EdGraph_295:K2Node_VariableSet_144 or K2Node_VariableSet /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_VariableSet_144
-[2015.11.24-19.34.00:721][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_144.EdGraphPin_9867''
-[2015.11.24-19.34.00:721][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Engine/Transient.EdGraph_295:K2Node_CustomEvent_16 or K2Node_CustomEvent /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:EventGraph.K2Node_CustomEvent_16
-[2015.11.24-19.34.00:722][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_16.EdGraphPin_9728''
-[2015.11.24-19.34.00:724][865]LogBlueprint:Warning: [DialogueUMG] CreatePinForVariable: 'MultiText' variable not found. Base class was probably changed.
-[2015.11.24-19.34.00:724][865]LogBlueprint:Warning: [DialogueUMG] CreatePinForVariable: 'MultiText' variable not found. Base class was probably changed.
-[2015.11.24-19.34.11:384][139]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'DialogueUMG', cached variable property's owner is '/Game/ThirdPersonBP/Dialogue/DialogueUMG.SKEL_DialogueUMG_C'
-[2015.11.24-19.35.02:766][434]LogEditorTransaction: Undo Remove Widget
-[2015.11.24-19.36.00:607][279]LogEditorTransaction: Undo Remove Widget
-[2015.11.24-19.36.46:605][212]BlueprintLog: New page: Compile DialogueUMG
-[2015.11.24-19.36.46:620][212]LogBlueprint:Warning: [compiler DialogueUMG] Warning Could not find a variable named "MultiText" in 'DialogueUMG_C'.
-Make sure 'DialogueUMG_C' has been compiled for  Set MultiText 
-[2015.11.24-19.36.46:620][212]LogBlueprint:Error: [compiler DialogueUMG] Error The property associated with  Multi Text  could not be found
-[2015.11.24-19.36.46:717][212]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.36.46:758][212]LogBlueprint:Warning: [compiler DialogueUMG] Warning [2221.92] Compile of DialogueUMG failed. 1 Fatal Issue(s) 1 Warning(s) [in 151 ms]
-[2015.11.24-19.36.46:758][212]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "MultiText" in 'DialogueUMG_C'.
-Make sure 'DialogueUMG_C' has been compiled for  Set MultiText 
-[2015.11.24-19.36.46:758][212]BlueprintEditorCompileResults:Error: Error The property associated with  Multi Text  could not be found
-[2015.11.24-19.36.46:758][212]BlueprintEditorCompileResults:Warning: Warning [2221.92] Compile of DialogueUMG failed. 1 Fatal Issue(s) 1 Warning(s) [in 151 ms]
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG:WidgetTree.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_0.WidgetTree_84.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_87.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_1.WidgetTree_88.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_2.WidgetTree_25.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_5.WidgetTree_31.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_6.WidgetTree_33.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_10.WidgetTree_41.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_11.WidgetTree_43.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_12.WidgetTree_45.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_13.WidgetTree_47.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_82.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_14.WidgetTree_49.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.World_12:DialogueUMG_C_15.WidgetTree_51.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/ThirdPersonBP/Dialogue/DialogueUMG.DialogueUMG_C:WidgetTree_83.CanvasPanel_130 or CanvasPanel /Engine/Transient.REINST_DialogueUMG_C_19:WidgetTree_19.CanvasPanel_130
-[2015.11.24-19.37.38:639][477]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_130.CanvasPanelSlot_244''
-[2015.11.24-19.38.19:213][861]BlueprintLog: New page: Compile DialogueUMG
-[2015.11.24-19.38.19:286][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.38.19:342][861]BlueprintEditorCompileResults: Info [2314.50] Compile of DialogueUMG successful! [in 129 ms]
-[2015.11.24-19.38.23:649][ 92]BlueprintLog: New page: Compile DialogueUMG
-[2015.11.24-19.38.23:750][ 92]BlueprintEditorCompileResults: Info [2318.91] Compile of DialogueUMG successful! [in 101 ms]
-[2015.11.24-19.38.28:011][336]BlueprintLog: New page: Compile myHUD
-[2015.11.24-19.38.28:120][336]BlueprintEditorCompileResults: Info [2323.28] Compile of myHUD successful! [in 109 ms]
-[2015.11.24-19.38.30:549][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/HUD/myHUD" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset" SILENT=true
-[2015.11.24-19.38.30:622][476]LogSavePackage: Save=58.323841ms
-[2015.11.24-19.38.30:622][476]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/myHUDC0FC31BC48A5FCEB5A0AFFB70760D6B6.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset'
-[2015.11.24-19.38.30:629][476]LogSavePackage: Total save time: 77.691432ms
-[2015.11.24-19.38.30:629][476]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/myHUD.uasset
-[2015.11.24-19.38.58:053][864]LogSavePackage: Save=29.260441ms
-[2015.11.24-19.38.58:053][864]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DialogueUMG0EEC4EB74F66AC71E483C0A3BA5A91B1.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Dialogue/DialogueUMG.uasset'
-[2015.11.24-19.38.58:060][864]LogSavePackage: Total save time: 43.138571ms
-[2015.11.24-19.38.58:060][864]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Dialogue/DialogueUMG.uasset
-[2015.11.24-19.38.59:992][979]BlueprintLog: New page: Compile DialogueUMG
-[2015.11.24-19.39.00:057][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.39.00:099][979]BlueprintEditorCompileResults: Info [2355.26] Compile of DialogueUMG successful! [in 107 ms]
-[2015.11.24-19.39.04:562][231]BlueprintLog: New page: Compile DialogueUMG
-[2015.11.24-19.39.04:667][231]BlueprintEditorCompileResults: Info [2359.83] Compile of DialogueUMG successful! [in 105 ms]
-[2015.11.24-19.39.05:384][265]LogSavePackage: Save=35.185352ms
-[2015.11.24-19.39.05:384][265]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/DialogueUMG0B76AAB74776BAE2ED02799821BCEA8F.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Dialogue/DialogueUMG.uasset'
-[2015.11.24-19.39.05:392][265]LogSavePackage: Total save time: 58.219805ms
-[2015.11.24-19.39.05:392][265]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Dialogue/DialogueUMG.uasset
-[2015.11.24-19.39.07:640][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2015.11.24-19.39.09:991][518]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2015.11.24-19.39.11:391][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.39.11:391][583]BlueprintLog: New page: Pre-Play auto-recompile
-[2015.11.24-19.39.11:394][583]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
-[2015.11.24-19.39.11:615][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 223 ms (6 blueprints)
-[2015.11.24-19.39.11:616][583]LogPlayLevel: [PlayLevel] Compiling DummyOrbRotate before play...
-[2015.11.24-19.39.11:699][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 308 ms (6 blueprints)
-[2015.11.24-19.39.11:700][583]LogPlayLevel: [PlayLevel] Compiling Cave before play...
-[2015.11.24-19.39.11:765][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 374 ms (6 blueprints)
-[2015.11.24-19.39.11:767][583]LogPlayLevel: [PlayLevel] Compiling Circus before play...
-[2015.11.24-19.39.11:832][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 440 ms (6 blueprints)
-[2015.11.24-19.39.11:833][583]LogPlayLevel: [PlayLevel] Compiling Final before play...
-[2015.11.24-19.39.11:893][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 502 ms (6 blueprints)
-[2015.11.24-19.39.11:894][583]LogPlayLevel: [PlayLevel] Compiling CharacterHUD before play...
-[2015.11.24-19.39.11:956][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 565 ms (7 blueprints)
-[2015.11.24-19.39.11:957][583]LogPlayLevel: [PlayLevel] Compiling myHUD before play...
-[2015.11.24-19.39.12:022][583]LogPlayLevel: PlayLevel: Blueprint regeneration took 630 ms (7 blueprints)
-[2015.11.24-19.39.12:022][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.39.12:054][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9207DA3E0
-[2015.11.24-19.39.12:056][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F91CDEE3E0
-[2015.11.24-19.39.12:057][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96D8B7100
-[2015.11.24-19.39.12:058][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96D8B6D40
-[2015.11.24-19.39.12:068][583]PIE: New page: PIE session: Hub (Nov 24, 2015, 9:39:12 AM)
-[2015.11.24-19.39.12:068][583]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
-[2015.11.24-19.39.12:102][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033553s)
-[2015.11.24-19.39.12:104][583]LogAIModule: Creating AISystem for world Hub
-[2015.11.24-19.39.12:104][583]LogPlayLevel: PIE: World Init took: (0.002279s)
-[2015.11.24-19.39.12:104][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.036204s)
-[2015.11.24-19.39.12:145][583]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.24-19.39.12:152][583]LogInit: FAudioDevice initialized.
-[2015.11.24-19.39.12:231][583]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.39.12:252][583]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.39.12:252][583]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.24-14.39.12
-[2015.11.24-19.39.12:252][583]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.39.12:253][583]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.39.12:253][583]LogWorld: Bringing up level for play took: 0.020130
-[2015.11.24-19.39.12:259][583]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub 0.82
-[2015.11.24-19.39.12:259][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.39.12:808][614]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.39.12:808][614]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.12:821][615]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.39.12:822][615]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.12:838][616]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.39.12:838][616]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.12:855][617]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.39.12:855][617]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.12:872][618]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.39.12:872][618]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.12:872][618]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_0
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.39.12:872][618]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.39.27:904][513]LogPackageName: SearchForPackageOnDisk took   0.113s to resolve Cave.umap.
-[2015.11.24-19.39.28:016][514]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Cave.umap.
-[2015.11.24-19.39.28:016][514]LogNet: Browse: /Game/ThirdPersonBP/Maps/Cave
-[2015.11.24-19.39.28:017][514]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Cave
-[2015.11.24-19.39.28:057][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96CCBA660
-[2015.11.24-19.39.28:060][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9365EF6A0
-[2015.11.24-19.39.28:061][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F90ECEC720
-[2015.11.24-19.39.28:073][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F904050AE0
-[2015.11.24-19.39.28:073][514]Cmd: MEM
-[2015.11.24-19.39.28:098][514]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-19.39.28:098][514]LogMemory: Process Physical Memory: 1066.30 MB used, 1089.39 MB peak
-[2015.11.24-19.39.28:098][514]LogMemory: Process Virtual Memory: 2189.02 MB used, 2372.53 MB peak
-[2015.11.24-19.39.28:098][514]LogMemory: Physical Memory: 5889.82 MB used, 16269.45 MB total
-[2015.11.24-19.39.28:098][514]LogMemory: Virtual Memory: 2870.52 MB used, 134217728.00 MB total
-[2015.11.24-19.39.28:098][514]LogMemory: 
-[2015.11.24-19.39.28:098][514]Allocator Stats for TBB: (not implemented)
-[2015.11.24-19.39.28:164][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:166][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:167][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:168][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:170][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:170][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:171][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.28:172][514]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.39.30:148][514]LogAIModule: Creating AISystem for world Cave
-[2015.11.24-19.39.30:149][514]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.39.30:242][514]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.39.30:242][514]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.24-14.39.30
-[2015.11.24-19.39.30:242][514]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.39.30:243][514]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.39.30:254][514]LogWorld: Bringing up level for play took: 0.103893
-[2015.11.24-19.39.30:260][514]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.39.32:566][647]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.39.55:654][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.39.55:745][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.39.55:746][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.39.55:781][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F94D788360
-[2015.11.24-19.40.41:642][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:643][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:645][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:646][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:647][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:647][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:648][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.41:649][608]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.40.42:046][608]LogAIModule: Creating AISystem for world Cave
-[2015.11.24-19.40.42:050][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Sphere_C_0.P_GoldSparkle_Bag_Lo_2
-[2015.11.24-19.40.42:050][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.TeddyBURRRRR_C_0.ParticleSystem
-[2015.11.24-19.40.42:051][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Resources/P_OrePile_Explosion_Success.P_OrePile_Explosion_Success Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.P_OrePile_Explosion_Success_12.ParticleSystemComponent0
-[2015.11.24-19.40.42:056][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Sphere_C_0.P_GoldSparkle_Bag_Lo_2
-[2015.11.24-19.40.42:056][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Sphere_C_0.P_GoldSparkle_Bag_Lo_2
-[2015.11.24-19.40.42:057][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.TeddyBURRRRR_C_0.ParticleSystem
-[2015.11.24-19.40.42:057][608]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeEffects/Effects/FX_Treasure/Gold_Bag/P_GoldSparkle_Bag_Lo_2.P_GoldSparkle_Bag_Lo_2 Component=/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.TeddyBURRRRR_C_0.ParticleSystem
-[2015.11.24-19.40.42:063][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.11.24-19.40.42:064][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
-[2015.11.24-19.40.42:093][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F99C120540
-[2015.11.24-19.40.43:301][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/HUD/HealthDeco" FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/HealthDeco.uasset" SILENT=true
-[2015.11.24-19.40.43:310][608]LogSavePackage: Save=6.601933ms
-[2015.11.24-19.40.43:310][608]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/HealthDeco6F74C9AF44B610DCC9559B9029AFA0C6.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/HealthDeco.uasset'
-[2015.11.24-19.40.43:317][608]LogSavePackage: Total save time: 14.278114ms
-[2015.11.24-19.40.43:318][608]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/HUD/HealthDeco.uasset
-[2015.11.24-19.40.43:896][608]LogSavePackage: Save=361.457123ms
-[2015.11.24-19.40.43:896][608]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/HubA7BCCE47449C1AF05C66D1AB2548287A.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Hub.umap'
-[2015.11.24-19.40.43:904][608]LogSavePackage: Total save time: 388.316475ms
-[2015.11.24-19.40.43:904][608]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Hub.umap
-[2015.11.24-19.40.43:980][608]LogFileHelpers: Saving map 'Hub' took 0.662
-[2015.11.24-19.40.43:981][608]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Cave.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.24-19.40.43:982][608]LightingResults: New page: Lighting Build
-[2015.11.24-19.40.44:002][608]LoadErrors: New page: Loading map: Cave.umap
-[2015.11.24-19.40.44:003][608]MapCheck: New page: Map Check
-[2015.11.24-19.40.44:004][608]LightingResults: New page: Lighting Build
-[2015.11.24-19.40.44:030][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F904052700
-[2015.11.24-19.40.44:127][608]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.24-19.40.44:195][608]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.24-19.40.44:356][608]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.959ms to complete.
-[2015.11.24-19.40.44:356][608]LogFileHelpers: Loading map 'Cave' took 0.376
-[2015.11.24-19.40.56:038][272]LogEditorViewport: Clicking on Actor (LMB): Spider_BP_C (Spider_BP)
-[2015.11.24-19.41.30:845][299]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.41.31:884][360]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.41.32:862][417]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.41.34:872][534]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.41.36:464][628]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.41.39:006][750]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2015.11.24-19.42.44:521][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cave)
-[2015.11.24-19.42.45:422][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cave)
-[2015.11.24-19.43.01:582][336]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Aura_Default_Upheaval_Charge_01)
-[2015.11.24-19.43.06:041][599]Cmd: DELETE
-[2015.11.24-19.43.06:041][599]Cmd: ACTOR DELETE
-[2015.11.24-19.43.08:623][599]LogEditorActor: Deleted Actor: Emitter
-[2015.11.24-19.43.08:667][599]LogEditorActor: Deleted 1 Actors (2.624 secs)
-[2015.11.24-19.43.27:462][608]BlueprintLog: New page: Compile Cave
-[2015.11.24-19.43.27:596][608]BlueprintEditorCompileResults: Info [2622.76] Compile of Cave successful! [in 133 ms]
-[2015.11.24-19.43.34:767][ 22]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cave)
-[2015.11.24-19.43.35:786][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave' with GeneratedClass '/Game/ThirdPersonBP/Maps/Cave.Cave_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave'
-[2015.11.24-19.43.35:786][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.11.24-19.43.35:786][ 63]PIE: New page: PIE session: Cave (Nov 24, 2015, 9:43:35 AM)
-[2015.11.24-19.43.35:786][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave
-[2015.11.24-19.43.35:846][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059585s)
-[2015.11.24-19.43.35:847][ 63]LogAIModule: Creating AISystem for world Cave
-[2015.11.24-19.43.35:847][ 63]LogPlayLevel: PIE: World Init took: (0.000898s)
-[2015.11.24-19.43.35:847][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Cave.Cave to /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave (0.060805s)
-[2015.11.24-19.43.35:881][ 63]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.24-19.43.35:889][ 63]LogInit: FAudioDevice initialized.
-[2015.11.24-19.43.35:920][ 63]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.43.36:035][ 63]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.43.36:035][ 63]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.24-14.43.36
-[2015.11.24-19.43.36:035][ 63]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.43.36:036][ 63]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.43.36:046][ 63]LogWorld: Bringing up level for play took: 0.124630
-[2015.11.24-19.43.36:050][ 63]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave 0.611
-[2015.11.24-19.43.36:051][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave' with GeneratedClass '/Game/ThirdPersonBP/Maps/Cave.Cave_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave'
-[2015.11.24-19.43.36:500][ 89]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_3
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.36:500][ 89]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.36:513][ 90]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_3
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.36:514][ 90]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.36:530][ 91]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_3
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.36:531][ 91]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.36:547][ 92]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_3
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.43.36:547][ 92]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.36:547][ 92]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.ThirdPersonCharacter_C_3
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.43.36:547][ 92]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.40:259][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave' with GeneratedClass '/Game/ThirdPersonBP/Maps/Cave.Cave_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave'
-[2015.11.24-19.43.40:337][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave' with GeneratedClass '/Game/ThirdPersonBP/Maps/Cave.Cave_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Cave.Cave:PersistentLevel.Cave'
-[2015.11.24-19.43.40:388][314]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F99C26E8E0
-[2015.11.24-19.43.46:915][588]LogSavePackage: Save=942.105286ms
-[2015.11.24-19.43.46:915][588]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Cave5BE1A3B0431393141EAD009C9E3713F6.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Cave.umap'
-[2015.11.24-19.43.46:923][588]LogSavePackage: Total save time: 970.720645ms
-[2015.11.24-19.43.46:923][588]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Cave.umap
-[2015.11.24-19.43.47:138][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cave)
-[2015.11.24-19.43.49:275][703]LogAIModule: Creating AISystem for world Hub
-[2015.11.24-19.43.49:278][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Cave_C_0.P_Portal
-[2015.11.24-19.43.49:279][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Circus_344.P_Portal
-[2015.11.24-19.43.49:279][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Final_650.P_Portal
-[2015.11.24-19.43.49:281][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Cave_C_0.P_Portal
-[2015.11.24-19.43.49:282][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Cave_C_0.P_Portal
-[2015.11.24-19.43.49:283][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Circus_344.P_Portal
-[2015.11.24-19.43.49:284][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Circus_344.P_Portal
-[2015.11.24-19.43.49:285][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Final_650.P_Portal
-[2015.11.24-19.43.49:285][703]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_Portal.P_Portal Component=/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Final_650.P_Portal
-[2015.11.24-19.43.49:338][703]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.24-19.43.49:338][703]LightingResults: New page: Lighting Build
-[2015.11.24-19.43.49:359][703]LoadErrors: New page: Loading map: Hub.umap
-[2015.11.24-19.43.49:437][703]MapCheck: New page: Map Check
-[2015.11.24-19.43.49:437][703]LightingResults: New page: Lighting Build
-[2015.11.24-19.43.49:474][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9727193A0
-[2015.11.24-19.43.49:476][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F91561E480
-[2015.11.24-19.43.49:593][703]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.24-19.43.49:687][703]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.24-19.43.49:858][703]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 170.528ms to complete.
-[2015.11.24-19.43.49:860][703]LogFileHelpers: Loading map 'Hub' took 0.525
-[2015.11.24-19.43.50:754][750]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2015.11.24-19.43.51:600][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.43.51:600][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.11.24-19.43.51:600][788]PIE: New page: PIE session: Hub (Nov 24, 2015, 9:43:51 AM)
-[2015.11.24-19.43.51:600][788]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
-[2015.11.24-19.43.51:656][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055975s)
-[2015.11.24-19.43.51:657][788]LogAIModule: Creating AISystem for world Hub
-[2015.11.24-19.43.51:658][788]LogPlayLevel: PIE: World Init took: (0.000952s)
-[2015.11.24-19.43.51:658][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.057296s)
-[2015.11.24-19.43.51:699][788]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.24-19.43.51:706][788]LogInit: FAudioDevice initialized.
-[2015.11.24-19.43.51:739][788]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.43.51:760][788]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.43.51:760][788]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.24-14.43.51
-[2015.11.24-19.43.51:760][788]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.43.51:760][788]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.43.51:761][788]LogWorld: Bringing up level for play took: 0.020423
-[2015.11.24-19.43.51:764][788]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub 0.326
-[2015.11.24-19.43.51:765][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.43.52:125][808]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.52:125][808]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:139][809]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.52:139][809]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:155][810]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.52:156][810]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:172][811]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.52:172][811]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:189][812]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.43.52:189][812]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:206][813]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.43.52:206][813]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.52:206][813]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_4
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.43.52:206][813]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.43.59:506][245]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Cave.umap.
-[2015.11.24-19.43.59:617][246]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Cave.umap.
-[2015.11.24-19.43.59:617][246]LogNet: Browse: /Game/ThirdPersonBP/Maps/Cave
-[2015.11.24-19.43.59:617][246]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Cave
-[2015.11.24-19.43.59:653][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F99C1216C0
-[2015.11.24-19.43.59:654][246]Cmd: MEM
-[2015.11.24-19.43.59:681][246]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-19.43.59:681][246]LogMemory: Process Physical Memory: 1431.19 MB used, 1459.73 MB peak
-[2015.11.24-19.43.59:681][246]LogMemory: Process Virtual Memory: 2451.50 MB used, 2640.77 MB peak
-[2015.11.24-19.43.59:681][246]LogMemory: Physical Memory: 6475.94 MB used, 16269.45 MB total
-[2015.11.24-19.43.59:681][246]LogMemory: Virtual Memory: 3119.83 MB used, 134217728.00 MB total
-[2015.11.24-19.43.59:681][246]LogMemory: 
-[2015.11.24-19.43.59:681][246]Allocator Stats for TBB: (not implemented)
-[2015.11.24-19.44.00:179][246]LogAIModule: Creating AISystem for world Cave
-[2015.11.24-19.44.00:180][246]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.44.00:270][246]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.44.00:270][246]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave up for play (max tick rate 60) at 2015.11.24-14.44.00
-[2015.11.24-19.44.00:270][246]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.44.00:271][246]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.44.00:284][246]LogWorld: Bringing up level for play took: 0.102406
-[2015.11.24-19.44.00:287][246]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.44.04:219][480]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.44.05:935][583]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.44.41:761][731]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsGold_Cube'
-	Cave_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.Cave_C_2
-	Function /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave_C:ExecuteUbergraph_Cave:00FA
-[2015.11.24-19.44.41:762][731]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsGold_Cube' from node Branch in graph 'EventGraph' in blueprint Cave
-[2015.11.24-19.44.49:763][211]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsGold_Cube'
-	Cave_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.Cave_C_2
-	Function /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave_C:ExecuteUbergraph_Cave:00FA
-[2015.11.24-19.44.49:763][211]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsGold_Cube' from node Branch in graph 'EventGraph' in blueprint Cave
-[2015.11.24-19.45.01:100][889]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsCopper_Cube'
-	Cave_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave:PersistentLevel.Cave_C_2
-	Function /Game/ThirdPersonBP/Maps/UEDPIE_0_Cave.Cave_C:ExecuteUbergraph_Cave:0148
-[2015.11.24-19.45.01:101][889]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsCopper_Cube' from node Branch in graph 'EventGraph' in blueprint Cave
-[2015.11.24-19.45.45:353][541]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.45.46:420][605]LogBlueprintUserMessages: [Child_C_3] yay
-[2015.11.24-19.45.46:921][635]LogBlueprintUserMessages: [Child_C_3] yay
-[2015.11.24-19.45.48:526][725]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Hub.umap.
-[2015.11.24-19.45.48:640][726]LogPackageName: SearchForPackageOnDisk took   0.106s to resolve Hub.umap.
-[2015.11.24-19.45.48:640][726]LogNet: Browse: /Game/ThirdPersonBP/Maps/Hub
-[2015.11.24-19.45.48:640][726]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Hub
-[2015.11.24-19.45.48:674][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F912CC9F80
-[2015.11.24-19.45.48:686][726]Cmd: MEM
-[2015.11.24-19.45.48:713][726]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-19.45.48:713][726]LogMemory: Process Physical Memory: 1467.55 MB used, 1485.07 MB peak
-[2015.11.24-19.45.48:713][726]LogMemory: Process Virtual Memory: 2386.68 MB used, 2640.77 MB peak
-[2015.11.24-19.45.48:713][726]LogMemory: Physical Memory: 6491.64 MB used, 16269.45 MB total
-[2015.11.24-19.45.48:713][726]LogMemory: Virtual Memory: 3069.71 MB used, 134217728.00 MB total
-[2015.11.24-19.45.48:713][726]LogMemory: 
-[2015.11.24-19.45.48:713][726]Allocator Stats for TBB: (not implemented)
-[2015.11.24-19.45.48:713][726]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub
-[2015.11.24-19.45.48:752][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039412s)
-[2015.11.24-19.45.48:753][726]LogAIModule: Creating AISystem for world Hub
-[2015.11.24-19.45.48:754][726]LogPlayLevel: PIE: World Init took: (0.001044s)
-[2015.11.24-19.45.48:754][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Hub.Hub to /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub (0.040799s)
-[2015.11.24-19.45.48:754][726]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.45.48:780][726]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.45.48:780][726]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 60) at 2015.11.24-14.45.48
-[2015.11.24-19.45.48:780][726]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.45.48:780][726]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.45.48:781][726]LogWorld: Bringing up level for play took: 0.025443
-[2015.11.24-19.45.57:225][232]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.45.57:225][232]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:238][233]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.45.57:238][233]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:255][234]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.45.57:255][234]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:271][235]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.45.57:271][235]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:288][236]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.45.57:288][236]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:305][237]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.45.57:305][237]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.45.57:305][237]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.45.57:305][237]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:139][466]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.01:140][466]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:149][467]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.01:150][467]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:166][468]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.01:166][468]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:183][469]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.01:183][469]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:200][470]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.46.01:200][470]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.01:200][470]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.ThirdPersonCharacter_C_6
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.46.01:200][470]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.11:289][ 69]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Circus.umap.
-[2015.11.24-19.46.11:400][ 70]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve Circus.umap.
-[2015.11.24-19.46.11:400][ 70]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
-[2015.11.24-19.46.11:401][ 70]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
-[2015.11.24-19.46.11:435][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F91B2BAD40
-[2015.11.24-19.46.11:435][ 70]Cmd: MEM
-[2015.11.24-19.46.11:462][ 70]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-19.46.11:462][ 70]LogMemory: Process Physical Memory: 1469.58 MB used, 1499.22 MB peak
-[2015.11.24-19.46.11:462][ 70]LogMemory: Process Virtual Memory: 2377.68 MB used, 2640.77 MB peak
-[2015.11.24-19.46.11:462][ 70]LogMemory: Physical Memory: 6489.88 MB used, 16269.45 MB total
-[2015.11.24-19.46.11:462][ 70]LogMemory: Virtual Memory: 3052.58 MB used, 134217728.00 MB total
-[2015.11.24-19.46.11:462][ 70]LogMemory: 
-[2015.11.24-19.46.11:462][ 70]Allocator Stats for TBB: (not implemented)
-[2015.11.24-19.46.11:553][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:555][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:556][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:557][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:558][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:559][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:560][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.11:561][ 70]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.12:747][ 70]LogAIModule: Creating AISystem for world Circus
-[2015.11.24-19.46.12:748][ 70]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.46.12:817][ 70]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.46.12:817][ 70]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.24-14.46.12
-[2015.11.24-19.46.12:817][ 70]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.46.12:817][ 70]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.46.12:823][ 70]LogWorld: Bringing up level for play took: 0.073859
-[2015.11.24-19.46.13:776][127]LogPawn:Error: EnableInput can only be specified on a Pawn for its Controller
-[2015.11.24-19.46.23:617][717]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:617][717]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:629][718]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:630][718]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:645][719]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:645][719]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:664][720]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:664][720]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:678][721]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:678][721]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:695][722]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:695][722]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:712][723]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:713][723]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:729][724]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:729][724]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:745][725]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1445
-[2015.11.24-19.46.23:746][725]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:763][726]LogScript:Warning: Accessed None 'Physics Handle'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1218
-[2015.11.24-19.46.23:763][726]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.23:763][726]LogScript:Warning: Accessed None 'Physics Object'
-	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_7
-	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:127E
-[2015.11.24-19.46.23:763][726]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
-[2015.11.24-19.46.48:619][211]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Circus.umap.
-[2015.11.24-19.46.48:738][212]LogPackageName: SearchForPackageOnDisk took   0.107s to resolve Circus.umap.
-[2015.11.24-19.46.48:738][212]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
-[2015.11.24-19.46.48:738][212]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
-[2015.11.24-19.46.48:780][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96B889B20
-[2015.11.24-19.46.48:796][212]Cmd: MEM
-[2015.11.24-19.46.48:823][212]LogMemory: Platform Memory Stats for Windows
-[2015.11.24-19.46.48:823][212]LogMemory: Process Physical Memory: 1547.92 MB used, 1561.07 MB peak
-[2015.11.24-19.46.48:823][212]LogMemory: Process Virtual Memory: 2460.01 MB used, 2640.77 MB peak
-[2015.11.24-19.46.48:823][212]LogMemory: Physical Memory: 6569.62 MB used, 16269.45 MB total
-[2015.11.24-19.46.48:823][212]LogMemory: Virtual Memory: 3151.78 MB used, 134217728.00 MB total
-[2015.11.24-19.46.48:823][212]LogMemory: 
-[2015.11.24-19.46.48:823][212]Allocator Stats for TBB: (not implemented)
-[2015.11.24-19.46.48:878][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:879][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:881][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:882][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:883][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:883][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:884][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.48:885][212]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.24-19.46.49:446][212]LogAIModule: Creating AISystem for world Circus
-[2015.11.24-19.46.49:447][212]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.11.24-19.46.49:520][212]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.11.24-19.46.49:520][212]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.24-14.46.49
-[2015.11.24-19.46.49:520][212]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.46.49:520][212]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.11.24-19.46.49:527][212]LogWorld: Bringing up level for play took: 0.078753
-[2015.11.24-19.46.49:563][213]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.46.49:633][213]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/ThirdPersonBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Hub.Hub:PersistentLevel.Hub'
-[2015.11.24-19.46.49:699][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96CD53D80
-[2015.11.24-19.48.37:380][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.11.24-19.48.39:042][796]LogSavePackage: Save=378.445282ms
-[2015.11.24-19.48.39:042][796]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/UEDPCHubD53FDAB64B8D1073289494949F281C56.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCHub.umap'
-[2015.11.24-19.48.39:052][796]LogSavePackage: Total save time: 414.429437ms
-[2015.11.24-19.48.39:052][796]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame - Copy/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/UEDPCHub.umap
-[2015.11.24-19.52.10:931][952]Cmd: QUIT_EDITOR
-[2015.11.24-19.52.12:017][952]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.11.24-19.52.12:017][952]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.11.24-19.52.12:158][952]LogExit: Preparing to exit.
-[2015.11.24-19.52.12:557][952]LogExit: Editor shut down
-[2015.11.24-19.52.12:558][952]LogExit: Transaction tracking system shut down
-[2015.11.24-19.52.12:562][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96CDB2480
-[2015.11.24-19.52.12:562][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96CD51D00
-[2015.11.24-19.52.12:562][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96CDB0540
-[2015.11.24-19.52.12:563][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F90CF25120
-[2015.11.24-19.52.12:563][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F90D1E4FE0
-[2015.11.24-19.52.12:563][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F90D1E5120
-[2015.11.24-19.52.12:570][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F936165760
-[2015.11.24-19.52.12:850][952]LogExit: Object subsystem successfully closed.
-[2015.11.24-19.52.12:863][952]LogD3D11RHI: Shutdown
-[2015.11.24-19.52.12:863][952]LogD3D11RHI: CleanupD3DDevice
-[2015.11.24-19.52.12:973][952]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (200)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2015.11.24-19.52.13:008][952]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2015.11.24-19.52.13:011][952]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2015.11.24-19.52.13:011][952]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2015.11.24-19.52.13:011][952]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
-[2015.11.24-19.52.13:011][952]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
-[2015.11.24-19.52.13:011][952]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module BspMode (184)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
-[2015.11.24-19.52.13:012][952]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module MergeActors (168)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module SizeMap (167)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module TreeMap (166)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
-[2015.11.24-19.52.13:890][952]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module XmlParser (157)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module Blutility (156)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module AutomationController (145)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
-[2015.11.24-19.52.13:891][952]LogModuleManager: Shutting down and abandoning module Layers (143)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module Persona (139)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module Kismet (138)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
-[2015.11.24-19.52.13:892][952]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module Toolbox (135)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module OutputLog (132)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module GammaUI (131)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module Documentation (130)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module Analytics (126)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module AIModule (123)
-[2015.11.24-19.52.13:894][952]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module SteamVR (118)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module OculusRift (116)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
-[2015.11.24-19.52.14:087][952]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module CableComponent (112)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module SourceControl (99)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
-[2015.11.24-19.52.14:115][952]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.11.24-19.52.14:116][952]LogModuleManager: Shutting down and abandoning module MainFrame (91)
-[2015.11.24-19.52.14:116][952]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
-[2015.11.24-19.52.14:117][952]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
-[2015.11.24-19.52.14:120][952]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
-[2015.11.24-19.52.14:236][952]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
-[2015.11.24-19.52.14:237][952]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
-[2015.11.24-19.52.14:237][952]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
-[2015.11.24-19.52.14:338][952]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
-[2015.11.24-19.52.14:338][952]LogModuleManager: Shutting down and abandoning module Paper2D (83)
-[2015.11.24-19.52.14:338][952]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
-[2015.11.24-19.52.14:348][952]LogModuleManager: Shutting down and abandoning module Media (81)
-[2015.11.24-19.52.14:348][952]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module MessageLog (72)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module Sequencer (71)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module AssetTools (70)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module UMG (68)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module Slate (67)
-[2015.11.24-19.52.14:349][952]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module SessionServices (65)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module Networking (60)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module Core (59)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
-[2015.11.24-19.52.14:352][952]LogModuleManager: Shutting down and abandoning module CookingStats (55)
-[2015.11.24-19.52.14:359][952]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
-[2015.11.24-19.52.14:427][952]LogDerivedDataCache: Shutdown
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Messaging (37)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module InputCore (21)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module Settings (20)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
-[2015.11.24-19.52.14:427][952]LogModuleManager: Shutting down and abandoning module HTTP (17)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module XMPP (16)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2015.11.24-19.52.16:432][952]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2015.11.24-19.52.16:444][952]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2015.11.24-19.52.16:444][952]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2015.11.24-19.52.16:444][952]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2015.11.24-19.52.16:444][952]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.11.24-19.52.16:445][952]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.11.24-19.52.16:447][952]LogExit: Exiting.
-[2015.11.24-19.52.16:451][952]Log file closed, 11/24/15 14:52:16
+﻿[2015.11.24-20.09.07:542][  0]Log file open, 11/24/15 15:09:07
+[2015.11.24-20.09.07:542][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.24-20.09.07:542][  0]LogInit:Display: RandInit(346242682) SRandInit(346242683).
+[2015.11.24-20.09.07:542][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.24-20.09.07:542][  0]LogStats: Stats thread started at 0.094847
+[2015.11.24-20.09.07:542][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.24-20.09.07:542][  0]LogInit: API Version: 2672455
+[2015.11.24-20.09.07:542][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.24-20.09.07:542][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.24-20.09.07:542][  0]LogInit: Build Configuration: Development
+[2015.11.24-20.09.07:542][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.24-20.09.07:542][  0]LogInit: Command line:  
+[2015.11.24-20.09.07:542][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.24-20.09.07:542][  0]LogInit: Rocket: 1
+[2015.11.24-20.09.07:563][  0]LogInit: Using libcurl 7.41.0
+[2015.11.24-20.09.07:563][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.24-20.09.07:563][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.24-20.09.07:563][  0]LogInit:  - other features:
+[2015.11.24-20.09.07:563][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.24-20.09.07:563][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.24-20.09.07:563][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.24-20.09.07:563][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.24-20.09.07:563][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.24-20.09.07:563][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.24-20.09.07:563][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.24-20.09.07:563][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.24-20.09.07:563][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.24-20.09.07:563][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.24-20.09.07:576][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.24-20.09.07:585][  0]LogInit: Object subsystem initialized
+[2015.11.24-20.09.07:586][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.24-20.09.07:586][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.24-20.09.07:596][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.24-20.09.07:596][  0]LogInit: User: ntanc000
+[2015.11.24-20.09.07:596][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.24-20.09.07:596][  0]LogInit: High frequency timer resolution =2.537590 MHz
+[2015.11.24-20.09.07:596][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.24-20.09.07:596][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.24-20.09.07:596][  0]LogMemory: Process Physical Memory: 52.97 MB used, 52.97 MB peak
+[2015.11.24-20.09.07:596][  0]LogMemory: Process Virtual Memory: 55.08 MB used, 55.08 MB peak
+[2015.11.24-20.09.07:596][  0]LogMemory: Physical Memory: 4768.46 MB used, 16269.45 MB total
+[2015.11.24-20.09.07:596][  0]LogMemory: Virtual Memory: 360.18 MB used, 134217728.00 MB total
+[2015.11.24-20.09.07:664][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.24-20.09.08:770][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.24-20.09.08:770][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.11.24-20.09.08:784][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.24-20.09.08:784][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.24-20.09.08:786][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.24-20.09.08:786][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.24-20.09.08:786][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.24-20.09.08:792][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.24-20.09.08:792][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.24-20.09.08:812][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.24-20.09.08:832][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/8284/).
+[2015.11.24-20.09.08:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/A2992D1245DBC86B5828E695C8F80929/'.
+[2015.11.24-20.09.08:832][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.24-20.09.10:541][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.24-20.09.10:551][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.24-20.09.10:559][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.24-20.09.10:566][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.24-20.09.10:575][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.24-20.09.10:582][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.24-20.09.10:589][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.24-20.09.10:596][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.24-20.09.10:601][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.24-20.09.10:608][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.24-20.09.10:615][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.24-20.09.10:623][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.24-20.09.10:625][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.24-20.09.10:645][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.24-20.09.10:651][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.24-20.09.10:657][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.24-20.09.10:662][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.24-20.09.10:662][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.24-20.09.10:871][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.24-20.09.10:944][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.24-20.09.11:130][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.24-20.09.11:143][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.24-20.09.11:514][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.24-20.09.11:518][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.24-20.09.11:696][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.24-20.09.11:696][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.24-20.09.12:081][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.24-20.09.13:329][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.24-20.09.13:454][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.11.24-20.09.13:738][  0]SourceControl: Info Source control is disabled
+[2015.11.24-20.09.14:114][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.14:275][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.24-20.09.14:275][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.24-20.09.14:348][  0]LogEngine: Initializing Engine...
+[2015.11.24-20.09.14:351][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.24-20.09.14:353][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.24-20.09.14:514][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.24-20.09.14:523][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.24-20.09.14:536][  0]LogInit: FAudioDevice initialized.
+[2015.11.24-20.09.14:569][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.24-20.09.14:573][  0]LogInit: Texture streaming: Enabled
+[2015.11.24-20.09.14:585][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.24-20.09.14:585][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.24-20.09.14:585][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.24-20.09.14:585][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.24-20.09.14:635][  0]LogInit: Transaction tracking system initialized
+[2015.11.24-20.09.14:687][  0]BlueprintLog: New page: Editor Load
+[2015.11.24-20.09.14:831][  0]LocalizationService: Info Localization service is disabled
+[2015.11.24-20.09.14:961][  0]LogConsoleResponse:Display: 
+[2015.11.24-20.09.15:154][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.24-20.09.15:268][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.03s
+[2015.11.24-20.09.15:268][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.24-20.09.15:269][  0]LightingResults: New page: Lighting Build
+[2015.11.24-20.09.15:274][  0]MapCheck: New page: Map Check
+[2015.11.24-20.09.15:274][  0]LightingResults: New page: Lighting Build
+[2015.11.24-20.09.15:294][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007608D27CE0
+[2015.11.24-20.09.17:152][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.24-20.09.17:180][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.24-20.09.17:181][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.24-20.09.17:390][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 207.783ms to complete.
+[2015.11.24-20.09.17:390][  0]LogFileHelpers: Loading map 'Hub' took 2.122
+[2015.11.24-20.09.17:584][  0]LogCollectionManager: Loaded 0 collections in 0.006044 seconds
+[2015.11.24-20.09.17:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.24-20.09.17:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.24-20.09.17:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.24-20.09.17:637][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 1867 classes and 333 folders.
+[2015.11.24-20.09.17:656][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.24-20.09.17:667][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.11.24-20.09.17:808][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.24-20.09.17:815][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2015.11.24-20.09.17:930][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.24-20.09.17:938][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.24-20.09.17:960][  0]LogLoad: Full Startup: 11.23 seconds (BP compile: 0.68 seconds)
+[2015.11.24-20.09.18:427][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.24-20.09.18:591][  0]LogRenderer: Reallocating scene render targets to support 764x436 (Frame:2).
+[2015.11.24-20.09.20:965][  7]LogAssetRegistry: Asset discovery search completed in 7.5217 seconds
+[2015.11.24-20.09.20:965][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.24-20.09.20:965][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2015.11.24-20.09.33:157][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:158][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:160][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:161][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:162][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:163][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:164][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.33:166][ 45]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.34:533][ 45]LogAIModule: Creating AISystem for world Circus
+[2015.11.24-20.09.34:639][ 45]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.24-20.09.34:639][ 45]LightingResults: New page: Lighting Build
+[2015.11.24-20.09.34:665][ 45]LoadErrors: New page: Loading map: Circus.umap
+[2015.11.24-20.09.34:667][ 45]MapCheck: New page: Map Check
+[2015.11.24-20.09.34:667][ 45]LightingResults: New page: Lighting Build
+[2015.11.24-20.09.34:687][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000760B725620
+[2015.11.24-20.09.34:794][ 45]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.24-20.09.34:894][ 45]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.24-20.09.35:098][ 45]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 203.562ms to complete.
+[2015.11.24-20.09.35:100][ 45]LogFileHelpers: Loading map 'Circus' took 0.463
+[2015.11.24-20.09.48:530][689]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.24-20.09.49:459][689]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2015.11.24-20.09.58:753][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.24-20.09.58:754][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.24-20.09.58:793][885]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007604EAC7C0
+[2015.11.24-20.09.59:156][885]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.24-20.09.59:156][885]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.24-20.09.59:705][886]Cmd: QUIT_EDITOR
+[2015.11.24-20.10.00:220][886]LogExit: Preparing to exit.
+[2015.11.24-20.10.00:576][886]LogExit: Editor shut down
+[2015.11.24-20.10.00:576][886]LogExit: Transaction tracking system shut down
+[2015.11.24-20.10.00:593][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000076208E37E0
+[2015.11.24-20.10.00:593][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000076208EE160
+[2015.11.24-20.10.00:593][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000076308C3420
+[2015.11.24-20.10.00:600][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000076316C63E0
+[2015.11.24-20.10.00:946][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000076207132E0
+[2015.11.24-20.10.00:946][886]LogExit: Object subsystem successfully closed.
+[2015.11.24-20.10.00:967][886]LogD3D11RHI: Shutdown
+[2015.11.24-20.10.00:967][886]LogD3D11RHI: CleanupD3DDevice
+[2015.11.24-20.10.01:052][886]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.24-20.10.01:113][886]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.24-20.10.01:114][886]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.24-20.10.01:114][886]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.24-20.10.01:114][886]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.24-20.10.01:114][886]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.24-20.10.01:115][886]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.24-20.10.01:925][886]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.24-20.10.01:926][886]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.24-20.10.01:927][886]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.24-20.10.02:069][886]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.24-20.10.02:089][886]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.24-20.10.02:090][886]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.24-20.10.02:091][886]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.24-20.10.02:091][886]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.24-20.10.02:091][886]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.24-20.10.02:091][886]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.24-20.10.02:091][886]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.24-20.10.02:094][886]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.24-20.10.02:095][886]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.24-20.10.02:236][886]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.24-20.10.02:238][886]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.24-20.10.02:238][886]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.24-20.10.02:339][886]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.24-20.10.02:339][886]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.24-20.10.02:339][886]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.24-20.10.02:344][886]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.24-20.10.02:345][886]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.24-20.10.02:349][886]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.24-20.10.02:352][886]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.24-20.10.02:662][886]LogDerivedDataCache: Shutdown
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.24-20.10.02:662][886]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.24-20.10.04:665][886]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.24-20.10.04:665][886]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.24-20.10.04:665][886]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.24-20.10.04:666][886]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.24-20.10.04:666][886]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.24-20.10.04:666][886]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.24-20.10.04:667][886]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.24-20.10.04:667][886]LogExit: Exiting.
+[2015.11.24-20.10.04:713][886]Log file closed, 11/24/15 15:10:04
