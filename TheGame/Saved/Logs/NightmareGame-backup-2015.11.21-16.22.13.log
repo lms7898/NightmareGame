@@ -1,0 +1,1237 @@
+﻿[2015.11.19-03.38.17:261][  0]Log file open, 11/18/15 22:38:17
+[2015.11.19-03.38.17:261][  0]LogInit:Display: Running engine for game: NightmareGame
+[2015.11.19-03.38.17:261][  0]LogInit:Display: RandInit(978582256) SRandInit(978582256).
+[2015.11.19-03.38.17:261][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.19-03.38.17:261][  0]LogStats: Stats thread started at 0.106842
+[2015.11.19-03.38.17:261][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.19-03.38.17:261][  0]LogInit: API Version: 2672455
+[2015.11.19-03.38.17:261][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.19-03.38.17:261][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.19-03.38.17:261][  0]LogInit: Build Configuration: Development
+[2015.11.19-03.38.17:261][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.19-03.38.17:261][  0]LogInit: Command line:  
+[2015.11.19-03.38.17:261][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.19-03.38.17:261][  0]LogInit: Rocket: 1
+[2015.11.19-03.38.17:380][  0]LogInit: Using libcurl 7.41.0
+[2015.11.19-03.38.17:380][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.19-03.38.17:380][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.19-03.38.17:380][  0]LogInit:  - other features:
+[2015.11.19-03.38.17:380][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.19-03.38.17:380][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.19-03.38.17:380][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.19-03.38.17:380][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.19-03.38.17:380][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.19-03.38.17:380][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.19-03.38.17:380][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.19-03.38.17:380][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.19-03.38.17:380][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.19-03.38.17:380][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.19-03.38.17:423][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.19-03.38.17:429][  0]LogInit: Object subsystem initialized
+[2015.11.19-03.38.17:430][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.19-03.38.17:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.19-03.38.17:450][  0]LogInit: Computer: NICKSCOMPUTER
+[2015.11.19-03.38.17:450][  0]LogInit: User: ntanc000
+[2015.11.19-03.38.17:450][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.19-03.38.17:450][  0]LogInit: High frequency timer resolution =2.537595 MHz
+[2015.11.19-03.38.17:450][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.19-03.38.17:450][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-03.38.17:450][  0]LogMemory: Process Physical Memory: 52.96 MB used, 52.96 MB peak
+[2015.11.19-03.38.17:450][  0]LogMemory: Process Virtual Memory: 55.06 MB used, 55.06 MB peak
+[2015.11.19-03.38.17:450][  0]LogMemory: Physical Memory: 3894.76 MB used, 16269.45 MB total
+[2015.11.19-03.38.17:450][  0]LogMemory: Virtual Memory: 360.18 MB used, 134217728.00 MB total
+[2015.11.19-03.38.18:182][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.19-03.38.19:271][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M (Feature Level 11_0)
+[2015.11.19-03.38.19:271][  0]LogD3D11RHI: Adapter has 3981MB of dedicated video memory, 0MB of dedicated system memory, and 8134MB of shared system memory, 2 output[s]
+[2015.11.19-03.38.19:324][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.19-03.38.19:324][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.11.19-03.38.19:344][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.19-03.38.19:344][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.19-03.38.19:344][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.19-03.38.19:351][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.19-03.38.19:351][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.19-03.38.19:368][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.19-03.38.19:386][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/WorkingDirectory/5688/).
+[2015.11.19-03.38.19:386][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Intermediate/Shaders/tmp/657FCE5E402B7F16E54598A9C236E5A2/'.
+[2015.11.19-03.38.19:386][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.19-03.38.21:859][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.19-03.38.21:865][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.19-03.38.21:871][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.19-03.38.21:876][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.19-03.38.21:882][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.19-03.38.21:889][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.19-03.38.21:893][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.19-03.38.21:897][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.19-03.38.21:901][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.19-03.38.21:905][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.19-03.38.21:910][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.19-03.38.21:914][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.19-03.38.21:915][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.19-03.38.21:961][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.19-03.38.21:965][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.19-03.38.21:969][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.19-03.38.21:977][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.19-03.38.21:977][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.19-03.38.22:396][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.19-03.38.22:438][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.19-03.38.22:571][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.19-03.38.22:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ntanc_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.19-03.38.25:802][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.19-03.38.25:804][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.19-03.38.25:985][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.19-03.38.25:985][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.19-03.38.26:587][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.19-03.38.28:943][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.19-03.38.29:089][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.11.19-03.38.29:306][  0]SourceControl: Info Source control is disabled
+[2015.11.19-03.38.29:599][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.29:734][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.19-03.38.29:734][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.19-03.38.29:793][  0]LogEngine: Initializing Engine...
+[2015.11.19-03.38.29:795][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.19-03.38.29:805][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.19-03.38.29:925][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.19-03.38.29:931][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-03.38.30:076][  0]LogInit: FAudioDevice initialized.
+[2015.11.19-03.38.30:098][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/ntanc_000/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.19-03.38.30:101][  0]LogInit: Texture streaming: Enabled
+[2015.11.19-03.38.30:107][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.19-03.38.30:107][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.19-03.38.30:107][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2c211ad74a9e5469c13dfaa1059b2d42|1bd0216fcaf5458183f89cc914276325|d020360b-9246-478a-84ac-08a9775e7849
+[2015.11.19-03.38.30:108][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.19-03.38.30:141][  0]LogInit: Transaction tracking system initialized
+[2015.11.19-03.38.30:172][  0]BlueprintLog: New page: Editor Load
+[2015.11.19-03.38.30:286][  0]LocalizationService: Info Localization service is disabled
+[2015.11.19-03.38.30:384][  0]LogConsoleResponse:Display: 
+[2015.11.19-03.38.30:518][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.19-03.38.30:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/' took 0.02s
+[2015.11.19-03.38.30:597][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.19-03.38.30:600][  0]LightingResults: New page: Lighting Build
+[2015.11.19-03.38.30:603][  0]MapCheck: New page: Map Check
+[2015.11.19-03.38.30:603][  0]LightingResults: New page: Lighting Build
+[2015.11.19-03.38.30:614][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAB5637CE0
+[2015.11.19-03.38.30:786][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:787][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:789][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:790][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:791][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:791][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:793][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.30:794][  0]LogLinker:Warning: Asset '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.38.31:805][  0]LogAIModule: Creating AISystem for world Hub
+[2015.11.19-03.38.31:832][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.19-03.38.31:833][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.19-03.38.31:953][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.676ms to complete.
+[2015.11.19-03.38.31:953][  0]LogFileHelpers: Loading map 'Hub' took 1.356
+[2015.11.19-03.38.32:103][  0]LogCollectionManager: Loaded 0 collections in 0.002189 seconds
+[2015.11.19-03.38.32:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Collections/' took 0.01s
+[2015.11.19-03.38.32:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Developers/ntanc000/Collections/' took 0.01s
+[2015.11.19-03.38.32:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/Collections/' took 0.01s
+[2015.11.19-03.38.32:151][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 1867 classes and 333 folders.
+[2015.11.19-03.38.32:162][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.19-03.38.32:170][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.19-03.38.32:372][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.19-03.38.32:379][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.19-03.38.32:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.19-03.38.32:498][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.19-03.38.32:522][  0]LogLoad: Full Startup: 16.49 seconds (BP compile: 0.35 seconds)
+[2015.11.19-03.38.33:065][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.19-03.38.33:181][  0]LogRenderer: Reallocating scene render targets to support 880x436 (Frame:2).
+[2015.11.19-03.38.34:757][  5]LogAssetRegistry: Asset discovery search completed in 5.6789 seconds
+[2015.11.19-03.38.34:757][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.19-03.38.34:757][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2015.11.19-03.48.04:925][869]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-03.48.04:926][869]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.BackToHub_4173.P_Portal
+[2015.11.19-03.48.04:928][869]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.BackToHub_4173.P_Portal
+[2015.11.19-03.48.04:928][869]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ThirdPersonBP/Blueprints/ParticleSystems/P_PortalHUB.P_PortalHUB Component=/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.BackToHub_4173.P_Portal
+[2015.11.19-03.48.04:940][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-03.48.04:977][869]Cmd: MAP LOAD FILE="../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.19-03.48.04:977][869]LightingResults: New page: Lighting Build
+[2015.11.19-03.48.04:996][869]LoadErrors: New page: Loading map: Circus.umap
+[2015.11.19-03.48.04:998][869]MapCheck: New page: Map Check
+[2015.11.19-03.48.04:998][869]LightingResults: New page: Lighting Build
+[2015.11.19-03.48.05:010][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EABA8822A0
+[2015.11.19-03.48.05:125][869]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.19-03.48.05:186][869]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.19-03.48.05:307][869]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.835ms to complete.
+[2015.11.19-03.48.05:307][869]LogFileHelpers: Loading map 'Circus' took 0.331
+[2015.11.19-03.53.00:545][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2015.11.19-03.53.02:842][500]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.53.06:945][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2015.11.19-03.53.41:442][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.11.19-03.53.52:136][441]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.19-03.53.58:680][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.11.19-03.54.10:320][518]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube9)
+[2015.11.19-03.54.11:534][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.54.11:534][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-03.54.11:534][578]PIE: New page: PIE session: Circus (Nov 18, 2015, 5:54:11 PM)
+[2015.11.19-03.54.11:534][578]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-03.54.11:564][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030103s)
+[2015.11.19-03.54.11:566][578]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-03.54.11:566][578]LogPlayLevel: PIE: World Init took: (0.002126s)
+[2015.11.19-03.54.11:567][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.032515s)
+[2015.11.19-03.54.11:567][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-03.54.11:592][578]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-03.54.11:601][578]LogInit: FAudioDevice initialized.
+[2015.11.19-03.54.11:653][578]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-03.54.11:671][578]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-22.54.11
+[2015.11.19-03.54.11:671][578]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.54.11:675][578]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.54.11:676][578]LogWorld: Bringing up level for play took: 0.021506
+[2015.11.19-03.54.11:679][578]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus -0.094
+[2015.11.19-03.54.11:680][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.54.12:166][601]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:166][601]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:180][602]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:180][602]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:196][603]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:196][603]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:214][604]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:214][604]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:230][605]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:230][605]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:247][606]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:247][606]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:263][607]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.12:263][607]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:280][608]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-03.54.12:281][608]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.12:281][608]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-03.54.12:281][608]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:335][971]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:335][971]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:350][972]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:350][972]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:365][973]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:366][973]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:382][974]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:382][974]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:399][975]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:399][975]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:416][976]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.54.18:416][976]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:432][977]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-03.54.18:432][977]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.18:432][977]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-03.54.18:432][977]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.33:260][860]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Circus.umap.
+[2015.11.19-03.54.33:363][861]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve Circus.umap.
+[2015.11.19-03.54.33:363][861]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-03.54.33:364][861]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-03.54.33:380][861]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA474E3E0
+[2015.11.19-03.54.33:384][861]Cmd: MEM
+[2015.11.19-03.54.33:397][861]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-03.54.33:397][861]LogMemory: Process Physical Memory: 706.28 MB used, 714.74 MB peak
+[2015.11.19-03.54.33:397][861]LogMemory: Process Virtual Memory: 1297.61 MB used, 1306.71 MB peak
+[2015.11.19-03.54.33:397][861]LogMemory: Physical Memory: 4480.11 MB used, 16269.45 MB total
+[2015.11.19-03.54.33:397][861]LogMemory: Virtual Memory: 1980.34 MB used, 134217728.00 MB total
+[2015.11.19-03.54.33:397][861]LogMemory: 
+[2015.11.19-03.54.33:397][861]Allocator Stats for TBB: (not implemented)
+[2015.11.19-03.54.33:399][861]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-03.54.33:423][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024567s)
+[2015.11.19-03.54.33:425][861]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-03.54.33:425][861]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2015.11.19-03.54.33:425][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.026525s)
+[2015.11.19-03.54.33:425][861]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-03.54.33:448][861]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-22.54.33
+[2015.11.19-03.54.33:448][861]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.54.33:448][861]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.54.33:449][861]LogWorld: Bringing up level for play took: 0.020765
+[2015.11.19-03.54.33:449][861]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.11.19-03.54.37:849][116]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:863][117]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:880][118]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:897][119]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:913][120]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:930][121]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:946][122]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:963][123]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.54.37:963][123]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.55.12:459][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.55.12:513][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.55.12:539][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA5132DE0
+[2015.11.19-03.55.14:870][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2015.11.19-03.55.20:412][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-03.55.21:473][700]Cmd: TRANSACTION UNDO
+[2015.11.19-03.55.21:473][700]LogEditorTransaction: Undo Clicking on Actors
+[2015.11.19-03.55.22:326][730]Cmd: TRANSACTION UNDO
+[2015.11.19-03.55.22:326][730]LogEditorTransaction: Undo Move Actors
+[2015.11.19-03.55.26:309][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.11.19-03.55.34:046][418]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube16)
+[2015.11.19-03.55.45:108][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2015.11.19-03.55.59:053][899]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.11.19-03.56.06:469][339]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2015.11.19-03.56.18:263][ 22]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.19-03.56.18:731][ 22]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.19-03.56.30:752][557]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2015.11.19-03.56.30:780][557]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA4880E00
+[2015.11.19-03.56.30:788][557]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.11.19-03.56.36:090][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.56.36:090][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-03.56.36:090][848]PIE: New page: PIE session: Circus (Nov 18, 2015, 5:56:36 PM)
+[2015.11.19-03.56.36:090][848]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-03.56.36:116][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025456s)
+[2015.11.19-03.56.36:117][848]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-03.56.36:117][848]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2015.11.19-03.56.36:117][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.026664s)
+[2015.11.19-03.56.36:117][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.19-03.56.36:154][848]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-03.56.36:161][848]LogInit: FAudioDevice initialized.
+[2015.11.19-03.56.36:191][848]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-03.56.36:208][848]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-22.56.36
+[2015.11.19-03.56.36:209][848]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.56.36:209][848]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-03.56.36:209][848]LogWorld: Bringing up level for play took: 0.016986
+[2015.11.19-03.56.36:213][848]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus 0.44
+[2015.11.19-03.56.36:213][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.56.36:671][873]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.56.36:671][873]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:685][874]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.56.36:685][874]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:702][875]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.56.36:702][875]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:719][876]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.56.36:719][876]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:735][877]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-03.56.36:736][877]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:752][878]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-03.56.36:752][878]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.36:752][878]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_10
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-03.56.36:753][878]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-03.56.40:504][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.56.40:544][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-03.56.40:567][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA39CFF60
+[2015.11.19-03.57.33:144][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-03.57.34:708][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2015.11.19-03.57.35:964][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2015.11.19-03.57.48:178][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-03.59.10:328][485]LogSavePackage: Save=246.793915ms
+[2015.11.19-03.59.10:328][485]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Circus_Auto1A75C1E2249D26C97CA032BADF839B524.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Circus_Auto1.umap'
+[2015.11.19-03.59.10:333][485]LogSavePackage: Total save time: 274.887048ms
+[2015.11.19-03.59.10:333][485]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Autosaves/Game/ThirdPersonBP/Maps/Circus_Auto1.umap
+[2015.11.19-03.59.10:335][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Circus' took 0.312
+[2015.11.19-03.59.10:335][485]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2015.11.19-03.59.49:382][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2015.11.19-03.59.56:196][203]Cmd: DELETE
+[2015.11.19-03.59.56:196][203]Cmd: ACTOR DELETE
+[2015.11.19-03.59.56:197][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:198][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:198][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:199][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:199][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:200][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:201][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:202][203]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-03.59.56:230][203]LogEditorActor: Deleted 8 Actors (0.034 secs)
+[2015.11.19-03.59.58:975][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.00.07:477][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.19-04.00.31:000][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-04.00.34:374][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2015.11.19-04.00.38:486][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.19-04.00.43:962][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.00.50:714][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.01.09:957][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.01.35:155][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.02.40:977][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.02.40:977][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.02.40:977][854]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:02:40 PM)
+[2015.11.19-04.02.40:977][854]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.02.41:005][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028194s)
+[2015.11.19-04.02.41:006][854]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.02.41:006][854]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2015.11.19-04.02.41:007][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.029549s)
+[2015.11.19-04.02.41:041][854]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.02.41:048][854]LogInit: FAudioDevice initialized.
+[2015.11.19-04.02.41:085][854]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.02.41:101][854]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.02.41
+[2015.11.19-04.02.41:101][854]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.02.41:102][854]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.02.41:102][854]LogWorld: Bringing up level for play took: 0.015666
+[2015.11.19-04.02.41:106][854]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus -0.667
+[2015.11.19-04.02.41:106][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.02.42:014][905]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.02.42:014][905]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:029][906]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.02.42:029][906]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:045][907]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.02.42:045][907]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:062][908]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.02.42:063][908]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:079][909]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.02.42:079][909]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:096][910]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.02.42:096][910]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.42:096][910]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_11
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.02.42:096][910]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.02.50:485][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.02.50:538][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.02.50:579][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAC0440220
+[2015.11.19-04.03.02:279][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-04.03.03:469][129]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.03.03:469][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.03.03:469][129]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:03:03 PM)
+[2015.11.19-04.03.03:469][129]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.03.03:495][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025594s)
+[2015.11.19-04.03.03:496][129]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.03.03:496][129]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2015.11.19-04.03.03:496][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.026925s)
+[2015.11.19-04.03.03:527][129]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.03.03:534][129]LogInit: FAudioDevice initialized.
+[2015.11.19-04.03.03:567][129]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.03.03:582][129]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.03.03
+[2015.11.19-04.03.03:582][129]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.03.03:583][129]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.03.03:583][129]LogWorld: Bringing up level for play took: 0.015170
+[2015.11.19-04.03.03:587][129]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus -0.186
+[2015.11.19-04.03.03:587][129]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.03.04:054][154]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:054][154]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:068][155]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:068][155]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:085][156]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:085][156]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:101][157]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:102][157]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:118][158]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:118][158]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:135][159]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.03.04:135][159]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:152][160]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.03.04:152][160]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.04:152][160]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_12
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.03.04:153][160]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.03.20:841][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.03.20:880][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.03.20:924][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EACF02C860
+[2015.11.19-04.03.54:979][144]LogEditorViewport: Clicking on Actor (context menu): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.11.19-04.03.59:057][377]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.19-04.03.59:693][415]Cmd: TRANSACTION UNDO
+[2015.11.19-04.03.59:694][415]LogEditorTransaction: Undo Move Actors
+[2015.11.19-04.03.59:707][415]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Cube4.StaticMeshComponent0) Component already registered.
+[2015.11.19-04.03.59:707][415]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.SkyLight_2.SkyLightComponent0) Component already registered.
+[2015.11.19-04.03.59:707][415]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0) Component already registered.
+[2015.11.19-04.04.02:124][541]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.19-04.04.04:877][705]Cmd: TRANSACTION UNDO
+[2015.11.19-04.04.04:877][705]LogEditorTransaction: Undo Move Actors
+[2015.11.19-04.04.04:893][705]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Cube4.StaticMeshComponent0) Component already registered.
+[2015.11.19-04.04.04:894][705]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.SkyLight_2.SkyLightComponent0) Component already registered.
+[2015.11.19-04.04.04:894][705]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0) Component already registered.
+[2015.11.19-04.04.16:550][380]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.19-04.04.17:384][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.19-04.04.18:460][490]Cmd: DELETE
+[2015.11.19-04.04.18:460][490]Cmd: ACTOR DELETE
+[2015.11.19-04.04.18:461][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.19-04.04.18:493][490]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.11.19-04.04.20:441][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.04.39:206][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.05.13:029][686]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.11.19-04.05.14:010][739]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.05.14:010][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.05.14:010][739]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:05:14 PM)
+[2015.11.19-04.05.14:010][739]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.05.14:036][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025178s)
+[2015.11.19-04.05.14:037][739]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.05.14:037][739]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2015.11.19-04.05.14:037][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.026531s)
+[2015.11.19-04.05.14:072][739]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.05.14:080][739]LogInit: FAudioDevice initialized.
+[2015.11.19-04.05.14:111][739]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.05.14:127][739]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.05.14
+[2015.11.19-04.05.14:127][739]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.05.14:127][739]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.05.14:128][739]LogWorld: Bringing up level for play took: 0.015822
+[2015.11.19-04.05.14:131][739]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus 0.359
+[2015.11.19-04.05.14:131][739]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.05.14:617][765]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:617][765]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:631][766]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:631][766]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:647][767]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:648][767]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:664][768]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:664][768]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:681][769]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:682][769]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:697][770]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:698][770]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:714][771]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.05.14:714][771]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:731][772]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.05.14:732][772]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.14:732][772]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_13
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.05.14:732][772]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.05.37:022][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.05.37:066][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.05.37:108][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EACEF65580
+[2015.11.19-04.05.39:936][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.05.42:846][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.19-04.05.46:165][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2015.11.19-04.05.49:634][828]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-04.05.58:462][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.06.01:731][533]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0005 seconds. Added 15 classes and 2 folders.
+[2015.11.19-04.06.01:737][533]LogInit: Transaction tracking system initialized
+[2015.11.19-04.06.01:737][533]EditorErrors: New page: Matinee Initialization
+[2015.11.19-04.06.27:769][874]LogInit: Transaction tracking system initialized
+[2015.11.19-04.06.27:769][874]EditorErrors: New page: Matinee Initialization
+[2015.11.19-04.06.29:230][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.06.56:677][455]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-04.06.57:872][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.10.22:408][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2015.11.19-04.11.32:859][493]Cmd: TRANSACTION UNDO
+[2015.11.19-04.11.32:860][493]LogEditorTransaction: Undo Move End Marker
+[2015.11.19-04.12.30:599][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-04.15.04:488][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.15.27:718][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2015.11.19-04.18.55:601][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2015.11.19-04.21.51:161][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2015.11.19-04.22.08:388][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2015.11.19-04.24.02:585][173]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-04.24.03:366][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-04.24.53:492][921]LogEditorViewport: Clicking Background
+[2015.11.19-04.24.54:465][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-04.26.36:309][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2015.11.19-04.26.44:742][725]LogRenderer: Reallocating scene render targets to support 880x452 (Frame:139325).
+[2015.11.19-04.27.28:950][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.27.28:950][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.27.28:950][851]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:27:28 PM)
+[2015.11.19-04.27.28:950][851]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.27.28:980][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029373s)
+[2015.11.19-04.27.28:981][851]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.27.28:981][851]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2015.11.19-04.27.28:982][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.031279s)
+[2015.11.19-04.27.29:020][851]LogExit: Transaction tracking system shut down
+[2015.11.19-04.27.29:020][851]LogExit: Transaction tracking system shut down
+[2015.11.19-04.27.29:030][851]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.27.29:037][851]LogInit: FAudioDevice initialized.
+[2015.11.19-04.27.29:067][851]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.27.29:086][851]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.27.29
+[2015.11.19-04.27.29:086][851]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.27.29:087][851]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.27.29:087][851]LogWorld: Bringing up level for play took: 0.018663
+[2015.11.19-04.27.29:091][851]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus 1.318
+[2015.11.19-04.27.29:091][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.27.29:925][895]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.29:925][895]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.29:940][896]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.29:940][896]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.29:956][897]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.29:956][897]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.29:974][898]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.29:974][898]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.29:989][899]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.29:989][899]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:006][900]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.30:007][900]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:023][901]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.30:023][901]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:040][902]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.30:040][902]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:056][903]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.27.30:056][903]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:073][904]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.27.30:074][904]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.30:074][904]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_14
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.27.30:074][904]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.27.31:890][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.27.31:944][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.27.31:966][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAB0B600E0
+[2015.11.19-04.27.37:446][300]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.19-04.28.26:387][ 87]BlueprintLog: New page: Compile Circus
+[2015.11.19-04.28.26:466][ 87]BlueprintEditorCompileResults: Info [3010.43] Compile of Circus successful! [in 78 ms]
+[2015.11.19-04.28.27:326][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.27:326][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.28.27:326][136]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:28:27 PM)
+[2015.11.19-04.28.27:326][136]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.28.27:356][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029617s)
+[2015.11.19-04.28.27:357][136]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.28.27:357][136]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2015.11.19-04.28.27:357][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.031105s)
+[2015.11.19-04.28.27:394][136]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.28.27:400][136]LogInit: FAudioDevice initialized.
+[2015.11.19-04.28.27:435][136]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.28.27:451][136]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.28.27
+[2015.11.19-04.28.27:451][136]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.28.27:451][136]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.28.27:452][136]LogWorld: Bringing up level for play took: 0.015682
+[2015.11.19-04.28.27:455][136]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus -0.318
+[2015.11.19-04.28.27:455][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.27:961][165]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.27:961][165]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.27:977][166]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.27:977][166]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.27:992][167]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.27:992][167]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.28:010][168]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.28:010][168]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.28:025][169]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.28:026][169]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.28:043][170]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.28.28:044][170]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.28:044][170]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_15
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.28.28:044][170]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.37:899][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.37:942][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.37:989][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADBC2CF40
+[2015.11.19-04.28.53:646][600]BlueprintLog: New page: Compile Circus
+[2015.11.19-04.28.53:724][600]BlueprintEditorCompileResults: Info [3037.69] Compile of Circus successful! [in 77 ms]
+[2015.11.19-04.28.54:401][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.54:401][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.19-04.28.54:401][638]PIE: New page: PIE session: Circus (Nov 18, 2015, 6:28:54 PM)
+[2015.11.19-04.28.54:401][638]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.28.54:428][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026574s)
+[2015.11.19-04.28.54:429][638]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.28.54:429][638]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2015.11.19-04.28.54:429][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.028093s)
+[2015.11.19-04.28.54:464][638]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.19-04.28.54:470][638]LogInit: FAudioDevice initialized.
+[2015.11.19-04.28.54:509][638]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.28.54:540][638]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.28.54
+[2015.11.19-04.28.54:540][638]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.28.54:541][638]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.28.54:541][638]LogWorld: Bringing up level for play took: 0.030042
+[2015.11.19-04.28.54:545][638]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus 0.772
+[2015.11.19-04.28.54:545][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.28.55:197][670]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.55:197][670]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:213][671]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.55:213][671]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:230][672]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.55:230][672]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:246][673]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.55:246][673]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:263][674]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1368
+[2015.11.19-04.28.55:263][674]PIE:Error: Error Accessed None 'Physics Handle' from node Set Target Location and Rotation in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:280][675]LogScript:Warning: Accessed None 'Physics Handle'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:114E
+[2015.11.19-04.28.55:280][675]PIE:Error: Error Accessed None 'Physics Handle' from node Release Component in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.28.55:280][675]LogScript:Warning: Accessed None 'Physics Object'
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.ThirdPersonCharacter_C_16
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:11B4
+[2015.11.19-04.28.55:280][675]PIE:Error: Error Accessed None 'Physics Object' from node Set Collision Response to Channel in graph 'EventGraph' in blueprint ThirdPersonCharacter
+[2015.11.19-04.29.13:588][766]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve Circus.umap.
+[2015.11.19-04.29.13:696][767]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Circus.umap.
+[2015.11.19-04.29.13:696][767]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.13:696][767]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.13:727][767]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA869B0860
+[2015.11.19-04.29.13:727][767]Cmd: MEM
+[2015.11.19-04.29.13:751][767]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.29.13:751][767]LogMemory: Process Physical Memory: 884.36 MB used, 903.87 MB peak
+[2015.11.19-04.29.13:751][767]LogMemory: Process Virtual Memory: 1595.24 MB used, 1633.50 MB peak
+[2015.11.19-04.29.13:751][767]LogMemory: Physical Memory: 4656.52 MB used, 16269.45 MB total
+[2015.11.19-04.29.13:751][767]LogMemory: Virtual Memory: 2304.60 MB used, 134217728.00 MB total
+[2015.11.19-04.29.13:751][767]LogMemory: 
+[2015.11.19-04.29.13:751][767]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.29.13:751][767]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.29.13:774][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022342s)
+[2015.11.19-04.29.13:775][767]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.29.13:775][767]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2015.11.19-04.29.13:775][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023955s)
+[2015.11.19-04.29.13:775][767]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.29.13:794][767]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.29.13
+[2015.11.19-04.29.13:794][767]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.13:794][767]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.13:795][767]LogWorld: Bringing up level for play took: 0.017883
+[2015.11.19-04.29.26:798][536]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Circus.umap.
+[2015.11.19-04.29.26:904][537]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve Circus.umap.
+[2015.11.19-04.29.26:904][537]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.26:904][537]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.26:934][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE4D7C860
+[2015.11.19-04.29.26:934][537]Cmd: MEM
+[2015.11.19-04.29.26:958][537]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.29.26:958][537]LogMemory: Process Physical Memory: 883.80 MB used, 904.64 MB peak
+[2015.11.19-04.29.26:958][537]LogMemory: Process Virtual Memory: 1538.04 MB used, 1682.32 MB peak
+[2015.11.19-04.29.26:958][537]LogMemory: Physical Memory: 4657.56 MB used, 16269.45 MB total
+[2015.11.19-04.29.26:958][537]LogMemory: Virtual Memory: 2248.72 MB used, 134217728.00 MB total
+[2015.11.19-04.29.26:958][537]LogMemory: 
+[2015.11.19-04.29.26:958][537]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.29.26:958][537]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.29.26:981][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022311s)
+[2015.11.19-04.29.26:982][537]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.29.26:982][537]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2015.11.19-04.29.26:982][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023837s)
+[2015.11.19-04.29.26:982][537]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.29.27:004][537]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.29.27
+[2015.11.19-04.29.27:004][537]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.27:004][537]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.27:005][537]LogWorld: Bringing up level for play took: 0.021201
+[2015.11.19-04.29.35:696][ 47]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve Circus.umap.
+[2015.11.19-04.29.35:807][ 48]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Circus.umap.
+[2015.11.19-04.29.35:807][ 48]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.35:807][ 48]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.35:838][ 48]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA83AF2B60
+[2015.11.19-04.29.35:839][ 48]Cmd: MEM
+[2015.11.19-04.29.35:864][ 48]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.29.35:864][ 48]LogMemory: Process Physical Memory: 885.86 MB used, 904.64 MB peak
+[2015.11.19-04.29.35:864][ 48]LogMemory: Process Virtual Memory: 1539.50 MB used, 1682.32 MB peak
+[2015.11.19-04.29.35:864][ 48]LogMemory: Physical Memory: 4662.79 MB used, 16269.45 MB total
+[2015.11.19-04.29.35:864][ 48]LogMemory: Virtual Memory: 2243.90 MB used, 134217728.00 MB total
+[2015.11.19-04.29.35:864][ 48]LogMemory: 
+[2015.11.19-04.29.35:864][ 48]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.29.35:864][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.29.35:886][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021950s)
+[2015.11.19-04.29.35:887][ 48]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.29.35:887][ 48]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2015.11.19-04.29.35:887][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023009s)
+[2015.11.19-04.29.35:887][ 48]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.29.35:906][ 48]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.29.35
+[2015.11.19-04.29.35:906][ 48]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.35:907][ 48]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.35:907][ 48]LogWorld: Bringing up level for play took: 0.018598
+[2015.11.19-04.29.55:843][229]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Circus.umap.
+[2015.11.19-04.29.55:951][230]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve Circus.umap.
+[2015.11.19-04.29.55:951][230]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.55:951][230]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.29.55:983][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA83AF3420
+[2015.11.19-04.29.55:984][230]Cmd: MEM
+[2015.11.19-04.29.56:009][230]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.29.56:009][230]LogMemory: Process Physical Memory: 884.05 MB used, 905.78 MB peak
+[2015.11.19-04.29.56:009][230]LogMemory: Process Virtual Memory: 1537.24 MB used, 1682.32 MB peak
+[2015.11.19-04.29.56:009][230]LogMemory: Physical Memory: 4656.50 MB used, 16269.45 MB total
+[2015.11.19-04.29.56:009][230]LogMemory: Virtual Memory: 2241.78 MB used, 134217728.00 MB total
+[2015.11.19-04.29.56:009][230]LogMemory: 
+[2015.11.19-04.29.56:009][230]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.29.56:009][230]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.29.56:031][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021740s)
+[2015.11.19-04.29.56:032][230]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.29.56:032][230]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2015.11.19-04.29.56:032][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023027s)
+[2015.11.19-04.29.56:032][230]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.29.56:050][230]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.29.56
+[2015.11.19-04.29.56:051][230]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.56:051][230]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.29.56:051][230]LogWorld: Bringing up level for play took: 0.017671
+[2015.11.19-04.30.10:461][ 83]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve Circus.umap.
+[2015.11.19-04.30.10:570][ 84]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve Circus.umap.
+[2015.11.19-04.30.10:570][ 84]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.10:570][ 84]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.10:600][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA83AF32E0
+[2015.11.19-04.30.10:600][ 84]Cmd: MEM
+[2015.11.19-04.30.10:624][ 84]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.30.10:624][ 84]LogMemory: Process Physical Memory: 883.96 MB used, 905.78 MB peak
+[2015.11.19-04.30.10:624][ 84]LogMemory: Process Virtual Memory: 1537.23 MB used, 1682.32 MB peak
+[2015.11.19-04.30.10:624][ 84]LogMemory: Physical Memory: 4655.50 MB used, 16269.45 MB total
+[2015.11.19-04.30.10:624][ 84]LogMemory: Virtual Memory: 2236.96 MB used, 134217728.00 MB total
+[2015.11.19-04.30.10:624][ 84]LogMemory: 
+[2015.11.19-04.30.10:624][ 84]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.30.10:624][ 84]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.30.10:648][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023531s)
+[2015.11.19-04.30.10:649][ 84]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.30.10:649][ 84]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2015.11.19-04.30.10:649][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.024995s)
+[2015.11.19-04.30.10:649][ 84]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.30.10:668][ 84]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.30.10
+[2015.11.19-04.30.10:668][ 84]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.10:669][ 84]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.10:669][ 84]LogWorld: Bringing up level for play took: 0.018230
+[2015.11.19-04.30.23:405][834]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Circus.umap.
+[2015.11.19-04.30.23:511][835]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Circus.umap.
+[2015.11.19-04.30.23:511][835]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.23:511][835]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.23:540][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA8394CFE0
+[2015.11.19-04.30.23:540][835]Cmd: MEM
+[2015.11.19-04.30.23:565][835]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.30.23:565][835]LogMemory: Process Physical Memory: 884.38 MB used, 905.78 MB peak
+[2015.11.19-04.30.23:565][835]LogMemory: Process Virtual Memory: 1537.59 MB used, 1682.32 MB peak
+[2015.11.19-04.30.23:565][835]LogMemory: Physical Memory: 4657.52 MB used, 16269.45 MB total
+[2015.11.19-04.30.23:565][835]LogMemory: Virtual Memory: 2236.96 MB used, 134217728.00 MB total
+[2015.11.19-04.30.23:565][835]LogMemory: 
+[2015.11.19-04.30.23:565][835]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.30.23:565][835]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.30.23:587][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022141s)
+[2015.11.19-04.30.23:588][835]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.30.23:588][835]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2015.11.19-04.30.23:589][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023640s)
+[2015.11.19-04.30.23:589][835]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.30.23:607][835]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.30.23
+[2015.11.19-04.30.23:607][835]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.23:608][835]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.23:608][835]LogWorld: Bringing up level for play took: 0.018037
+[2015.11.19-04.30.32:612][365]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Circus.umap.
+[2015.11.19-04.30.32:718][366]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve Circus.umap.
+[2015.11.19-04.30.32:718][366]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.32:718][366]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.32:750][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA8394FEC0
+[2015.11.19-04.30.32:750][366]Cmd: MEM
+[2015.11.19-04.30.32:774][366]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.30.32:774][366]LogMemory: Process Physical Memory: 884.54 MB used, 905.78 MB peak
+[2015.11.19-04.30.32:774][366]LogMemory: Process Virtual Memory: 1537.48 MB used, 1682.32 MB peak
+[2015.11.19-04.30.32:774][366]LogMemory: Physical Memory: 4657.16 MB used, 16269.45 MB total
+[2015.11.19-04.30.32:774][366]LogMemory: Virtual Memory: 2236.96 MB used, 134217728.00 MB total
+[2015.11.19-04.30.32:774][366]LogMemory: 
+[2015.11.19-04.30.32:774][366]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.30.32:774][366]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.30.32:796][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021941s)
+[2015.11.19-04.30.32:797][366]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.30.32:797][366]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2015.11.19-04.30.32:797][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.023029s)
+[2015.11.19-04.30.32:797][366]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.30.32:816][366]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.30.32
+[2015.11.19-04.30.32:816][366]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.32:816][366]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.32:816][366]LogWorld: Bringing up level for play took: 0.017638
+[2015.11.19-04.30.46:795][190]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Circus.umap.
+[2015.11.19-04.30.46:900][191]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve Circus.umap.
+[2015.11.19-04.30.46:900][191]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.46:900][191]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.30.46:931][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA8394FD80
+[2015.11.19-04.30.46:931][191]Cmd: MEM
+[2015.11.19-04.30.46:955][191]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.30.46:955][191]LogMemory: Process Physical Memory: 884.38 MB used, 905.78 MB peak
+[2015.11.19-04.30.46:955][191]LogMemory: Process Virtual Memory: 1537.34 MB used, 1682.32 MB peak
+[2015.11.19-04.30.46:955][191]LogMemory: Physical Memory: 4651.68 MB used, 16269.45 MB total
+[2015.11.19-04.30.46:955][191]LogMemory: Virtual Memory: 2236.96 MB used, 134217728.00 MB total
+[2015.11.19-04.30.46:955][191]LogMemory: 
+[2015.11.19-04.30.46:955][191]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.30.46:955][191]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.30.46:978][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022474s)
+[2015.11.19-04.30.46:979][191]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.30.46:979][191]LogPlayLevel: PIE: World Init took: (0.001407s)
+[2015.11.19-04.30.46:979][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.024135s)
+[2015.11.19-04.30.46:979][191]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.30.46:998][191]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.30.46
+[2015.11.19-04.30.46:998][191]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.46:998][191]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.30.46:999][191]LogWorld: Bringing up level for play took: 0.018093
+[2015.11.19-04.31.06:401][344]LogPackageName: SearchForPackageOnDisk took   0.102s to resolve Circus.umap.
+[2015.11.19-04.31.06:511][345]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Circus.umap.
+[2015.11.19-04.31.06:511][345]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.06:511][345]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.06:542][345]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA806C8E00
+[2015.11.19-04.31.06:542][345]Cmd: MEM
+[2015.11.19-04.31.06:567][345]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.31.06:567][345]LogMemory: Process Physical Memory: 884.57 MB used, 905.78 MB peak
+[2015.11.19-04.31.06:567][345]LogMemory: Process Virtual Memory: 1537.48 MB used, 1682.32 MB peak
+[2015.11.19-04.31.06:567][345]LogMemory: Physical Memory: 4643.92 MB used, 16269.45 MB total
+[2015.11.19-04.31.06:567][345]LogMemory: Virtual Memory: 2236.96 MB used, 134217728.00 MB total
+[2015.11.19-04.31.06:567][345]LogMemory: 
+[2015.11.19-04.31.06:567][345]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.31.06:567][345]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.31.06:587][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020387s)
+[2015.11.19-04.31.06:588][345]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.31.06:588][345]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2015.11.19-04.31.06:588][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.021656s)
+[2015.11.19-04.31.06:589][345]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.31.06:608][345]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.31.06
+[2015.11.19-04.31.06:608][345]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.06:609][345]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.06:609][345]LogWorld: Bringing up level for play took: 0.019127
+[2015.11.19-04.31.19:228][ 88]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve Circus.umap.
+[2015.11.19-04.31.19:334][ 89]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve Circus.umap.
+[2015.11.19-04.31.19:334][ 89]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.19:335][ 89]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.19:367][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA83B31940
+[2015.11.19-04.31.19:367][ 89]Cmd: MEM
+[2015.11.19-04.31.19:392][ 89]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.31.19:392][ 89]LogMemory: Process Physical Memory: 884.44 MB used, 905.78 MB peak
+[2015.11.19-04.31.19:392][ 89]LogMemory: Process Virtual Memory: 1536.22 MB used, 1682.32 MB peak
+[2015.11.19-04.31.19:392][ 89]LogMemory: Physical Memory: 4650.38 MB used, 16269.45 MB total
+[2015.11.19-04.31.19:392][ 89]LogMemory: Virtual Memory: 2235.96 MB used, 134217728.00 MB total
+[2015.11.19-04.31.19:392][ 89]LogMemory: 
+[2015.11.19-04.31.19:392][ 89]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.31.19:392][ 89]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.31.19:412][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020221s)
+[2015.11.19-04.31.19:413][ 89]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.31.19:413][ 89]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2015.11.19-04.31.19:413][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.021471s)
+[2015.11.19-04.31.19:413][ 89]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.31.19:432][ 89]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.31.19
+[2015.11.19-04.31.19:432][ 89]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.19:433][ 89]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.19:433][ 89]LogWorld: Bringing up level for play took: 0.018484
+[2015.11.19-04.31.32:276][844]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve Circus.umap.
+[2015.11.19-04.31.32:381][845]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve Circus.umap.
+[2015.11.19-04.31.32:381][845]LogNet: Browse: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.32:381][845]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Circus
+[2015.11.19-04.31.32:414][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA838D51C0
+[2015.11.19-04.31.32:414][845]Cmd: MEM
+[2015.11.19-04.31.32:438][845]LogMemory: Platform Memory Stats for Windows
+[2015.11.19-04.31.32:438][845]LogMemory: Process Physical Memory: 884.58 MB used, 905.78 MB peak
+[2015.11.19-04.31.32:438][845]LogMemory: Process Virtual Memory: 1536.48 MB used, 1682.32 MB peak
+[2015.11.19-04.31.32:438][845]LogMemory: Physical Memory: 4651.85 MB used, 16269.45 MB total
+[2015.11.19-04.31.32:438][845]LogMemory: Virtual Memory: 2235.96 MB used, 134217728.00 MB total
+[2015.11.19-04.31.32:438][845]LogMemory: 
+[2015.11.19-04.31.32:438][845]Allocator Stats for TBB: (not implemented)
+[2015.11.19-04.31.32:438][845]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus
+[2015.11.19-04.31.32:459][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020796s)
+[2015.11.19-04.31.32:460][845]LogAIModule: Creating AISystem for world Circus
+[2015.11.19-04.31.32:460][845]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2015.11.19-04.31.32:460][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Circus.Circus to /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus (0.022052s)
+[2015.11.19-04.31.32:460][845]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.19-04.31.32:480][845]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus up for play (max tick rate 60) at 2015.11.18-23.31.32
+[2015.11.19-04.31.32:480][845]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.32:480][845]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Circus.Circus:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.19-04.31.32:480][845]LogWorld: Bringing up level for play took: 0.018508
+[2015.11.19-04.31.33:300][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.31.33:348][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus' with GeneratedClass '/Game/ThirdPersonBP/Maps/Circus.Circus_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Circus.Circus:PersistentLevel.Circus'
+[2015.11.19-04.31.33:395][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EA8581FEC0
+[2015.11.19-04.31.37:305][979]LogSavePackage: Save=215.407898ms
+[2015.11.19-04.31.37:305][979]LogSavePackage: Moving '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Saved/Circus952BBB1244A3B359EF71DF9F04F070B3.tmp' to '../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap'
+[2015.11.19-04.31.37:312][979]LogSavePackage: Total save time: 244.816449ms
+[2015.11.19-04.31.37:312][979]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/ntanc_000/Desktop/NightmareGame/TheGame/Content/ThirdPersonBP/Maps/Circus.umap
+[2015.11.19-04.31.37:374][979]LogFileHelpers: Saving map 'Circus' took 0.516
+[2015.11.19-04.31.37:861][980]Cmd: QUIT_EDITOR
+[2015.11.19-04.31.38:061][980]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.19-04.31.38:062][980]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.19-04.31.38:213][980]LogExit: Preparing to exit.
+[2015.11.19-04.31.38:543][980]LogExit: Editor shut down
+[2015.11.19-04.31.38:543][980]LogExit: Transaction tracking system shut down
+[2015.11.19-04.31.38:546][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA44745E0
+[2015.11.19-04.31.38:546][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAC1EEF7E0
+[2015.11.19-04.31.38:546][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAC8172DE0
+[2015.11.19-04.31.38:546][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAC80B8900
+[2015.11.19-04.31.38:547][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EABA883EC0
+[2015.11.19-04.31.38:548][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAA319C900
+[2015.11.19-04.31.38:713][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAC673B600
+[2015.11.19-04.31.38:713][980]LogExit: Object subsystem successfully closed.
+[2015.11.19-04.31.38:732][980]LogD3D11RHI: Shutdown
+[2015.11.19-04.31.38:732][980]LogD3D11RHI: CleanupD3DDevice
+[2015.11.19-04.31.38:802][980]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module DistCurveEditor (200)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module Matinee (199)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.19-04.31.38:833][980]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.19-04.31.38:834][980]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.19-04.31.38:835][980]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.19-04.31.38:910][980]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.19-04.31.38:911][980]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.19-04.31.38:912][980]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.19-04.31.38:913][980]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.19-04.31.38:914][980]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.19-04.31.39:006][980]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.19-04.31.39:030][980]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.19-04.31.39:032][980]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.19-04.31.39:033][980]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.19-04.31.39:126][980]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.19-04.31.39:126][980]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.19-04.31.39:126][980]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.19-04.31.39:227][980]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.19-04.31.39:227][980]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.19-04.31.39:227][980]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.19-04.31.39:233][980]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.19-04.31.39:233][980]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.19-04.31.39:233][980]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.19-04.31.39:233][980]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.19-04.31.39:233][980]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.19-04.31.39:234][980]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.19-04.31.39:239][980]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.19-04.31.39:239][980]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.19-04.31.39:240][980]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.19-04.31.39:243][980]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.19-04.31.39:309][980]LogDerivedDataCache: Shutdown
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.19-04.31.39:309][980]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.19-04.31.39:310][980]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.19-04.31.39:311][980]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.19-04.31.41:315][980]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.19-04.31.41:315][980]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.19-04.31.41:315][980]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.19-04.31.41:315][980]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.19-04.31.41:315][980]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.19-04.31.41:316][980]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.19-04.31.41:319][980]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.19-04.31.41:319][980]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.19-04.31.41:319][980]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.19-04.31.41:320][980]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.19-04.31.41:320][980]LogExit: Exiting.
+[2015.11.19-04.31.41:323][980]Log file closed, 11/18/15 23:31:41
